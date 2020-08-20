@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+
+* {
+  font-family: 'Red Rose', cursive;
+}
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: all 150ms ease;
+  transition-property:  opacity, background-color, transform, mix-blend-mode;
+}
+
+  .cursor--clicked {
+    transform: translate(-50%, -50%) scale(0.9);
+    background-color: #fefefe;
+  }
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: #fefefe;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+/* html, body {
+  cursor: none;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Red Rose', cursive;
+  background-color: #f4f1e7;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+.Navbar {
+  padding: 50px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+.Logo {
+  font-size: 40px;
+}
+
+.Greeting {
+  padding: 100px;
+  font-size: 70px;
+  text-align: center;
+}
+
+/* Burger */
+
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
+  /* bottom: 40px; */
+  z-index: 9999;
+  /* background: #fff; */
+  padding: 10px;
+  border-radius: 25px;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); */
+}
+
+.burger-menu .bar1,
+.bar2 {
+  width: 40px;
+  height: 2px;
+  background-color: #333;
+  margin: 9px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-30deg) translate(-4px, 4px);
+  transform: rotate(-30deg) translate(-4px, 4px);
+  background-color: #f4f1e7;
+}
+
+.burger-menu.open .bar2 {
+  -webkit-transform: rotate(30deg) translate(-4px, -4px);
+  transform: rotate(30deg) translate(-4px, -4px);
+  background-color: #f4f1e7;
+}
+
+/* Menu */
+
+.Menu {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+}
+.Menu ul {
+  position: relative;
+  top: 0px;
+  font-size: 60px;
+  padding: 0px;
+  color: #f4f1e7;
+}
+.Menu li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.Menu li:hover {
+  color: #ff0000;
+}
+
+.popup-overlay {
+  animation: fadeIn 0.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
