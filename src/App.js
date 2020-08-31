@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './index.css';
+import './menu.css';
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
@@ -99,6 +100,19 @@ export default class App extends Component {
         <body>
           <div className="Greeting">
             Hi, I'm Ploy Pruekcharoen
+          </div>
+          <div className="project">
+            <div className="description">
+              <h1>Project ScansIt</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolor</p>
+            </div>
+            <div className="image">
+              <img src="img/scansit_logo.png" alt="ScansIt Logo"></img>
+            </div>
           </div>
         </body>
       </div>

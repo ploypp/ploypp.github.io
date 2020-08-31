@@ -4,39 +4,6 @@
   font-family: 'Red Rose', cursive;
 }
 
-.cursor {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #fefefe;
-  border-radius: 100%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 9999;
-  mix-blend-mode: difference;
-  transition: all 150ms ease;
-  transition-property:  opacity, background-color, transform, mix-blend-mode;
-}
-
-  .cursor--clicked {
-    transform: translate(-50%, -50%) scale(0.9);
-    background-color: #fefefe;
-  }
-
-.cursor--hidden {
-  opacity: 0;
-}
-
-.cursor--link-hovered {
-  transform: translate(-50%, -50%) scale(1.25);
-  background-color: #fefefe;
-}
-
-a {
-  text-decoration: underline;
-  color: #000000;
-}
-
 /* html, body {
   cursor: none;
 } */
@@ -44,14 +11,17 @@ a {
 body {
   margin: 0;
   font-family: 'Red Rose', cursive;
+  font-size: 20px;
   background-color: #f4f1e7;
+  padding-left: 50px;
+  padding-right: 50px;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
 
 .Navbar {
   padding: 50px;
-  padding-left: 80px;
+  /* padding-left: 80px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,7 +33,7 @@ body {
 }
 
 .Greeting {
-  padding: 100px;
+  padding: 100px 100px 400px 100px;
   font-size: 70px;
   text-align: center;
 }
@@ -105,40 +75,48 @@ body {
   background-color: #f4f1e7;
 }
 
-/* Menu */
+/* Cursor */
 
-.Menu {
-  width: 100%;
-  display: block;
-  text-align: center;
-  padding: 0px;
-}
-.Menu ul {
-  position: relative;
-  top: 0px;
-  font-size: 60px;
-  padding: 0px;
-  color: #f4f1e7;
-}
-.Menu li {
-  list-style: outside none none;
-  margin: 10px 0px;
-  padding: 0;
-  cursor: pointer;
-}
-.Menu li:hover {
-  color: #ff0000;
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: all 150ms ease;
+  transition-property:  opacity, background-color, transform, mix-blend-mode;
 }
 
-.popup-overlay {
-  animation: fadeIn 0.25s;
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: #fefefe;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: #fefefe;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+/* Project */
+
+.project {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project .image {
+  padding: 0 100px 0 200px;
 }
