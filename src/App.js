@@ -104,11 +104,18 @@ export default class App extends Component {
           <div className="project">
             <div className="description">
               <h1>Project ScansIt</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-                velit esse cillum dolor</p>
+              <p>A mobile application for better experiences of riding the Link Light Rail, including a
+                digital card for scanning into the station and real-time schedule.
+              </p>
+              <div className="tool">
+                UX/UI Design
+              </div>
+              <div className="tool">
+                Adobe Photoshop
+              </div>
+              <div className="tool">
+                Figma
+              </div>
             </div>
             <div className="image">
               <img src="img/scansit_logo.png" alt="ScansIt Logo"></img>

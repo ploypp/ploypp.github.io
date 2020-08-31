@@ -19,6 +19,10 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
+h1, h2, h3 {
+  font-weight: normal;
+}
+
 .Navbar {
   padding: 50px;
   /* padding-left: 80px; */
@@ -117,10 +121,24 @@ a {
   grid-template-columns: 50% 50%;
 }
 
-.project .image {
+.project .image img {
   padding: 0 100px 0 200px;
+  max-height: 680px;
 }
 
-h1 {
-  font-weight: normal;
+.project .description {
+  padding-top: 150px;
+}
+
+.tool {
+  font-size: 15px;
+  color: #6d5641;
+  border-radius: 25px;
+  background: #e7e0d2;
+  padding: 2px 12px;
+  line-height: 1.5;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 8px;
 }
