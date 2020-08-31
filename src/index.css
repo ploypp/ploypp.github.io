@@ -120,3 +120,7 @@ a {
 .project .image {
   padding: 0 100px 0 200px;
 }
+
+h1 {
+  font-weight: normal;
+}
