@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Popup from "reactjs-popup";
 import Burger from "./Burger";
 import Menu from "./Menu";
+import {Link } from "react-router-dom";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -16,24 +17,24 @@ const styles = {
 
 export default class Navbar extends Component {
 
-    render() {
-        return (
-            <nav className="Navbar">
-                <div className="Logo">
-                    Pp
-                </div>
-                <div className="Hamburger">
-                    <Popup
-                        modal
-                        overlayStyle={{ background: "rgba(0,0,0,1" }}
-                        contentStyle={contentStyle}
-                        closeOnDocumentClick={false}
-                        trigger={open => <Burger open={open} />}
-                    >
-                        {close => <Menu close={close} />}
-                    </Popup>
-                </div>
-            </nav>
-        );
+  render() {
+    return (
+      <nav className="Navbar">
+        <Link to = "/" className="Logo">
+            Pp
+        </Link>
+        <div className="Hamburger">
+          <Popup
+            modal
+            overlayStyle={{ background: "rgba(0,0,0,1" }}
+            contentStyle={contentStyle}
+            closeOnDocumentClick={false}
+            trigger={open => <Burger open={open} />}
+          >
+            {close => <Menu close={close} />}
+          </Popup>
+        </div>
+      </nav>
+      );
     }
 }

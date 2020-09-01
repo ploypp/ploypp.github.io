@@ -1,0 +1,43 @@
+
+/* Menu */
+
+.Menu {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.Menu ul {
+  position: relative;
+  top: 0px;
+  font-size: 60px;
+  padding: 0px;
+  color: #f4f1e7;
+}
+.Menu li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.Menu li:hover {
+  color: #fffc5f;
+}
+
+.popup-overlay {
+  animation: fadeIn 0.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-link {
+  color: #f4f1e7;
+  text-decoration: none;
+}

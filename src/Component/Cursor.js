@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import classNames from "classnames";
 
 const Cursor = () => {
+  // if (typeof navigator !== 'undefined' && isMobile()) return null;
   const [position, setPosition] = React.useState({x: 0, y: 0});
   const [hidden, setHidden] = React.useState(false);
   const [linkHovered, setLinkHovered] = React.useState(false);
@@ -63,22 +64,18 @@ const Cursor = () => {
   );
 
   const onMouseMove = (e) => {
-    setPosition({x: e.pageX, y: e.pageY});
-  };
-
-  // return (
-  //   <div className={cursorClasses}
-  //     style={{
-  //     left: `${position.x}px`,
-  //     top: `${position.y}px`
-  //   }}/>
-  // );
+    setTimeout(() => setPosition({x: e.pageX, y: e.pageY}), 100);
+  }
 }
 
-export default (...props) => (
-    <div className={cursorClasses}
-      style={{
-      left: `${position.x}px`,
-      top: `${position.y}px`
-    }}/>
-  );
+export default class Cursor extends Component {
+  render() {
+      return (
+      <div className={cursorClasses}
+        style={{
+        left: `${position.x}px`,
+        top: `${position.y}px`
+      }}/>
+    );
+  }
+}

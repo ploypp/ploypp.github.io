@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400&display=swap');
 
 * {
-  font-family: 'Red Rose', cursive;
+  font-family: 'Red Rose', sans-serif;
+  font-weight: lighter;
 }
 
 /* html, body {
@@ -10,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Red Rose', cursive;
+  font-family: 'Red Rose', sans-serif;
   font-size: 20px;
   background-color: #f4f1e7;
   padding-left: 50px;
@@ -19,8 +21,19 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-h1, h2, h3 {
+h1,h2 {
   font-weight: normal;
+}
+
+p {
+  font-family: 'Bellota Text', sans-serif;
+  font-weight: normal;
+}
+
+footer {
+  font-size: 12px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .Navbar {
@@ -62,7 +75,7 @@ h1, h2, h3 {
 .bar2 {
   width: 40px;
   height: 2px;
-  background-color: #333;
+  background-color: #000000;
   margin: 9px 0;
   transition: 0.4s;
 }
@@ -110,7 +123,7 @@ h1, h2, h3 {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #000000;
 }
 
@@ -127,7 +140,7 @@ a {
 }
 
 .project .description {
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .tool {
@@ -141,4 +154,22 @@ a {
   white-space: nowrap;
   display: inline-block;
   margin-right: 8px;
+}
+
+.period {
+  font-size: 15px;
+  color: #fffcf6;
+  border-radius: 25px;
+  background: #a09184;
+  padding: 2px 12px;
+  line-height: 1.5;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.ScansItAnimated {
+  padding: 50px 0 50px 0;
+  max-width: 1230px;
 }

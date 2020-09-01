@@ -1,11 +1,47 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './index.css';
-import './menu.css';
+import './Component/menu.css';
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
 import _ from 'lodash';
+import Footnote from './Component/Footnote';
+import {Link } from "react-router-dom";
+
+// App
+
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Cursor />
+        <Navbar />
+        <body>
+          <div className="Greeting">
+            Hi, I'm Ploy Pruekcharoen
+          </div>
+          <Link to = "/ScansIt">
+            <div className="project">
+              <div className="description">
+                <h1>Project ScansIt</h1>
+                <p>A mobile application for better experiences of riding the Link Light Rail, including a
+                  digital card for scanning into the station and real-time schedule.
+                </p>
+                <div className="tool">UX/UI Design</div>
+                <div className="tool">Adobe Photoshop</div>
+                <div className="tool">Figma</div>
+              </div>
+              <div className="image">        
+                <img src="img/scansit_logo.png" alt="ScansIt Logo"></img>
+              </div>
+            </div>
+          </Link>
+        </body>
+        <Footnote/>
+      </div>
+    );
+  }
+}
 
 // Cursor
 
@@ -13,6 +49,8 @@ import _ from 'lodash';
 //   const ua = navigator.userAgent;
 //   return /Android|Mobi/i.test(ua);
 // };
+
+/////////////
 
 const Cursor = () => {
   // if (typeof navigator !== 'undefined' && isMobile()) return null;
@@ -67,7 +105,7 @@ const Cursor = () => {
     });
   };
 
-  const cursorClasses = classNames(
+  const cursorClasses = classNames (
   'cursor',
     {
       'cursor--clicked': clicked,
@@ -88,43 +126,3 @@ const Cursor = () => {
     }}/>
   );
 }
-
-// App
-
-export default class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Cursor />
-        <Navbar />
-        <body>
-          <div className="Greeting">
-            Hi, I'm Ploy Pruekcharoen
-          </div>
-          <div className="project">
-            <div className="description">
-              <h1>Project ScansIt</h1>
-              <p>A mobile application for better experiences of riding the Link Light Rail, including a
-                digital card for scanning into the station and real-time schedule.
-              </p>
-              <div className="tool">
-                UX/UI Design
-              </div>
-              <div className="tool">
-                Adobe Photoshop
-              </div>
-              <div className="tool">
-                Figma
-              </div>
-            </div>
-            <div className="image">
-              <img src="img/scansit_logo.png" alt="ScansIt Logo"></img>
-            </div>
-          </div>
-        </body>
-      </div>
-    );
-  }
-}
-  
-
