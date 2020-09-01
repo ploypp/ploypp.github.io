@@ -4,6 +4,7 @@
 * {
   font-family: 'Red Rose', sans-serif;
   font-weight: lighter;
+  font-variant-ligatures: none;
 }
 
 /* html, body {
@@ -15,34 +16,41 @@ body {
   font-family: 'Red Rose', sans-serif;
   font-size: 20px;
   background-color: #f4f1e7;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
 
-h1,h2 {
+h1, h2, h3, h4 {
   font-weight: normal;
 }
 
 p {
+  font-size: 18px;
   font-family: 'Bellota Text', sans-serif;
   font-weight: normal;
+  line-height: 1.6;
 }
 
 footer {
   font-size: 12px;
-  padding-top: 50px;
+  padding-top: 150px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
 .Navbar {
-  padding: 50px;
+  padding: 50px 0px 50px 0px;
   /* padding-left: 80px; */
   display: flex;
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
   justify-content: space-between;
   align-items: center;
   margin-left: 0.5em;
+  position: sticky;
+  top: 0;
 }
 
 .Logo {
@@ -135,7 +143,7 @@ a {
 }
 
 .project .image img {
-  padding: 0 100px 0 200px;
+  padding: 0 100px 0 150px;
   max-height: 680px;
 }
 
@@ -167,9 +175,4 @@ a {
   white-space: nowrap;
   display: inline-block;
   margin-right: 8px;
-}
-
-.ScansItAnimated {
-  padding: 50px 0 50px 0;
-  max-width: 1230px;
 }

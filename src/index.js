@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
 
@@ -11,11 +12,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/About" component={About} />
-      <Route path="/ScansIt" component={ScansIt} />
-    </Switch>
+    <ScrollToTop/>
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/About" component={About} />
+        <Route path="/ScansIt" component={ScansIt} />
+      </Switch>
   </BrowserRouter>
  ,document.getElementById('root'));
 

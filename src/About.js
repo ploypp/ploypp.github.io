@@ -8,7 +8,7 @@ export default class About extends Component {
         <div className="About">
           <Navbar />
           <body>
-            <h1>Let's know more about me!</h1>
+            <h2>Let's know more about me!</h2>
           </body>
           <Footnote/>
         </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 import './Component/menu.css';
+import './scansit.css';
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
@@ -25,14 +26,15 @@ export default class App extends Component {
               <div className="description">
                 <h1>Project ScansIt</h1>
                 <p>A mobile application for better experiences of riding the Link Light Rail, including a
-                  digital card for scanning into the station and real-time schedule.
+                  digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
+                Scan, and Ride.
                 </p>
                 <div className="tool">UX/UI Design</div>
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Figma</div>
               </div>
               <div className="image">        
-                <img src="img/scansit_logo.png" alt="ScansIt Logo"></img>
+                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"></img>
               </div>
             </div>
           </Link>

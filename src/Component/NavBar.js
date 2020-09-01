@@ -20,9 +20,11 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="Navbar">
-        <Link to = "/" className="Logo">
-            Pp
-        </Link>
+        <div className="Logo">
+          <Link to = "/">
+              Pp
+          </Link>
+        </div>
         <div className="Hamburger">
           <Popup
             modal
