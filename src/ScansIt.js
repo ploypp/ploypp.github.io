@@ -106,7 +106,7 @@ export default class ScansIt extends Component {
               </div>
               <h3>Prototype</h3>
               <div className="prototype">
-                <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=min-zoom" target="_blank">
+                <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank">
                   <img src="img/scansit/prototype.png" className="ScansItPrototype"></img>
                   {/* <div classname="middle">
                     <div className="text">Click to try the prototype</div>
