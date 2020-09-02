@@ -11,14 +11,14 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <ScrollToTop/>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/About" component={About} />
         <Route path="/ScansIt" component={ScansIt} />
       </Switch>
-  </BrowserRouter>
+  </Router>
  ,document.getElementById('root'));
 
 // ReactDOM.render(
