@@ -37,6 +37,7 @@ export default class App extends Component {
                 <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"></img>
               </div>
             </div>
+            <p>Sawasdeeka</p>
           </Link>
         </body>
         <Footnote/>
