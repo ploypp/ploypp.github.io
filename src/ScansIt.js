@@ -3,6 +3,7 @@ import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
 import classNames from "classnames";
 
+
 export default class ScansIt extends Component {
   render() {
     return (
@@ -21,7 +22,9 @@ export default class ScansIt extends Component {
 
             </div>
           </body>
-          <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="ScansItAnimated"></img>
+          <center>
+            <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="ScansItAnimated"></img>
+          </center>
           <body>
             <div className="introduce">
               <div className="background">
@@ -38,7 +41,7 @@ export default class ScansIt extends Component {
               <div className="contribution">
                 <h2>My contributions</h2>
                 <div className="list">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li>I </li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</li>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</li>
                 </div>
@@ -60,7 +63,20 @@ export default class ScansIt extends Component {
                 <img src="img/scansit/scansit_brainstorm.png" alt="ScansIt Brainstorm"></img>
               </div>
               <div className="stakeholder">
-                <h2>Stakeholders</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                  in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
+                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                </p>
+                {/* <h2>Stakeholders</h2>
                 <p>
                   Our stakeholders for our solution focused on two main groups: The Mayor and Users of the Light Rail.
                 </p>
@@ -82,10 +98,26 @@ export default class ScansIt extends Component {
                     go with ease. They do not want to be stressed when using the Light Rail, or have to worry about their safety. 
                     Instead they want to be highly productive people and not be concerned with how they are getting places. 
                   </p>
-                </p>
+                </p> */}
               </div>
             </div>
-            <img src="img/scansit/scansit_research.png" alt="ScansIt Research" className="ScansItResearch"></img>
+            <div className="reverse-brainstorm">
+              <center>
+                <img src="img/scansit/scansit_research.png" alt="ScansIt Research" className="ScansItResearch"></img>
+              </center>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
+                error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
+                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+              </p>
+            </div>
             <div className="solution">
               <h2>Solution</h2>
               <p>For our solution, we created ScansIt, which stands for <b>Scanning for Transit</b>. It is a simple and seamless 
@@ -93,70 +125,274 @@ export default class ScansIt extends Component {
               </p>
               <h3>Brand Guidelines</h3>
               <img src="img/scansit/brandguide.png" alt="ScansIt Brand Guidelines" className="ScansItGuide"></img>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
               <h3>Sitemap</h3>
-              <img src="img/scansit/sitemap_transparent.png" alt="ScansIt Sitemap" className="ScansItSitemap"></img>
-              <div className="appendix">
-                <h3>Initiatives and Epics</h3>
-                <div className="container">
-                  <img src="img/scansit/initiatives.png" className="initiatives"></img>
-                  <img src="img/scansit/epics.png" className="epics"></img>
-                </div>
-                <h3>User Stories</h3>
-                <img src="img/scansit/stories.png"></img>
-              </div>
+              <center>
+                <img src="img/scansit/sitemap_transparent.png" alt="ScansIt Sitemap" className="ScansItSitemap"></img>
+              </center>
               <h3>Prototype</h3>
               <div className="prototype">
-                <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank">
-                  <img src="img/scansit/prototype.png" className="ScansItPrototype"></img>
-                  {/* <div classname="middle">
+                {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank" rel="noopener noreferrer">
+                  <img src="img/scansit/prototype.png" alt="ScansIt Prototype" className="ScansItPrototype"></img>
+                  <div classname="middle">
                     <div className="text">Click to try the prototype</div>
-                  </div> */}
-                </a>
-                <h4 class="prototype-section">Log in/Sign up</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h4 class="prototype-section">Homepage</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h4 class="prototype-section">Digital Card</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h4 class="prototype-section">Card information/Add value</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h4 class="prototype-section">Schedule</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <h4 class="prototype-section">Setting</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              
+                  </div>
+                </a> */}
+                <div className="wireframe">
+                  <center>
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/1_loading_1.png" alt="ScansIt Loading Page"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Loading</h3>
+                            <p>This is a short description asfdsfjglsd njghuselrhgsjdf znskhgrre wiabfk husgfewaukf cbkhad shfbcasud gvckuaysdvc
+                              jdas blih vle adsbca, mhsdbvhasb dkzdvbaerv
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=55%3A22&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/2_login.png" alt="ScansIt Login"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Login/Sign Up</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A6&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/3_homepage_2.png" alt="ScansIt Homepage"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Homepage</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=3%3A11&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/4_digital_card_front.png" alt="ScansIt Digital Card"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Digital Card</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </center>
+
+                  <center>
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=32%3A0&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/5_digital_card_back.png" alt="ScansIt Card Information"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Card Information</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=35%3A49&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/6_add_value.png" alt="ScansIt Add Value"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Add Value</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A5&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/7_schedule_dropdown.png" alt="ScansIt Schedule"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Schedule</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=26%3A17&scaling=scale-down" target="_blank">
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/8_setting.png" alt="ScansIt Setting"/>
+                          <div className="content-details fadeIn-top">
+                            <h3>Setting</h3>
+                            <p>This is a short description</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </center>
+                </div>
+
+                {/* <div className="prototype-section">
+                  <div>
+                    <h4>Log in/Sign up</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div>
+                    <img src="img/scansit/2_login.png" alt="ScansIt Login"></img>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <img src="img/scansit/3_homepage_2.png" alt="ScansIt Homepage"></img>
+                  </div>
+                  <div>
+                    <h4>Homepage</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <h4>Digital Card</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div>
+                    <img src="img/scansit/4_digital_card_front.png" alt="ScansIt Digital Card"></img>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <img src="img/scansit/5_digital_card_back.png" alt="ScansIt Card Information"></img>
+                  </div>
+                  <div>
+                    <h4>Card Information</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <h4>Add Value</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div>
+                    <img src="img/scansit/6_add_value.png" alt="ScansIt Add Value"></img>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <img src="img/scansit/7_schedule_dropdown.png" alt="ScansIt Schedule"></img>
+                  </div>
+                  <div>
+                    <h4>Schedule</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+                <div className="prototype-section">
+                  <div>
+                    <h4>Setting</h4>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div>
+                    <img src="img/scansit/8_setting.png" alt="ScansIt Setting"></img>
+                  </div>
+                </div> */}
               </div>
-              
+              <div className="appendix">
+                <h3>Initiatives and Epics</h3>
+                <div className="ini-epic">
+                  <img src="img/scansit/initiatives.png" alt="ScansIt Initiatives" className="initiatives"></img>
+                  <img src="img/scansit/epics.png" alt="ScansIt Epics" className="epics"></img>
+                </div>
+                <h3>User Stories</h3>
+                <img src="img/scansit/stories.png" alt="ScansIt Stories" className="stories"></img>
+              </div>
+            </div>
+            <div className="next">
+              <h2>Next Steps</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
+                error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
+                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+              </p>
+              <h2>Lessons Learned</h2>
+              <h4>Title 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <h4>Title 2</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur.
+              </p>
             </div>
           </body>
           <Footnote/>

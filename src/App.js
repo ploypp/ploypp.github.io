@@ -5,7 +5,7 @@ import './scansit.css';
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
-import _ from 'lodash';
+// import _ from 'lodash';
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
 
@@ -29,7 +29,8 @@ export default class App extends Component {
                   digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
                 Scan, and Ride.
                 </p>
-                <div className="tool">UX/UI Design</div>
+                <div className="tool">UX Research</div>
+                <div className="tool">UI Design</div>
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Figma</div>
               </div>
@@ -37,7 +38,6 @@ export default class App extends Component {
                 <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"></img>
               </div>
             </div>
-            <p>Sawasdeeka</p>
           </Link>
         </body>
         <Footnote/>

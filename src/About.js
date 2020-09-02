@@ -10,7 +10,7 @@ export default class About extends Component {
           <body>
             <h2>Let's know more about me!</h2>
             <div>
-              <img src="img/me2.jpg" className="me"></img>
+              <img src="img/me2.jpg" alt="My Portrait" className="me"></img>
             </div>
           </body>
           <Footnote/>

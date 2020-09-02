@@ -4,11 +4,11 @@ import Burger from "./Burger";
 import Menu from "./Menu";
 import {Link } from "react-router-dom";
 
-const styles = {
-    fontFamily: "sans-serif",
-    textAlign: "center",
-    marginTop: "40px"
-  };
+// const styles = {
+//     fontFamily: "sans-serif",
+//     textAlign: "center",
+//     marginTop: "40px"
+//   };
   const contentStyle = {
     background: "rgba(0,0,0,0)",
     width: "80%",
