@@ -9,7 +9,7 @@ import About from './About';
 import ScansIt from './ScansIt';
 
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
