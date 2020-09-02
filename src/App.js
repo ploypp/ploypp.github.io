@@ -21,7 +21,7 @@ export default class App extends Component {
           <div className="Greeting">
             Hi, I'm Ploy Pruekcharoen
           </div>
-          <Link to = "/ScansIt">
+          <Link to = "/ScansIt" target="_blank">
             <div className="project">
               <div className="description">
                 <h1>Project ScansIt</h1>

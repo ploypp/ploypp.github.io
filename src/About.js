@@ -9,6 +9,7 @@ export default class About extends Component {
           <Navbar />
           <body>
             <h2>Let's know more about me!</h2>
+            <img src="img/me2.jpg" className="me"></img>
           </body>
           <Footnote/>
         </div>
