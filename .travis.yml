@@ -7,12 +7,12 @@ install:
   - npm install
 script:
   - npm run build
-# deploy:
-#   - provider: pages
-#     skip-cleanup: true
-#     target-branch: master
-#     github-token: $GITHUB_TOKEN
-#     keep-history: true
-#     local-dir: ./portfolio/build
-#     on:
-#       branch: source
+deploy:
+  - provider: pages
+    skip-cleanup: true
+    target-branch: master
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    local-dir: ./portfolio/build
+    on:
+      branch: source
