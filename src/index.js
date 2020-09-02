@@ -1,4 +1,5 @@
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 import './index.css';
 import ScrollToTop from './ScrollToTop';
@@ -8,7 +9,7 @@ import About from './About';
 import ScansIt from './ScansIt';
 
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
