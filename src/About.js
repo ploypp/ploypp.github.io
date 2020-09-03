@@ -9,7 +9,7 @@ export default class About extends Component {
         <div className="About">
           <Cursor />
           <Navbar />
-          <body>
+          <div>
             <h1>Hello, nice to meet you! </h1>
             <div className="container">
               <div className="image">
@@ -23,7 +23,7 @@ export default class About extends Component {
                 <p>If you want to know me a little more, here are some bits of my life.</p>
                 <ul>
                   <li>
-                    I love taking <b>film photos</b>! Old-school? Nah. I like it when I have some time to think before
+                    I love taking <b>film photos</b>! Old-school? Not really. I like it when I have some time to think before
                     pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
                     It's exciting to wait for the result and probably some unintended mistakes. And of course, they are
                     all my favorite mistakes.
@@ -44,7 +44,7 @@ export default class About extends Component {
                 My interest in design started when...
               </p>
             </div>
-          </body>
+          </div>
           <Footnote/>
         </div>
     );
