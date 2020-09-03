@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './index.css';
 import './Component/menu.css';
-import './scansit.css';
+import './Project/scansit.css';
+import './Project/cnc.css';
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
@@ -35,7 +36,7 @@ export default class App extends Component {
                 <div className="tool">Figma</div>
               </div>
               <div className="image">        
-                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"></img>
+                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
               </div>
             </div>
           </Link>

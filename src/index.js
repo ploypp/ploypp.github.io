@@ -6,7 +6,8 @@ import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
 
-import ScansIt from './ScansIt';
+import ScansIt from './Project/ScansIt';
+import CnC from './Project/CnC';
 
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/About" component={About} />
         <Route path="/ScansIt" component={ScansIt} />
+        <Route path="/CnC" component={CnC} />
       </Switch>
   </Router>
  ,document.getElementById('root'));

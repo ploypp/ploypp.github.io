@@ -10,9 +10,39 @@ export default class About extends Component {
           <Cursor />
           <Navbar />
           <body>
-            <h2>Let's know more about me!</h2>
-            <div>
-              <img src="img/me2.jpg" alt="My Portrait" className="me"></img>
+            <h1>Hello, nice to meet you! </h1>
+            <div className="container">
+              <div className="image">
+                <img src="img/me2.jpg" alt="My Portrait" className="me"/>
+              </div>
+              <div className="text">
+                <p>
+                  I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> with a minor in <b>Informatics</b> at 
+                  the University of Washington, Seattle.
+                </p>
+                <p>If you want to know me a little more, here are some bits of my life.</p>
+                <ul>
+                  <li>
+                    I love taking <b>film photos</b>! Old-school? Nah. I like it when I have some time to think before
+                    pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
+                    It's exciting to wait for the result and probably some unintended mistakes. And of course, they are
+                    all my favorite mistakes.
+                  </li>
+                  <li>
+                    I also love <b>watching movies and documentaries</b>. My favorite ones, as of now, are <i>Chungking Express</i>,
+                    <i>The Grand Budapest Hotel</i>, and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
+                  </li>
+                  <li>
+                    I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with colored pencil 
+                    (actually turned to iPad now) is the most satisfying moment!
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="steptodesign">
+              <p>
+                My interest in design started when...
+              </p>
             </div>
           </body>
           <Footnote/>

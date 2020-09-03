@@ -5,6 +5,7 @@
   font-family: 'Red Rose', sans-serif;
   font-weight: lighter;
   font-variant-ligatures: none;
+  background-color: #f4f1e7;
 }
 
 /* html, body {
@@ -15,9 +16,10 @@ body {
   margin: 0;
   font-family: 'Red Rose', sans-serif;
   font-size: 20px;
-  background-color: #f4f1e7;
+  /* background-color: #f4f1e7; */
   padding-left: 80px;
   padding-right: 80px;
+  overflow-x: hidden;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
@@ -26,7 +28,11 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
-p {
+div, p, h1, h2, h3, h4 {
+  background-color:transparent;
+}
+
+.App p {
   font-size: 18px;
   font-family: 'Bellota Text', sans-serif;
   font-weight: normal;
@@ -51,10 +57,21 @@ footer {
   margin-left: 0.5em;
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: transparent;
 }
 
 .Logo {
   font-size: 40px;
+  background-color: transparent;
+}
+
+a {
+  background-color: transparent;
+}
+
+.Hamburger {
+  background-color: transparent;
 }
 
 .Greeting {
@@ -76,6 +93,7 @@ footer {
   /* background: #fff; */
   padding: 10px;
   border-radius: 25px;
+  background-color: transparent;
   /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); */
 }
 
@@ -177,7 +195,35 @@ a {
   margin-right: 8px;
 }
 
-.me {
+.About .me {
   max-width: 450px;
-  padding-top: 10px;
+  padding-top: 50px;
+}
+
+.About .container {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.About .container .text {
+  padding-top: 65px;
+}
+
+.About p, .About .text li, .About i {
+  font-family: 'Bellota Text', sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.About li {
+  padding-bottom: 20px;
+}
+
+.About b {
+  font-family: 'Bellota Text', sans-serif;
+  font-weight: bold;
+}
+
+.About .steptodesign {
+  padding-top: 50px;
 }

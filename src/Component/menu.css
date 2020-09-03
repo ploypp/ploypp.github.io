@@ -6,6 +6,7 @@
     display: block;
     text-align: center;
     padding: 0px;
+    background-color: transparent;
 }
 .Menu ul {
   position: relative;
@@ -13,12 +14,14 @@
   font-size: 60px;
   padding: 0px;
   color: #f4f1e7;
+  background-color: transparent;
 }
 .Menu li {
   list-style: outside none none;
   margin: 10px 0px;
   padding: 0;
   cursor: pointer;
+  background-color: transparent;
 }
 .Menu li:hover {
   color: #fffc5f;

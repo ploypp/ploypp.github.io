@@ -1,0 +1,28 @@
+.CnC .project-content {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.CnC h2 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.CnC b {
+  font-size: 18px;
+  font-family: 'Bellota Text', sans-serif;
+  font-weight: bold;
+}
+
+.CnC h3 {
+  padding: 50px 0 50px 0;
+}
+
+.CnC .vision {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* max-width: 1270px; */
+  width: 100vw;
+  position: relative;
+  left: -160px;
+}
