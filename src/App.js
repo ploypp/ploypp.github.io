@@ -26,9 +26,10 @@ export default class App extends Component {
             <div className="project">
               <div className="description">
                 <h1>Project ScansIt</h1>
-                <p>A mobile application for better experiences of riding the Link Light Rail, including a
+                <p>
+                  A mobile application for better experiences of riding the Link Light Rail, including a
                   digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
-                Scan, and Ride.
+                  Scan, and Ride.
                 </p>
                 <div className="tool">UX Research</div>
                 <div className="tool">UI Design</div>

@@ -9,7 +9,7 @@ export default class About extends Component {
         <div className="About">
           <Cursor />
           <Navbar />
-          <div>
+          <div className="project-content">
             <h1>Hello, nice to meet you! </h1>
             <div className="container">
               <div className="image">
@@ -17,13 +17,13 @@ export default class About extends Component {
               </div>
               <div className="text">
                 <p>
-                  I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> with a minor in <b>Informatics</b> at 
-                  the University of Washington, Seattle.
+                  I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> with a minor in Informatics at 
+                  the <b>University of Washington</b>, Seattle.
                 </p>
                 <p>If you want to know me a little more, here are some bits of my life.</p>
                 <ul>
                   <li>
-                    I love taking <b>film photos</b>! Old-school? Not really. I like it when I have some time to think before
+                    I love taking <b>film photos</b>. <i>Old school is the best school!</i> I like it when I have some time to think before
                     pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
                     It's exciting to wait for the result and probably some unintended mistakes. And of course, they are
                     all my favorite mistakes.

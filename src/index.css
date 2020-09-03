@@ -197,6 +197,11 @@ a {
   margin-right: 8px;
 }
 
+.About .project-content {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .About .me {
   max-width: 450px;
   padding-top: 50px;
