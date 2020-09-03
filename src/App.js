@@ -118,14 +118,16 @@ const Cursor = () => {
   );
 
   const onMouseMove = (e) => {
-    setTimeout(() => setPosition({x: e.pageX, y: e.pageY}), 100);
+    setTimeout(() => setPosition({x: (e.clientX - 20), y: (e.clientY - 20)}), 50);
   }
 
   return (
     <div className={cursorClasses}
       style={{
-      left: `${position.x}px`,
-      top: `${position.y}px`
+      position: 'fixed',
+      transform: 'translate3d(' + position.x + 'px, ' + position.y + 'px, 0)',
+      left: 0,
+      top: 0
     }}/>
   );
 }

@@ -19,7 +19,7 @@ export default class ScansIt extends Component {
               </p>
               <div className="period">February - March 2020</div>
               <div className="tool">Role: UX Researcher, UI Designer</div>
-
+              <div className="tool">Group Project</div>
             </div>
           </body>
           <center>
@@ -105,7 +105,7 @@ export default class ScansIt extends Component {
               <center>
                 <img src="img/scansit/scansit_research.png" alt="ScansIt Research" className="ScansItResearch"></img>
               </center>
-              <p>
+              <p className="paddingtop50">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
@@ -255,104 +255,13 @@ export default class ScansIt extends Component {
                   </center>
                 </div>
 
-                {/* <div className="prototype-section">
-                  <div>
-                    <h4>Log in/Sign up</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <div>
-                    <img src="img/scansit/2_login.png" alt="ScansIt Login"></img>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <img src="img/scansit/3_homepage_2.png" alt="ScansIt Homepage"></img>
-                  </div>
-                  <div>
-                    <h4>Homepage</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <h4>Digital Card</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <div>
-                    <img src="img/scansit/4_digital_card_front.png" alt="ScansIt Digital Card"></img>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <img src="img/scansit/5_digital_card_back.png" alt="ScansIt Card Information"></img>
-                  </div>
-                  <div>
-                    <h4>Card Information</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <h4>Add Value</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <div>
-                    <img src="img/scansit/6_add_value.png" alt="ScansIt Add Value"></img>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <img src="img/scansit/7_schedule_dropdown.png" alt="ScansIt Schedule"></img>
-                  </div>
-                  <div>
-                    <h4>Schedule</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
-                <div className="prototype-section">
-                  <div>
-                    <h4>Setting</h4>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <div>
-                    <img src="img/scansit/8_setting.png" alt="ScansIt Setting"></img>
-                  </div>
-                </div> */}
+                <p className="paddingtop50">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
               </div>
               <div className="appendix">
                 <h3>Initiatives and Epics</h3>
@@ -473,14 +382,16 @@ const Cursor = () => {
   );
 
   const onMouseMove = (e) => {
-    setTimeout(() => setPosition({x: e.pageX, y: e.pageY}), 100);
+    setTimeout(() => setPosition({x: (e.clientX - 20), y: (e.clientY - 20)}), 50);
   }
 
   return (
     <div className={cursorClasses}
       style={{
-      left: `${position.x}px`,
-      top: `${position.y}px`
+      position: 'fixed',
+      transform: 'translate3d(' + position.x + 'px, ' + position.y + 'px, 0)',
+      left: 0,
+      top: 0
     }}/>
   );
 }
