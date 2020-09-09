@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 * {
   font-family: 'Red Rose', sans-serif;
   font-weight: lighter;
   font-variant-ligatures: none;
-  background-color: #f4f1e7;
+  background-color: #f7f5f1;
 }
 
 /* html, body {
@@ -28,11 +29,11 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
-div, p, h1, h2, h3, h4 {
+div, p, b, li, i, h1, h2, h3, h4 {
   background-color:transparent;
 }
 
-p {
+p, ul, li {
   font-size: 18px;
   font-family: 'Bellota Text', sans-serif;
   font-weight: normal;
@@ -111,13 +112,13 @@ a {
 .burger-menu.open .bar1 {
   -webkit-transform: rotate(-30deg) translate(-4px, 4px);
   transform: rotate(-30deg) translate(-4px, 4px);
-  background-color: #f4f1e7;
+  background-color: #f7f5f1;
 }
 
 .burger-menu.open .bar2 {
   -webkit-transform: rotate(30deg) translate(-4px, -4px);
   transform: rotate(30deg) translate(-4px, -4px);
-  background-color: #f4f1e7;
+  background-color: #f7f5f1;
 }
 
 /* Cursor */
@@ -173,9 +174,9 @@ a {
 
 .tool {
   font-size: 15px;
-  color: #6d5641;
+  color: #6d4b41;
   border-radius: 25px;
-  background: #e7e0d2;
+  background: #e7dad2;
   padding: 2px 12px;
   line-height: 1.5;
   vertical-align: middle;
@@ -186,9 +187,9 @@ a {
 
 .period {
   font-size: 15px;
-  color: #fffcf6;
+  color: #fffbf7;
   border-radius: 25px;
-  background: #a09184;
+  background: #b39284;
   padding: 2px 12px;
   line-height: 1.5;
   vertical-align: middle;
@@ -213,13 +214,13 @@ a {
 }
 
 .About .container .text {
-  padding-top: 65px;
+  padding-top: 85px;
 }
 
 .About p, .About .text li, .About i {
   font-family: 'Bellota Text', sans-serif;
-  font-size: 19px;
-  font-weight: lighter;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .About li {
@@ -229,8 +230,27 @@ a {
 .About b {
   font-family: 'Bellota Text', sans-serif;
   font-weight: bold;
+  /* text-decoration: underline; */
+  color: #54b4a1;
+}
+
+.About h1 {
+  color: #54b4a1;
 }
 
 .About .steptodesign {
   padding-top: 50px;
+}
+
+.twocolumns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.About p b {
+  -webkit-text-stroke-width: 0px;
+}
+
+.column2 {
+  padding-left: 50px;
 }

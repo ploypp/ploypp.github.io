@@ -23,9 +23,9 @@ export default class About extends Component {
                 <p>If you want to know me a little more, here are some bits of my life.</p>
                 <ul>
                   <li>
-                    I love taking <b>film photos</b>. <i>Old school is the best school!</i> I like it when I have some time to think before
+                    I love taking <b>film photos</b>. I like it when I have some time to think before
                     pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
-                    It's exciting to wait for the result and probably some unintended mistakes. And of course, they are
+                    It's exciting to wait for the result and some unintended mistakes. And of course, they are
                     all my favorite mistakes.
                   </li>
                   <li>
@@ -33,8 +33,8 @@ export default class About extends Component {
                     <i>The Grand Budapest Hotel</i>, and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
                   </li>
                   <li>
-                    I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with colored pencil 
-                    (actually turned to iPad now) is the most satisfying moment!
+                    I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with a colored pencil 
+                    (now kinda more toward Apple pencil) is the most satisfying moment!
                   </li>
                 </ul>
               </div>

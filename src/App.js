@@ -31,8 +31,8 @@ export default class App extends Component {
                   digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
                   Scan, and Ride.
                 </p>
-                <div className="tool">UX Research</div>
-                <div className="tool">UI Design</div>
+                <div className="period">UX Research</div>
+                <div className="period">UI Design</div>
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Figma</div>
               </div>
