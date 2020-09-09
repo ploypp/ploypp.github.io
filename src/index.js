@@ -8,6 +8,7 @@ import About from './About';
 
 import ScansIt from './Project/ScansIt';
 import CnC from './Project/CnC';
+import WEGO from './Project/WEGO';
 
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/About" component={About} />
         <Route path="/ScansIt" component={ScansIt} />
         <Route path="/CnC" component={CnC} />
+        <Route path="/WEGO" component={WEGO} />
       </Switch>
   </Router>
  ,document.getElementById('root'));

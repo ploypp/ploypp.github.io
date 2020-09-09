@@ -3,7 +3,6 @@ import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
 
-
 export default class ScansIt extends Component {
   render() {
     return (
@@ -18,23 +17,26 @@ export default class ScansIt extends Component {
               digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
               Scan, and Ride.
             </p>
+            <div className="tool">Class INFO 360: Design Methods</div>
             <div className="twocolumns project-info">
               <div className="column1">
-                <p><b>Role:</b> UX Researcher, UI Designer</p>
-                <p><b>Duration:</b> February - March 2020</p>
+                <p><b>Role: </b>UX Researcher, UI Designer</p>
+                <p><b>Duration: </b>February - March 2020</p>
               </div>
               <div className="column2">
-                <p><b>Team:</b> Savannah Umali-Jepson, Roger St. Louis, Jae Choi</p>
-                <p><b>Tools:</b> Adobe Photoshop, Figma</p>
+                <p>
+                  <b>Team: </b> Savannah Umali-Jepson, Roger St. Louis, Jae Choi
+                </p>
+                <p><b>Tools: </b>Adobe Photoshop, Figma</p>
               </div>
             </div>
           </div>
 
           <center>
-            <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="ScansItAnimated"/>
+            <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="main-image"/>
           </center>
         
-          <div className="introduce">
+          <div className="introduce twocolumns">
             <div className="background">
               <h2>Background</h2>
               <p>
@@ -154,14 +156,6 @@ export default class ScansIt extends Component {
                   </ul> */}
                 </div>
               </div>
-              <p className="paddingtop50">
-                In regard to identifying the problem through this intensive dive, we were able to uncover that the majority of people 
-                we interviewed want a digital payment solution.  This problem is timely, relevant, and is specifically user-identified.
-              </p>
-              <p>
-                The most compelling unveiling from our inquiry was that as a metropolitan leader we are in-line with advanced technology. 
-                This was a major and confident confirmation we were on the correct path leading Seattle towards a solid future.
-              </p>
 
             </div>
             <div className="twocolumns">
@@ -177,12 +171,14 @@ export default class ScansIt extends Component {
                   in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
-                  sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-                  consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
-                  dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+                  In regard to identifying the problem through this intensive dive, we were able to uncover that the majority of people 
+                  we interviewed want a digital payment solution.  This problem is timely, relevant, and is specifically user-identified.
                 </p>
+                <p>
+                  The most compelling unveiling from our inquiry was that as a metropolitan leader we are in-line with advanced technology. 
+                  This was a major and confident confirmation we were on the correct path leading Seattle towards a solid future.
+                </p>
+
               </div>
             </div>
             <div className="appendix">

@@ -3,36 +3,36 @@ import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
 
-export default class CnC extends Component {
+export default class WEGO extends Component {
   render() {
     return (
-      <div className="CnC">
+      <div className="WEGO">
         <Cursor />
         <Navbar />
         <div className="project-content">
           <div className="overview">
-            <h1>Code and Craft Website Redesign Project</h1>
+            <h1>Project WEGO</h1>
             <p>
               The new design of Thailand's growing digital product developer company — Code&Craft.
               Introduce to you the more creative, functional and promising site to learn more about Code&Craft's
               all-rounded servises with its vision to combine technology, art and humanity.
             </p>
-            <div className="tool">Internship Project</div>
+            <div className="tool">Sensors, Energy, and Automation Laboratory</div>
             <div className="twocolumns project-info">
               <div className="column1">
-                <p><b>Role: </b>UX/UI Designer</p>
-                <p><b>Duration: </b>July - August 2019</p>
+                <p><b>Role: </b>Designer</p>
+                <p><b>Duration: </b>June - Present</p>
               </div>
               <div className="column2">
                 <p>
                   <b>Team: </b>
-                  Thun Thunkijjanukij (Developer),
-                  <br/>Ginn Charoenchitrwattana (Account Executive),
-                  <br/>Apichaya Thitawatkul (Account Executive)
+                  Yufan Mou (Developer), 
+                  Arnav Chawla (Developer)
                 </p>
-                <p><b>Tools: </b>Adobe Photoshop, Adobe XD</p>
+                <p><b>Tools: </b>Adobe Illustrator, Figma</p>
               </div>
             </div>
+
           </div>
           <center>
             <img src="img/cnc/vision.png" alt="CnC Vision" className="main-image"></img>
