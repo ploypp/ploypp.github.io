@@ -11,11 +11,11 @@ export default class CnC extends Component {
         <Navbar />
         <div className="project-content">
           <div className="overview">
-            <h1>Code and Craft Website Redesign Project</h1>
+            <h1>Code&Craft Website Redesign Project</h1>
             <p>
               The new design of Thailand's growing digital product developer company — Code&Craft.
               Introduce to you the more creative, functional and promising site to learn more about Code&Craft's
-              all-rounded servises with its vision to combine technology, art and humanity.
+              all-rounded services with its vision to combine technology, art and humanity.
             </p>
             <div className="tool">Internship Project</div>
             <div className="twocolumns project-info">

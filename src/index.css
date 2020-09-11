@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
@@ -39,6 +39,13 @@ p, ul, li {
   font-weight: normal;
   line-height: 1.6;
 }
+
+.Menu li {
+  font-family: 'Red Rose', sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+}
+
 
 footer address .copyright {
   font-family: 'Red Rose', sans-serif;
@@ -198,6 +205,8 @@ a {
   margin-right: 8px;
 }
 
+/* About */
+
 .About .project-content {
   padding-left: 80px;
   padding-right: 80px;
@@ -214,7 +223,7 @@ a {
 }
 
 .About .container .text {
-  padding-top: 85px;
+  padding-top: 120px;
 }
 
 .About p, .About .text li, .About i {
@@ -228,14 +237,14 @@ a {
 }
 
 .About b {
-  font-family: 'Bellota Text', sans-serif;
+  font-family: 'Red Rose', sans-serif;
   font-weight: bold;
   /* text-decoration: underline; */
-  color: #54b4a1;
+  /* color: #54b4a1; */
 }
 
 .About h1 {
-  color: #54b4a1;
+  /* color: #54b4a1; */
 }
 
 .About .steptodesign {
@@ -253,4 +262,10 @@ a {
 
 .column2 {
   padding-left: 50px;
+}
+
+.About p a {
+  /* color: #3268ff; */
+  color: #54b4a1;
+  font-weight: bolder;
 }

@@ -12,7 +12,7 @@
 } */
 
 .ScansIt h2 {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 30px;
 }
 
@@ -257,4 +257,12 @@
 
 .content-details b {
   color: #ffffff;
+}
+
+.competitive-scansit-img img {
+  max-height: 450px;
+}
+
+.competitive-scansit-text {
+  padding: 30px 60px 0 0;
 }

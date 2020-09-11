@@ -5,6 +5,7 @@ import './index.css';
 import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
+import SnapAndDraw from './snapanddraw';
 
 import ScansIt from './Project/ScansIt';
 import CnC from './Project/CnC';
@@ -18,10 +19,11 @@ ReactDOM.render(
     <ScrollToTop/>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/About" component={About} />
-        <Route path="/ScansIt" component={ScansIt} />
-        <Route path="/CnC" component={CnC} />
-        <Route path="/WEGO" component={WEGO} />
+        <Route path="/about" component={About} />
+        <Route path="/snapanddraw" component={SnapAndDraw} />
+        <Route path="/scansit" component={ScansIt} />
+        {/* <Route path="/cnc" component={CnC} /> */}
+        {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
   </Router>
  ,document.getElementById('root'));

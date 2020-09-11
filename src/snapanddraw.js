@@ -1,50 +1,19 @@
-import React, { Component } from 'react';
-import './index.css';
-import './Component/menu.css';
-import './Project/scansit.css';
-import './Project/cnc.css';
-import './Project/wego.css';
+import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
-// import Cursor from './Component/Cursor';
-import classNames from "classnames";
-// import _ from 'lodash';
 import Footnote from './Component/Footnote';
-import {Link } from "react-router-dom";
+import classNames from "classnames";
 
-// App
-
-export default class App extends Component {
+export default class SnapAndDraw extends Component {
   render() {
     return (
-      <div className="App">
-        <Cursor />
-        <Navbar />
-        <body>
-          <div className="Greeting">
-            Hi, I'm Ploy Pruekcharoen
+        <div className="SnapAndDraw">
+          <Cursor />
+          <Navbar />
+          <div>
+            <img src=""/>
           </div>
-          <Link to = "/ScansIt" target="_blank">
-            <div className="project">
-              <div className="description">
-                <h1>Project ScansIt</h1>
-                <p>
-                  A mobile application for better experiences of riding the Link Light Rail, including a
-                  digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
-                  Scan, and Ride.
-                </p>
-                <div className="period">UX Research</div>
-                <div className="period">UX/UI Design</div>
-                <div className="tool">Adobe Photoshop</div>
-                <div className="tool">Figma</div>
-              </div>
-              <div className="image">        
-                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
-              </div>
-            </div>
-          </Link>
-        </body>
-        <Footnote/>
-      </div>
+          <Footnote/>
+        </div>
     );
   }
 }

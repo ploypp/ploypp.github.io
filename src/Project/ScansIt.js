@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 export default class ScansIt extends Component {
   render() {
@@ -20,7 +24,7 @@ export default class ScansIt extends Component {
             <div className="tool">Class INFO 360: Design Methods</div>
             <div className="twocolumns project-info">
               <div className="column1">
-                <p><b>Role: </b>UX Researcher, UI Designer</p>
+                <p><b>Role: </b>UX Researcher, UX/UI Designer</p>
                 <p><b>Duration: </b>February - March 2020</p>
               </div>
               <div className="column2">
@@ -36,7 +40,7 @@ export default class ScansIt extends Component {
             <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="main-image"/>
           </center>
         
-          <div className="introduce twocolumns">
+          <div className="introduce twocolumns" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <div className="background">
               <h2>Background</h2>
               <p>
@@ -48,7 +52,7 @@ export default class ScansIt extends Component {
               <p>
                 My teammates and I began by thinking about different areas of interest that dealt with local government such as access to 
                 education, health & wellness, and transportation. After discussing all these topics we found a shared focus 
-                in transportation, specifically Sound Transit’s Light Rail System, since it is something that we have all used 
+                in transportation, specifically Sound Transit’s Light Rail system, since it is something that we have all used 
                 and know could use improvement. 
               </p>
             </div>
@@ -65,14 +69,14 @@ export default class ScansIt extends Component {
             </div>
           </div>
 
-          <div className="process">
+          <div className="process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <h2>Design Process</h2>
             <center>
               <img src="img/scansit/scansit_process.png" alt="ScansIt Design Process"/>
             </center>
           </div>
 
-          <div className="problem">
+          <div className="problem" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <h2>Problem Statement</h2>
             <p>
               Seattle is a forward-thinking, technologically advanced and environmentally influential city and we believe that 
@@ -92,9 +96,9 @@ export default class ScansIt extends Component {
 
           {/* Design process here (Timeline) */}
 
-          <div className="UserResearch">
+          <div className="UserResearch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <h2>Research</h2>
-            <div className="reverse-brainstorm">
+            <div className="reverse-brainstorm" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
               <center>
                 <img src="img/scansit/scansit_research.png" alt="ScansIt Research" className="ScansItResearch"/>
               </center>
@@ -107,21 +111,31 @@ export default class ScansIt extends Component {
                 collected information that could be used for another phase of brainstorming, conducted in-person interviews, 
                 and sent out the first survey that we created together to get the main scope of the problems from the riders.
               </p>
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <h4 className="paddingtop50">Insights</h4>
+                <p>From the Link Light Rail’s riders (interviewees and survey takers):</p>
+                <b>#1 Looking for more convenient ways to pay for fares
+                  <p>
+                    People who have to reperchase the pass for each ride tend to be interested in having a new method
+                    to save their time since the current existing methods to pay for fares are only
+                  </p>
+                  <ul>
+                    <li>buying a one-way or round-trip ticket at the station.</li>
+                    <li>using ORCA card, which is a stored-value card that works like cash or a pass.</li>
+                    <li>using identification cards under institutions, for example, UW Husky card.</li>
+                  </ul>
+                </b>
+                <b>
+                  #2 Seeing the Link schedules and know when the trains are arriving at and leaving the stations
+                </b>
+                <p>
+                  During the prime time, the riders need to plan for their travel to avoid unexpected situations that
+                  might cause in wasting time or meney, the problem is no real-time schedule is currently available for them 
+                  to check.
+                </p>
+              </div>
 
-              <h4 className="paddingtop50">Insights</h4>
-              <p>From the Link Light Rail’s riders (interviewees and survey takers):</p>
-              <b>#1 Looking for more convenient ways to pay for fares
-                <ul>
-                  since the current existing methods to pay for fares are only:
-                  <li>buying a one-way or round-trip ticket at the station.</li>
-                  <li>using ORCA card, which is a stored-value card that works like cash or a pass.</li>
-                  <li>using identification cards under institutions, for example, UW Husky card.</li>
-                </ul>
-              </b>
-              <b>
-                #2 Seeing the Link schedules and know when the trains are arriving at and leaving the stations
-              </b>
-
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
               <h4 className="paddingtop50">Stakeholder Analysis</h4>
               <div className="twocolumns">
                 <div className="column1">
@@ -137,62 +151,98 @@ export default class ScansIt extends Component {
                     <li>Vision of the City of Seattle and King County as a whole</li>
                   </ul> */}
                 </div>
-                <div className="column2">
-                  <p>
-                    For the <b>users</b>, We identified that users wanted more ease of use in paying for fares. This meant making the card 
-                    accessible in a way currently not available. Daily riders looking for convenient and advanced technological solutions,
-                    safety, reduction of stress, increased daily productivity and participation in reduced carbon footprint.
-                  </p>
-                  {/* <ul>
-                    <li>
-                      We identified that users wanted more ease of use in paying for fares. This meant making the card 
-                      accessible in a way currently not available.
-                    </li>
-                    <li>Daily riders looking for convenient and advanced technological solutions</li>
-                    <li>Safety</li>
-                    <li>Reduction of stress</li>
-                    <li>Increased daily productivity</li>
-                    <li>Participation in reduced Carbon footprint</li>
-                  </ul> */}
+                  <div className="column2">
+                    <p>
+                      For the <b>users</b>, we identified that users wanted more ease of use in paying for fares. This meant making the card 
+                      accessible in a way currently not available. Daily riders looking for convenient and advanced technological solutions,
+                      safety, reduction of stress, increased daily productivity and participation in reduced carbon footprint.
+                    </p>
+                    {/* <ul>
+                      <li>
+                        We identified that users wanted more ease of use in paying for fares. This meant making the card 
+                        accessible in a way currently not available.
+                      </li>
+                      <li>Daily riders looking for convenient and advanced technological solutions</li>
+                      <li>Safety</li>
+                      <li>Reduction of stress</li>
+                      <li>Increased daily productivity</li>
+                      <li>Participation in reduced Carbon footprint</li>
+                    </ul> */}
+                  </div>
                 </div>
               </div>
-
             </div>
-            <div className="twocolumns">
+
+            <div className="twocolumns" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
               <div className="research">
                 <img src="img/scansit/scansit_brainstorm.png" alt="ScansIt Brainstorm"/>
               </div>
               <div className="brainstorm">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                  in culpa qui officia deserunt mollit anim id est laborum.
+                  Before identifying the problem, we set the main goals and values of our solution to be passive, able for further
+                  development, and impactful. Sinking more into details for the users, we also ideated wide-range solutions and scoped
+                  them down after the second cycle of surveys.
                 </p>
                 <p>
                   In regard to identifying the problem through this intensive dive, we were able to uncover that the majority of people 
-                  we interviewed want a digital payment solution.  This problem is timely, relevant, and is specifically user-identified.
+                  we interviewed want a digital payment solution. This problem is timely, relevant, and is specifically user-identified.
                 </p>
                 <p>
                   The most compelling unveiling from our inquiry was that as a metropolitan leader we are in-line with advanced technology. 
                   This was a major and confident confirmation we were on the correct path leading Seattle towards a solid future.
                 </p>
-
+                <p>
+                  So, next step was to study about the competitors.
+                </p>
               </div>
             </div>
-            <div className="appendix">
-              <h3>Initiatives and Epics</h3>
-              <div className="ini-epic">
-                <img src="img/scansit/initiatives.png" alt="ScansIt Initiatives" className="initiatives"/>
-                <img src="img/scansit/epics.png" alt="ScansIt Epics" className="epics"/>
+
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h4 className="paddingtop50" >Competitive Analysis</h4>
+              <div className="twocolumns">
+                <div className="competitive-scansit-text">
+                    <ul>
+                      <li>
+                        More convenient with the digital card option.
+                        <ul><li>ScansIt app (on any device) can scan digitally to access the link.</li></ul>
+                      </li>
+                      <li>
+                        Lower chance of getting lost or scammed.
+                        <ul><li>Physical cards can easily be lost, stolen, and scammed — but on the app, only the user can access the card.</li></ul>
+                      </li>
+                      <li>
+                        Accessing the link or other transits become faster.
+                        <ul><li>As simple as scanning.</li></ul>
+                      </li>
+                      <li>
+                        Does not ask for current location.
+                        <ul><li>Unlike most other transit apps, ScansIt app does not need to ask for a user’s location, enhancing privacy and security.</li></ul>
+                      </li>
+                    </ul>
+                </div>
+                <div className="competitive-scansit-img">
+                  <img src="img/scansit/competitive1.png" alt="Competitive Analysis"/>
+                </div>
               </div>
-              <h3>User Stories</h3>
+            </div>
+
+            <div className="appendix">
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <h3>Initiatives and Epics</h3>
+                <div className="ini-epic">
+                  <img src="img/scansit/initiatives.png" alt="ScansIt Initiatives" className="initiatives"/>
+                  <img src="img/scansit/epics.png" alt="ScansIt Epics" className="epics"/>
+                </div>
+              </div>
+
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <h3>User Stories</h3>
                 <img src="img/scansit/stories.png" alt="ScansIt Stories" className="stories"/>
+              </div>
             </div>
           </div>
           
-          <div className="ideation">
+          <div className="ideation" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <h2>Ideation</h2>
             <center>
               <div className="inline">
@@ -202,190 +252,196 @@ export default class ScansIt extends Component {
               </div>
             </center>
             <p className="paddingtop50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-              in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
-              error sit voluptatem accusantium doloremque laudantium, 
-              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
-              sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-              consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
-              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+            Our team did rapid ideation to roughly design the user flow. The goal was to provide our targeted users with 
+            the most effective solution where combined all necessary features for riding the Link in one place. From 
+            that point, we all agreed on making it a mobile application since the research team from Statista said that 
+            the number of people owning smartphones is continuing to increase. Therefore, this choice was the best option to promote accessibility.
             </p>
           </div>
 
           <div className="solution">
-            <h2>Solution</h2>
-            <p>
-              For our solution, we created ScansIt, which stands for <b>Scanning for Transit</b>. It is a simple and seamless 
-              digital card and scheduling app for your public transit needs.
-            </p>
-            <h3>Brand Guidelines</h3>
-            <center>
-              <img src="img/scansit/brandguide.png" alt="ScansIt Brand Guidelines" className="ScansItGuide"/>
-            </center>
-            <p>
-              When I thought about the visual guidelines, I decided on using the primary colors of navy and yellow since they 
-              mimic the current colors used by SoundTransit. To demonstrate individuality and uniqueness, mint and coral are 
-              added to the branding design as supportive colors. The grayscale colors were used to signify inactive or deactivated 
-              functions. Since gray is not a very eye catching color, but soft to look at, it is used for information that is 
-              not as important, and it flows nicely with the primary and secondary colors.
-            </p>
-            <p>
-              To make the ScansIt app interface clean, friendly and modern, Montserrat (a geometric sans serif font) is used.
-              The rectangle shape is applied mainly in ScansIt app to represent solidity and stability, with rounded edges that 
-              improve friendliness and prevent interrupt thoughts from sharp corners. The icons in ScansIt are geometric and have 
-              obvious meanings in themselves to easily gain user understanding of the functions. 
-            </p>
-            <p>
-              Finally, “S” from the name ScansIt has been used for a logo. As the app is mainly used for Link Light Rail, “S” becomes 
-              the shape of the train that represents ScanIts app’s ability to access the schedule and scan for a ride.
-            </p>
-            <h3>Information Architecture</h3>
-            <center>
-              <img src="img/scansit/sitemap_transparent.png" alt="ScansIt Sitemap" className="ScansItSitemap"/>
-            </center>
-            <h3>Prototype</h3>
-            <div className="prototype">
-              {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank" rel="noopener noreferrer">
-                <img src="img/scansit/prototype.png" alt="ScansIt Prototype" className="ScansItPrototype"/>
-                <div classname="middle">
-                  <div className="text">Click to try the prototype</div>
-                </div>
-              </a> */}
-              <div className="wireframe">
-                <center>
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div>
-                        <img src="img/scansit/1_loading_1.png" alt="ScansIt Loading Page"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Loading</b>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=55%3A22&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div>
-                        <img src="img/scansit/2_login.png" alt="ScansIt Login"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Login/Sign Up</b>
-                          <p>for a security purpose of the app</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A6&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div>
-                        <img src="img/scansit/3_homepage_2.png" alt="ScansIt Homepage"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Homepage</b>
-                          <p>includes links to main focused features: login/sign up, digital card, schedule, setting</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=3%3A11&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div>
-                        <img src="img/scansit/4_digital_card_front.png" alt="ScansIt Digital Card"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Digital Card</b>
-                          <p>can be scanned to get into the station. Users have an option to connect to their existing cards</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </center>
-
-                <center>
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=32%3A0&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div>
-                        <img src="img/scansit/5_digital_card_back.png" alt="ScansIt Card Information"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Card Information</b>
-                          <p>contains card information with remaining card value</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=35%3A49&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div> 
-                        <img src="img/scansit/6_add_value.png" alt="ScansIt Add Value"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Add Value</b>
-                          <p>with different available payment methods</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A5&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div> 
-                        <img src="img/scansit/7_schedule_dropdown.png" alt="ScansIt Schedule"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Schedule</b>
-                          <p>to check the train's up-to-date arriving and departing time from each station</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="container">
-                    <div className="content">
-                      <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=26%3A17&scaling=scale-down" target="_blank">
-                        <div className="content-overlay"></div> 
-                        <img src="img/scansit/8_setting.png" alt="ScansIt Setting"/>
-                        <div className="content-details fadeIn-top">
-                          <b>Setting</b>
-                          <p>notification, privacy and security customization with options for accessibility</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </center>
-              </div>
-
-              <p className="paddingtop50">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h2>Solution</h2>
+              <p>
+                For our solution, we created ScansIt, which stands for <b>Scanning for Transit</b>. It is a simple and seamless 
+                digital card and scheduling app for your public transit needs.
               </p>
-
             </div>
 
-            <div className="next">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h3>Brand Guidelines</h3>
+              <center>
+                <img src="img/scansit/brandguide.png" alt="ScansIt Brand Guidelines" className="ScansItGuide"/>
+              </center>
+              <p>
+                Since I was in charge of the designing process, when I thought about the visual guidelines, I decided on using 
+                the primary colors of navy and yellow since they mimic the current colors used by SoundTransit. 
+                To demonstrate individuality and uniqueness, mint and coral are added to the branding design as supportive colors. 
+                The grayscale colors were used to signify inactive or deactivated functions. Since gray is not a very eye catching 
+                color, but soft to look at, it is used for information that is not as important, and it flows nicely with the 
+                primary and secondary colors.
+              </p>
+              <p>
+                To make the ScansIt app interface clean, friendly and modern, Montserrat (a geometric sans serif font) is used.
+                The rectangle shape is applied mainly in ScansIt app to represent solidity and stability, with rounded edges that 
+                improve friendliness and prevent interrupt thoughts from sharp corners. The icons in ScansIt are geometric and have 
+                obvious meanings in themselves to easily gain user understanding of the functions. 
+              </p>
+              <p>
+                Finally, “S” from the name ScansIt has been used for a logo. As the app is mainly used for Link Light Rail, “S” becomes 
+                the shape of the train that represents ScanIts app’s ability to access the schedule and scan for a ride.
+              </p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h3>Sitemap</h3>
+              <center>
+                <img src="img/scansit/sitemap_transparent.png" alt="ScansIt Sitemap" className="ScansItSitemap"/>
+              </center>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h3>Prototype</h3>
+              <div className="prototype">
+                {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank" rel="noopener noreferrer">
+                  <img src="img/scansit/prototype.png" alt="ScansIt Prototype" className="ScansItPrototype"/>
+                  <div classname="middle">
+                    <div className="text">Click to try the prototype</div>
+                  </div>
+                </a> */}
+                <div className="wireframe">
+                  <center>
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/1_loading_1.png" alt="ScansIt Loading Page"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Loading</b>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=55%3A22&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/2_login.png" alt="ScansIt Login"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Login/Sign Up</b>
+                            <p>for a security purpose of the app</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A6&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/3_homepage_2.png" alt="ScansIt Homepage"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Homepage</b>
+                            <p>includes links to main focused features: login/sign up, digital card, schedule, setting</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=3%3A11&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/4_digital_card_front.png" alt="ScansIt Digital Card"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Digital Card</b>
+                            <p>can be scanned to get into the station. Users have an option to connect to their existing cards</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+                  </center>
+
+                  <center>
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=32%3A0&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div>
+                          <img src="img/scansit/5_digital_card_back.png" alt="ScansIt Card Information"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Card Information</b>
+                            <p>contains card information with remaining card value</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=35%3A49&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/6_add_value.png" alt="ScansIt Add Value"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Add Value</b>
+                            <p>with different available payment methods</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A5&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/7_schedule_dropdown.png" alt="ScansIt Schedule"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Schedule</b>
+                            <p>to check the train's up-to-date arriving and departing time from each station</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+
+                    <div className="container">
+                      <div className="content">
+                        {/* <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=26%3A17&scaling=scale-down" target="_blank"> */}
+                          <div className="content-overlay"></div> 
+                          <img src="img/scansit/8_setting.png" alt="ScansIt Setting"/>
+                          <div className="content-details fadeIn-top">
+                            <b>Setting</b>
+                            <p>notification, privacy and security customization with options for accessibility</p>
+                          </div>
+                        {/* </a> */}
+                      </div>
+                    </div>
+                  </center>
+                </div>
+                
+                <div className="paddingtop50">
+                  <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" class="button" target="_blank">(Click here to play with the prototype)</a>
+                </div>
+                {/* <p className="paddingtop50">
+                  
+                  sdffgsfgsfsf
+                </p> */}
+
+              </div>
+             </div> 
+
+            <div className="next" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
               <h2>Next Steps</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus 
-                error sit voluptatem accusantium doloremque laudantium, 
-                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
-                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
-                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+              Since this project is a part of INFO 360: Design Methods class, we did not have a chance to build the real 
+              app and conduct usability testing. I would love to get the user’s comments and see how they interact with 
+              the app, so we can further develop it to better fit their needs. Also, if we have more time, I think we could 
+              look more on accessibility since now we only had some features for disabilities to opt-in and opt-out in the 
+              setting page. We can see that public transportation is being utilized by all groups of people; therefore, 
+              nhancing the ability to serve all their needs would benefit not only the user but the community as a whole too.
               </p>
+            </div>
+
+            {/* <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"> 
               <h2>Lessons Learned</h2>
               <h4>Title 1</h4>
               <p>
@@ -401,7 +457,8 @@ export default class ScansIt extends Component {
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
                 esse cillum dolore eu fugiat nulla pariatur.
               </p>
-            </div>
+            </div> */}
+            
           </div>
         </div>
         <Footnote/>

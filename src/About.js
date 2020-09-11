@@ -20,29 +20,36 @@ export default class About extends Component {
                   I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> with a minor in Informatics at 
                   the <b>University of Washington</b>, Seattle.
                 </p>
-                <p>If you want to know me a little more, here are some bits of my life.</p>
-                <ul>
-                  <li>
-                    I love taking <b>film photos</b>. I like it when I have some time to think before
-                    pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
-                    It's exciting to wait for the result and some unintended mistakes. And of course, they are
-                    all my favorite mistakes.
-                  </li>
-                  <li>
-                    I also love <b>watching movies and documentaries</b>. My favorite ones, as of now, are <i>Chungking Express</i>,
-                    <i>The Grand Budapest Hotel</i>, and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
-                  </li>
-                  <li>
-                    I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with a colored pencil 
-                    (now kinda more toward Apple pencil) is the most satisfying moment!
-                  </li>
-                </ul>
+                <p>
+                My interest in design blossomed when I worked as a graphic designer for the high school. My feeling toward 
+                design at that time was only enjoyment of creating something new and beautiful; however, I got a sense of 
+                designing for a change when I learned more about the process of design. It made me realize how the stage 
+                of understanding the problem and users was as important as the stage of making a visualization.
+                </p>
+                <p>
+                  I appreciate your time here a lot! Feel free to reach out via email: <a href="ploypp@uw.edu">ploypp@uw.edu </a>
+                   or <a href="https://www.linkedin.com/in/ploypruekcharoen/">LinkedIn</a>. Let's get in touch!
+                </p>
               </div>
             </div>
             <div className="steptodesign">
-              <p>
-                My interest in design started when...
-              </p>
+              <p>If you want to know me a little more, here are some bits of my life.</p>
+              <ul>
+                <li>
+                  I love taking <b>film photos</b>. I like it when I have some time to think before
+                  pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
+                  It's exciting to wait for the result and some unintended mistakes. And of course, they are
+                  all my favorite mistakes.
+                </li>
+                <li>
+                  I also love <b>watching movies and documentaries</b>. My favorite ones, as of now, are <i>Chungking Express</i>,
+                  <i>The Grand Budapest Hotel</i>, and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
+                </li>
+                <li>
+                  I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with a colored pencil 
+                  (now kinda more toward Apple pencil) is the most satisfying moment!
+                </li>
+              </ul>
             </div>
           </div>
           <Footnote/>
