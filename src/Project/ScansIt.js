@@ -70,24 +70,26 @@ export default class ScansIt extends Component {
           </div>
 
           <div className="process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h2>Design Process</h2>
             <center>
+              <h2>Design Process</h2>
               <img src="img/scansit/scansit_process.png" alt="ScansIt Design Process"/>
             </center>
           </div>
 
           <div className="problem" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h2>Problem Statement</h2>
-            <p>
+            <center>
+              <h2>Problem Statement</h2>
+            </center>
+            <p className="padding-center">
               Seattle is a forward-thinking, technologically advanced and environmentally influential city and we believe that 
               its transportation systems should reflect that. It is something that residents, commuters, and visitors use. 
               More importantly it greatly impacts the traffic flow of the entire city thus affecting everyone’s lives. While 
               Seattle was honored with having the best large transit system in North America, its transit payment system 
               remains archaic.
             </p>
-            <p>
+            <p className="padding-center">
               The visitors and local inhabitants of metropolitan cities — with diverse transit system options — 
-              command accessibility, reliability, convenience, and safety through a digital commuter card solution. 
+              command <b>accessibility, reliability, convenience, and safety</b> through a digital commuter card solution. 
               While maintaining characteristics like this is a challenge, a city’s progress, development, and success 
               insists upon such core pillars. The City of Seattle, a centerpiece of technology and innovation, should 
               lead the way in this pursuit.
@@ -111,21 +113,23 @@ export default class ScansIt extends Component {
                 collected information that could be used for another phase of brainstorming, conducted in-person interviews, 
                 and sent out the first survey that we created together to get the main scope of the problems from the riders.
               </p>
-              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                <h4 className="paddingtop50">Insights</h4>
+              <div className="padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <center>
+                  <h3 className="paddingtop150">Insights</h3>
+                </center>
                 <p>From the Link Light Rail’s riders (interviewees and survey takers):</p>
-                <b>#1 Looking for more convenient ways to pay for fares
-                  <p>
-                    People who have to reperchase the pass for each ride tend to be interested in having a new method
-                    to save their time since the current existing methods to pay for fares are only
-                  </p>
-                  <ul>
-                    <li>buying a one-way or round-trip ticket at the station.</li>
-                    <li>using ORCA card, which is a stored-value card that works like cash or a pass.</li>
-                    <li>using identification cards under institutions, for example, UW Husky card.</li>
-                  </ul>
-                </b>
-                <b>
+                <b className="paddingtop100">#1 Looking for more convenient ways to pay for fares</b>
+                <p>
+                  People who have to reperchase the pass for each ride tend to be interested in having a new method
+                  to save their time since the current existing methods to pay for fares are only
+                </p>
+                <ul>
+                  <li>buying a one-way or round-trip ticket at the station.</li>
+                  <li>using ORCA card, which is a stored-value card that works like cash or a pass.</li>
+                  <li>using identification cards under institutions, for example, UW Husky card.</li>
+                </ul>
+                
+                <b className="paddingtop100">
                   #2 Seeing the Link schedules and know when the trains are arriving at and leaving the stations
                 </b>
                 <p>
@@ -136,7 +140,7 @@ export default class ScansIt extends Component {
               </div>
 
               <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-              <h4 className="paddingtop50">Stakeholder Analysis</h4>
+              <h3 className="paddingtop150">Stakeholder Analysis</h3>
               <div className="twocolumns">
                 <div className="column1">
                   <p>
@@ -198,30 +202,32 @@ export default class ScansIt extends Component {
             </div>
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-              <h4 className="paddingtop50" >Competitive Analysis</h4>
-              <div className="twocolumns">
+              <h3 className="paddingtop150" >Competitive Analysis</h3>
+              <div className="columns45-55">
                 <div className="competitive-scansit-text">
                     <ul>
                       <li>
-                        More convenient with the digital card option.
+                        <b>More convenient with the digital card option.</b>
                         <ul><li>ScansIt app (on any device) can scan digitally to access the link.</li></ul>
                       </li>
                       <li>
-                        Lower chance of getting lost or scammed.
+                        <b>Lower chance of getting lost or scammed.</b>
                         <ul><li>Physical cards can easily be lost, stolen, and scammed — but on the app, only the user can access the card.</li></ul>
                       </li>
                       <li>
-                        Accessing the link or other transits become faster.
+                        <b>Accessing the link or other transits become faster.</b>
                         <ul><li>As simple as scanning.</li></ul>
                       </li>
                       <li>
-                        Does not ask for current location.
+                        <b>Does not ask for current location.</b>
                         <ul><li>Unlike most other transit apps, ScansIt app does not need to ask for a user’s location, enhancing privacy and security.</li></ul>
                       </li>
                     </ul>
                 </div>
                 <div className="competitive-scansit-img">
-                  <img src="img/scansit/competitive1.png" alt="Competitive Analysis"/>
+                  <center>
+                    <img src="img/scansit/competitive1.png" alt="Competitive Analysis"/>
+                  </center>
                 </div>
               </div>
             </div>
@@ -229,7 +235,7 @@ export default class ScansIt extends Component {
             <div className="appendix">
               <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                 <h3>Initiatives and Epics</h3>
-                <div className="ini-epic">
+                <div className="columns40-60">
                   <img src="img/scansit/initiatives.png" alt="ScansIt Initiatives" className="initiatives"/>
                   <img src="img/scansit/epics.png" alt="ScansIt Epics" className="epics"/>
                 </div>
@@ -252,7 +258,7 @@ export default class ScansIt extends Component {
               </div>
             </center>
             <p className="paddingtop50">
-            Our team did rapid ideation to roughly design the user flow. The goal was to provide our targeted users with 
+            Our team did rapid ideation to roughly design the <b>user flow</b>. The goal was to provide our targeted users with 
             the most effective solution where combined all necessary features for riding the Link in one place. From 
             that point, we all agreed on making it a mobile application since the research team from Statista said that 
             the number of people owning smartphones is continuing to increase. Therefore, this choice was the best option to promote accessibility.
@@ -275,16 +281,16 @@ export default class ScansIt extends Component {
               </center>
               <p>
                 Since I was in charge of the designing process, when I thought about the visual guidelines, I decided on using 
-                the primary colors of navy and yellow since they mimic the current colors used by SoundTransit. 
-                To demonstrate individuality and uniqueness, mint and coral are added to the branding design as supportive colors. 
+                the primary colors of navy and yellow since they <b>mimic the current colors used by SoundTransit</b>. 
+                To demonstrate <b>individuality and uniqueness</b>, mint and coral are added to the branding design as supportive colors. 
                 The grayscale colors were used to signify inactive or deactivated functions. Since gray is not a very eye catching 
                 color, but soft to look at, it is used for information that is not as important, and it flows nicely with the 
                 primary and secondary colors.
               </p>
               <p>
-                To make the ScansIt app interface clean, friendly and modern, Montserrat (a geometric sans serif font) is used.
-                The rectangle shape is applied mainly in ScansIt app to represent solidity and stability, with rounded edges that 
-                improve friendliness and prevent interrupt thoughts from sharp corners. The icons in ScansIt are geometric and have 
+                To make the ScansIt app interface <b>clean, friendly and modern</b>, Montserrat (a geometric sans serif font) is used.
+                The rectangle shape is applied mainly in ScansIt app to represent <b>solidity and stability</b>, with rounded edges that 
+                improve <b>friendliness</b> and prevent interrupt thoughts from sharp corners. The icons in ScansIt are geometric and have 
                 obvious meanings in themselves to easily gain user understanding of the functions. 
               </p>
               <p>
@@ -419,7 +425,7 @@ export default class ScansIt extends Component {
                 </div>
                 
                 <div className="paddingtop50">
-                  <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" class="button" target="_blank">(Click here to play with the prototype)</a>
+                  <a href="https://www.figma.com/proto/kqdCcVRZ4j7XyMqxuEreN8/ScansIt?node-id=1%3A7&scaling=scale-down" class="button" target="_blank"><b>(Click here to play with the prototype)</b></a>
                 </div>
                 {/* <p className="paddingtop50">
                   
@@ -429,35 +435,41 @@ export default class ScansIt extends Component {
               </div>
              </div> 
 
-            <div className="next" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-              <h2>Next Steps</h2>
+            <div className="next padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <center>
+                <h2>Next Steps</h2>
+              </center>
               <p>
               Since this project is a part of INFO 360: Design Methods class, we did not have a chance to build the real 
-              app and conduct usability testing. I would love to get the user’s comments and see how they interact with 
+              app and conduct <b>usability testing</b>. I would love to get the user’s comments and see how they interact with 
               the app, so we can further develop it to better fit their needs. Also, if we have more time, I think we could 
-              look more on accessibility since now we only had some features for disabilities to opt-in and opt-out in the 
+              look <b>more on accessibility</b> since now we only had some features for disabilities to opt-in and opt-out in the 
               setting page. We can see that public transportation is being utilized by all groups of people; therefore, 
               nhancing the ability to serve all their needs would benefit not only the user but the community as a whole too.
               </p>
             </div>
 
-            {/* <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"> 
-              <h2>Lessons Learned</h2>
-              <h4>Title 1</h4>
+            <div className="padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"> 
+              <center>
+                <h2>Lessons Learned</h2>
+              </center>
+              <b>Insights lead to a solution</b>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur.
+              As we interviewed and conducted the surveys, I have seen various perspectives from the users. 
+              Some may like what already the Link has, some may not. The key is what problems they have faced 
+              rom their riding experience. From that point, I think to deeply understand and analyze the insights 
+              can even direct to the solution simply.
               </p>
-              <h4>Title 2</h4>
+              <b>Always ask for the team’s opinions</b>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur.
+              As I designed, I had been facing some indecisiveness and dissatisfaction with my own works. One thing 
+              I experienced from this project was “asking is learning”. To ask my teammates for comments, suggestions, 
+              or even questions they had on my design is the way I gained more ideas to improve. Also, even though 
+              we did not have a chance to do usability testing with the outsiders, my teammates provided good feedback 
+              when I let them play with the prototype. Their comments reflect things my design did well as well as what 
+              it lacked so that I could make it better.
               </p>
-            </div> */}
+            </div>
             
           </div>
         </div>
