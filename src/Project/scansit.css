@@ -3,16 +3,16 @@
   padding-right: 80px;
 }
 
-.ScansIt li {
+.project-content li {
   padding-bottom: 10px;
 }
 
-.ScansIt p,
-.ScansIt li {
+p,
+.project-content li {
   color: #757575;
 }
 
-.ScansIt b {
+b {
   color: #000000;
 }
 
@@ -296,4 +296,8 @@
 
 .padding-center {
   padding: 0 200px 0 200px;
+}
+
+.prototype a b {
+  color: #54b4a1;
 }

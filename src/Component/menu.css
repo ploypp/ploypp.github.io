@@ -24,7 +24,8 @@
   background-color: transparent;
 }
 .Menu li:hover, .Menu li a:hover {
-  color: #fffc5f;
+  /* color: #fffc5f; */
+  color: #54b4a1;
 }
 
 .popup-overlay {
