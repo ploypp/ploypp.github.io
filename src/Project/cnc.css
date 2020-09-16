@@ -1,14 +1,93 @@
 .CnC h2 {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 30px;
 }
 
 .CnC b {
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .CnC h3 {
-  padding: 50px 0 50px 0;
+  padding: 150px 0 50px 0;
+}
+
+.paddingright100 {
+  padding-right: 100px;
+}
+
+.web-analyze img {
+  padding-top: 50px;
+  min-width: 73vw;
+  position: relative;
+  /* left: -100px; */
+}
+
+.CnC .storyboard img {
+  min-height: 550px;
+}
+
+.CnC .storyboard h3 {
+  padding-top: 50px;
+}
+
+.CnC .sketch img {
+  padding-right: 7px;
+  min-height: 400px;
+}
+
+.web-box {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.CnC .wireframe img {
+  max-width: 135px;
+}
+
+/* input[type=checkbox] {
+  display: none;
+}
+
+.CnC .wireframe img {
+  max-width: 200px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(4);
+  cursor: zoom-out;
+} */
+
+.scroll-box {
+  display: block;
+  width: 65vw;
+  overflow: auto;
+}
+
+.sb1 {
+  height: 584px;
+}
+
+.sb2 {
+  height: 569px;
+}
+
+.sb3 {
+  height: 602px;
+}
+
+.sb4 {
+  height: 397px;
+}
+
+.scroll-box img {
+  width: 65vw;
+}
+
+.solution-intro img {
+  max-width: 800px;
+  padding: 0 0 100px 0;
 }

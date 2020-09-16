@@ -32,7 +32,7 @@ export default class About extends Component {
                   of understanding the problem and users was as important as the stage of making a visualization.
                   </p>
                   <p>
-                    I appreciate your time here a lot! Feel free to reach out via email: <a href="ploypp@uw.edu">ploypp@uw.edu </a>
+                    I appreciate your time here a lot! Feel free to reach out via email: <a href="mailto:ploypp@uw.edu">ploypp@uw.edu </a>
                     or <a href="https://www.linkedin.com/in/ploypruekcharoen/">LinkedIn</a>. Let's get in touch!
                   </p>
                 </div>
@@ -49,7 +49,7 @@ export default class About extends Component {
                   </li>
                   <li>
                     I also love <b>watching movies and documentaries</b>. My favorite ones, as of now, are <i>Chungking Express</i>,
-                    <i>The Grand Budapest Hotel</i>, and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
+                    <i> The Grand Budapest Hotel</i> and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
                   </li>
                   <li>
                     I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with a colored pencil 

@@ -125,6 +125,11 @@ b {
   display: inline;
 }
 
+.inlineblock {
+  display: -webkit-inline-box;
+  margin: 0;
+}
+
 /* .prototype-section {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -147,7 +152,7 @@ b {
   display: inline-block;
 }
 
-.wireframe img {
+.ScansIt .wireframe img {
   max-height: 500px;
   padding-right: 7px;
 }
@@ -274,6 +279,10 @@ b {
   padding-top: 150px;
 }
 
+.paddingtop200 {
+  padding-top: 200px;
+}
+
 .project-info {
   padding: 50px 0 50px 0;
 }
@@ -298,6 +307,6 @@ b {
   padding: 0 200px 0 200px;
 }
 
-.prototype a b {
+.project-content a b {
   color: #54b4a1;
 }

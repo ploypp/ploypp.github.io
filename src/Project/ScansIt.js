@@ -453,20 +453,20 @@ export default class ScansIt extends Component {
               <center>
                 <h2>Lessons Learned</h2>
               </center>
-              <b>Insights lead to a solution</b>
+              <b>Insights lead to a solution.</b>
               <p>
               As we interviewed and conducted the surveys, I have seen various perspectives from the users. 
               Some may like what already the Link has, some may not. The key is what problems they have faced 
               rom their riding experience. From that point, I think to deeply understand and analyze the insights 
               can even direct to the solution simply.
               </p>
-              <b>Always ask for the team’s opinions</b>
+              <b>Always ask for the team’s opinions.</b>
               <p>
               As I designed, I had been facing some indecisiveness and dissatisfaction with my own works. One thing 
               I experienced from this project was “asking is learning”. To ask my teammates for comments, suggestions, 
-              or even questions they had on my design is the way I gained more ideas to improve. Also, even though 
+              or even questions they had on my design was the way I gained more ideas to improve. Also, even though 
               we did not have a chance to do usability testing with the outsiders, my teammates provided good feedback 
-              when I let them play with the prototype. Their comments reflect things my design did well as well as what 
+              when I let them play with the prototype. Their comments reflected things my design did well as well as what 
               it lacked so that I could make it better.
               </p>
             </div>

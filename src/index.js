@@ -22,7 +22,7 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         <Route path="/snapanddraw" component={SnapAndDraw} />
         <Route path="/scansit" component={ScansIt} />
-        {/* <Route path="/cnc" component={CnC} /> */}
+        <Route path="/cnc" component={CnC} />
         {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
   </Router>

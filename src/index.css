@@ -39,7 +39,7 @@ div, p, b, li, i, h1, h2, h3, h4 {
   background-color:transparent;
 }
 
-p, ul, li {
+p, ul, li, i {
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
