@@ -445,7 +445,7 @@ export default class ScansIt extends Component {
               the app, so we can further develop it to better fit their needs. Also, if we have more time, I think we could 
               look <b>more on accessibility</b> since now we only had some features for disabilities to opt-in and opt-out in the 
               setting page. We can see that public transportation is being utilized by all groups of people; therefore, 
-              nhancing the ability to serve all their needs would benefit not only the user but the community as a whole too.
+              enhancing the ability to serve all their needs would benefit not only the user but the community as a whole too.
               </p>
             </div>
 
