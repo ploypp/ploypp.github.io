@@ -310,3 +310,26 @@ b {
 .project-content a b {
   color: #54b4a1;
 }
+
+.other-project {
+  padding-top: 200px;
+  /* text-align: center; */
+}
+
+.other-project p {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+
+.other-project p:hover {
+  color: #54b4a1;
+  font-weight: 500;
+}
+
+.col-right {
+  text-align: right;
+}
+
+.col-left {
+  text-align: left;
+}

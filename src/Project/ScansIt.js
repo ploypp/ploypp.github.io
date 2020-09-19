@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
+import {Link } from "react-router-dom";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,7 +16,7 @@ export default class ScansIt extends Component {
         <Cursor />
         <Navbar />
         <div className="project-content">
-          <div className="overview">
+          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <h1>Project ScansIt</h1>
             <p>
               A mobile application for a better experience of riding the Link Light Rail, including a
@@ -469,6 +471,14 @@ export default class ScansIt extends Component {
               when I let them play with the prototype. Their comments reflected things my design did well as well as what 
               it lacked so that I could make it better.
               </p>
+            </div>
+          </div>
+
+          <div className="other-project twocolums">
+            <div className="col-right">
+              <Link to = "/cnc">
+                <p>Next &gt; Code&amp;Craft Website Redesign Project</p>
+              </Link>
             </div>
             
           </div>

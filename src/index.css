@@ -173,9 +173,10 @@ a {
 
 /* Project */
 
-.project {
+.project, .project2 {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-bottom: 200px;
 }
 
 .project .image img {
@@ -183,8 +184,14 @@ a {
   max-height: 680px;
 }
 
-.project .description {
+.project .description,
+.project2 .description {
   padding-top: 200px;
+}
+
+.project2 .image img {
+  padding: 0;
+  max-height: 680px;
 }
 
 .tool {
@@ -272,4 +279,17 @@ a {
   font-family: 'Poppins', sans-serif;
   color: #54b4a1;
   font-weight: 500;
+}
+
+.SnapAndDraw img {
+  max-height: 250px;
+}
+
+.gallery {
+  margin: auto;
+  width: 80%;
+}
+
+.gallery div img:hover {
+  transform: scale(1.5);
 }

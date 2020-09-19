@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
+import {Link } from "react-router-dom";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,8 +16,8 @@ export default class CnC extends Component {
         <Cursor />
         <Navbar />
         <div className="project-content">
-          <div className="overview">
-            <h1>Code&Craft Website Redesign Project</h1>
+          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <h1>Code&amp;Craft Website Redesign Project</h1>
             <p>
               The new design of Thailand's growing digital product developer company — Code&Craft.
               Introduce to you the more creative, functional and promising site to learn more about Code&Craft's
@@ -39,17 +41,17 @@ export default class CnC extends Component {
             </div>
           </div>
           <center>
-            <img src="img/cnc/vision.png" alt="Code&Craft's Vision" className="main-image"></img>
+            <img src="img/cnc/vision.png" alt="Code&amp;Craft's Vision" className="main-image"></img>
           </center>
 
           <div className="introduce twocolumns" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <div className="background">
               <h2>Background</h2>
               <p>
-                During my internship at Rabbit Digital Group, I was put into the Code&Craft team, which dealt with digital 
+                During my internship at Rabbit Digital Group, I was put into the Code&amp;Craft team, which dealt with digital 
                 experience, including website and mobile application design and development, user experience (UX), user 
                 interface (UI), usability research, search engine optimization (SEO), and e-commerce service. The other interns 
-                and I were tasked with <b>redesigning the Code&Craft website</b> to fulfill the following objectives:
+                and I were tasked with <b>redesigning the Code&amp;Craft website</b> to fulfill the following objectives:
               </p>
               <ul className="inlineblock">
                 <li className="paddingright100">Easy to use</li>
@@ -74,7 +76,7 @@ export default class CnC extends Component {
           <div className="process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             <center>
               <h2>Design Process</h2>
-              <img src="img/cnc/cnc_process.png" alt="Code&Craft Design Process"/>
+              <img src="img/cnc/cnc_process.png" alt="Code&amp;Craft Design Process"/>
             </center>
           </div>
 
@@ -83,11 +85,11 @@ export default class CnC extends Component {
               <h2>Problem Statement</h2>
             </center>
             <p className="padding-center">
-              Code&Craft is a digital experience agency that assists its clients to provide the best for their business. 
+              Code&amp;Craft is a digital experience agency that assists its clients to provide the best for their business. 
               With its goal to create seamless digital assets experience and effective performance using strategy, 
               design principle and cutting-edge technology, its <b>website is the main entrance</b>. To <b>redesign</b> the website is 
-              the task we needed to accomplish to help Code&Craft <b>gain new clients as well as ensure its current clients 
-              to stay</b>. As there are other digital experience companies outside, we need to make Code&Craft <b>outstanding</b> and 
+              the task we needed to accomplish to help Code&amp;Craft <b>gain new clients as well as ensure its current clients 
+              to stay</b>. As there are other digital experience companies outside, we need to make Code&amp;Craft <b>outstanding</b> and 
               have triumphed over the competitors.
             </p>
           </div>
@@ -136,7 +138,7 @@ export default class CnC extends Component {
                     the media to the moon.
                   </li>
                   <li>
-                    The <b>colors</b> used on the website were from Code&Craft’s <b>corporate identity</b>, with the primary color being 
+                    The <b>colors</b> used on the website were from Code&amp;Craft’s <b>corporate identity</b>, with the primary color being 
                     dodger blue and secondary colors being black and white.
                   </li>
                   <li><b>Simplicity</b> was the key element.</li>
@@ -163,18 +165,18 @@ export default class CnC extends Component {
               <h3>Sketch</h3>
               <center>
                 <div className="inline sketch">
-                  <img src="img/cnc/sketch1-1.png" alt-="Code&Craft Sketch"/>
-                  <img src="img/cnc/sketch1-2.png" alt-="Code&Craft Sketch"/>
-                  <img src="img/cnc/sketch1-3.png" alt-="Code&Craft Sketch"/>
+                  <img src="img/cnc/sketch1-1.png" alt-="Code&amp;Craft Sketch"/>
+                  <img src="img/cnc/sketch1-2.png" alt-="Code&amp;Craft Sketch"/>
+                  <img src="img/cnc/sketch1-3.png" alt-="Code&amp;Craft Sketch"/>
                 </div>
               </center>
             </div>
             
             <p className="paddingtop50">
-              As I had a chance to interview the designer who designed the current version of Code&Craft website, 
+              As I had a chance to interview the designer who designed the current version of Code&amp;Craft website, 
               I saw that the idea of astronaut and the space were interesting, Therefore, I decided to play with it. 
               Instead of being only an astronaut, the new design I sketched had a concept of <b>Space Travel</b>, which each 
-              team portrayed as a different machine to bring Code&Craft to the moon.
+              team portrayed as a different machine to bring Code&amp;Craft to the moon.
             </p>
           </div>
 
@@ -182,10 +184,10 @@ export default class CnC extends Component {
             <h3>Prototype 1</h3>
             <div className="web-box">
               <div className="wireframe">
-                <img src="img/cnc/wireframe1.jpg" alt="Code&Craft 1st prototype"/>
+                <img src="img/cnc/wireframe1.jpg" alt="Code&amp;Craft 1st prototype"/>
               </div>
               <div className="scroll-box sb1">
-                <img src="img/cnc/wireframe1.jpg" alt="Code&Craft 1st prototype"/>
+                <img src="img/cnc/wireframe1.jpg" alt="Code&amp;Craft 1st prototype"/>
               </div>
             </div>
           </div>          
@@ -213,10 +215,10 @@ export default class CnC extends Component {
             <h3>Prototype 2</h3>
             <div className="web-box">
               <div className="wireframe">
-                <img src="img/cnc/wireframe2.jpg" alt="Code&Craft 2nd prototype"/>
+                <img src="img/cnc/wireframe2.jpg" alt="Code&amp;Craft 2nd prototype"/>
               </div>
               <div className="scroll-box sb2">
-                <img src="img/cnc/wireframe2.jpg" alt="Code&Craft 2nd prototype"/>
+                <img src="img/cnc/wireframe2.jpg" alt="Code&amp;Craft 2nd prototype"/>
               </div>
             </div>
           </div>
@@ -235,10 +237,10 @@ export default class CnC extends Component {
             <h3>Prototype 3</h3>
             <div className="web-box">
               <div className="wireframe">
-                <img src="img/cnc/wireframe3.jpg" alt="Code&Craft 3rd prototype"/>
+                <img src="img/cnc/wireframe3.jpg" alt="Code&amp;Craft 3rd prototype"/>
               </div>
               <div className="scroll-box sb3">
-                <img src="img/cnc/wireframe3.jpg" alt="Code&Craft 3rd prototype"/>
+                <img src="img/cnc/wireframe3.jpg" alt="Code&amp;Craft 3rd prototype"/>
               </div>
             </div>
           </div>
@@ -257,9 +259,9 @@ export default class CnC extends Component {
             <h3>Brand Guidelines</h3>
             <center>
               <div className="solution-intro paddingtop50">
-                <img src="img/cnc/moodboard.jpg" alt="Code&Craft Moodboard" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
-                <img src="img/cnc/photography.jpg" alt="Code&Craft Photography Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
-                <img src="img/cnc/font.jpg" alt="Code&Craft Font Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
+                <img src="img/cnc/moodboard.jpg" alt="Code&amp;Craft Moodboard" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
+                <img src="img/cnc/photography.jpg" alt="Code&amp;Craft Photography Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
+                <img src="img/cnc/font.jpg" alt="Code&amp;Craft Font Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
               </div>
             </center>
             
@@ -267,10 +269,10 @@ export default class CnC extends Component {
               <h2>Final Solution</h2>
               <div className="web-box paddingtop50">
                 <div className="wireframe">
-                  <img src="img/cnc/wireframe4.jpg" alt="Code&Craft 4th prototype"/>
+                  <img src="img/cnc/wireframe4.jpg" alt="Code&amp;Craft 4th prototype"/>
                 </div>
                 <div className="scroll-box sb4">
-                  <img src="img/cnc/wireframe4.jpg" alt="Code&Craft 4th prototype"/>
+                  <img src="img/cnc/wireframe4.jpg" alt="Code&amp;Craft 4th prototype"/>
                 </div>
               </div>
 
@@ -319,7 +321,14 @@ export default class CnC extends Component {
                 for my new design, and I can see in the end that I have grown and learned a lot from them.
               </p>
             </div>
+          </div>
 
+          <div className="other-project">
+            <div className="col-left">
+              <Link to = "/scansit">
+                <p>Previous &lt; Project ScansIt</p>
+              </Link>
+            </div>
           </div>
 
         </div>

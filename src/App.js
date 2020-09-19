@@ -11,6 +11,11 @@ import classNames from "classnames";
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 // App
 
 export default class App extends Component {
@@ -20,12 +25,12 @@ export default class App extends Component {
         <Cursor />
         <Navbar />
         <body>
-          <div className="Greeting">
+          <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             Hi, I'm Ploy Pruekcharoen
           </div>
-          <Link to = "/ScansIt">
+          <Link to = "/scansit">
             <div className="project">
-              <div className="description">
+              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                 <h1>Project ScansIt</h1>
                 <p>
                   A mobile application for better experiences of riding the Link Light Rail, including a
@@ -37,9 +42,29 @@ export default class App extends Component {
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Figma</div>
               </div>
-              <div className="image">        
+              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">        
                 <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
               </div>
+            </div>
+          </Link>
+
+          <Link to = "/cnc">
+            <div className="project2">
+              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">        
+                <img src="img/cnc/cnc_home.png" alt="Code&amp;Craft"/>
+              </div>
+              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <h1>Code&amp;Craft Website Redesign Project</h1>
+                <p>
+                The new design of Thailand's growing digital product developer company — Code&amp;Craft.
+                Introduce to you the more creative, functional and promising site to learn more about Code&amp;Craft's
+                all-rounded services with its vision to combine technology, art and humanity.
+                </p>
+                <div className="period">UX/UI Design</div>
+                <div className="tool">Adobe Photoshop</div>
+                <div className="tool">Adobe XD</div>
+              </div>
+              
             </div>
           </Link>
         </body>

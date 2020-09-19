@@ -2,6 +2,47 @@ import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
 import classNames from "classnames";
+import Gallery from "react-photo-gallery";
+
+const photos = [
+  {
+    src: 'img/gallery/draw/1.png',
+  },
+  {
+    src: 'img/gallery/draw/2.png',
+  },
+  {
+    src: 'img/gallery/draw/3.png',
+  },
+  {
+    src: 'img/gallery/draw/4.png',
+  },
+  {
+    src: 'img/gallery/draw/5.png',
+  },
+  {
+    src: 'img/gallery/draw/6.png',
+  },
+  {
+    src: 'img/gallery/snap/1.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/2.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/3.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/4.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/5.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/6.jpeg',
+  },
+
+];
 
 export default class SnapAndDraw extends Component {
   render() {
@@ -9,14 +50,26 @@ export default class SnapAndDraw extends Component {
         <div className="SnapAndDraw">
           <Cursor />
           <Navbar />
-          <div>
-            <img src=""/>
+          <div className="gallery paddingtop100">
+            <div className="photo">
+            <Gallery photos={photos} />
+            </div>
           </div>
+          {/* <div className="inline">
+            <div><img src="img/gallery/snap/1.jpeg"/></div>
+            <div><img src="img/gallery/snap/2.jpeg"/></div>
+            <div><img src="img/gallery/snap/3.jpeg"/></div>
+            <div><img src="img/gallery/snap/4.jpeg"/></div>
+            <div><img src="img/gallery/snap/5.jpeg"/></div>
+            <div><img src="img/gallery/snap/6.jpeg"/></div>
+          </div> */}
           <Footnote/>
         </div>
     );
   }
 }
+
+
 
 // Cursor
 
