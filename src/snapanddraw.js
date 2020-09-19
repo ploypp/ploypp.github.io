@@ -24,6 +24,12 @@ const photos = [
     src: 'img/gallery/draw/6.png',
   },
   {
+    src: 'img/gallery/draw/7.png',
+  },
+  {
+    src: 'img/gallery/draw/8.png',
+  },
+  {
     src: 'img/gallery/snap/1.jpeg',
   },
   {
@@ -33,13 +39,19 @@ const photos = [
     src: 'img/gallery/snap/3.jpeg',
   },
   {
+    src: 'img/gallery/snap/6.jpeg',
+  },
+  {
     src: 'img/gallery/snap/4.jpeg',
+  },
+  {
+    src: 'img/gallery/snap/8.jpeg',
   },
   {
     src: 'img/gallery/snap/5.jpeg',
   },
   {
-    src: 'img/gallery/snap/6.jpeg',
+    src: 'img/gallery/snap/7.jpeg',
   },
 
 ];
