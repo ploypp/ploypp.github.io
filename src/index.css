@@ -93,9 +93,24 @@ a {
 }
 
 .Greeting {
-  padding: 100px 100px 400px 100px;
+  /* padding: 70px 100px 50px 100px; */
+  padding: 180px 100px 0px 100px;
   font-size: 70px;
   text-align: center;
+}
+
+.subhead {
+  font-family: 'Red Rose', sans-serif;
+  font-size: 20px;
+  padding: 30px 0 300px 150px;
+}
+
+#wording {
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid;
+  /* position: fixed; */
 }
 
 /* Burger */

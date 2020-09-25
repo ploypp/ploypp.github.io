@@ -10,6 +10,7 @@ import classNames from "classnames";
 // import _ from 'lodash';
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
+import $ from "jquery";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,6 +21,24 @@ AOS.init();
 
 export default class App extends Component {
   render() {
+
+    // $(document).ready(function () {
+
+    //   $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 300 && $(this).scrollTop() < 600) {
+    //       $('#wording').html('STUDY .');
+    //       $('.Greeting').css("position", "fixed");
+    //       $('.subhead').css("position", "fixed");
+    //       $('#wording').css("position", "fixed");
+    //     } else if ($(this).scrollTop() > 600 && $(this).scrollTop() < 900) { 
+    //       $('#wording').html('SKETCH .');
+
+    //     } else if ($(this).scrollTop() > 900) {
+    //       $('#wording').html('REVIEW .');
+    //     } 
+    //   });
+    // });
+    
     return (
       <div className="App">
         <Cursor />
@@ -28,6 +47,13 @@ export default class App extends Component {
           <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
             Hi, I'm Ploy Pruekcharoen
           </div>
+          <div className="subhead" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            For every design I create, I
+            <span id="wording">
+              STUDY, SKETCH and REVIEW.
+            </span>
+          </div>
+          
           <Link to = "/scansit">
             <div className="project">
               <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
