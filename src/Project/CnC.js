@@ -190,7 +190,16 @@ export default class CnC extends Component {
                 <img src="img/cnc/wireframe1.jpg" alt="Code&amp;Craft 1st prototype"/>
               </div>
             </div>
-          </div>          
+            <p className="paddingtop50">
+              When I designed this first prototype, I chose to maintain a lot of features and the functionality that 
+              Code&amp;Craft currently had in their website and select the primary font to mimic the coding font to 
+              display main services of the company. I changed the design from single-paged to multi-paged by adding 
+              <i>About Us</i> and <i>Contact</i>, but since we had limited time to work on this project, we were expected 
+              to finish only the homepage. For the visualization, I mainly used line stroke icons to represent the services 
+              Code&amp;Craft provides.
+            </p>
+          </div> 
+
 
           {/* <center>
             <div className="wireframe paddingtop100">
@@ -201,14 +210,23 @@ export default class CnC extends Component {
             </div>
           </center> */}
 
-          <div className="iteration" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h3>Iteration 1</h3>
-            <b>Comments</b>
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <center>
+              <h3>Iteration 1</h3>
+            </center>
+            <p>
+            After doing usability testing and review with the team and some of Code&amp;Craft employees, 
+            we got the feedback as following:
+            </p>
             <ul>
               <li>Still over scrolling.</li>
               <li>Not so interesting UI.</li>
               <li>How does it differ from the current version?</li>
             </ul>
+            <p>
+              I then brainstormed with the team and began to work on the second prototype, in which we added 
+              more functions to the website.
+            </p>
           </div>
           
           <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -221,16 +239,36 @@ export default class CnC extends Component {
                 <img src="img/cnc/wireframe2.jpg" alt="Code&amp;Craft 2nd prototype"/>
               </div>
             </div>
+            <p className="paddingtop50">
+              As I worked on this second prototype, I added more pages for each section, including <i>Services, Works, Blog, About Us</i>
+              <i>, and Contact</i> as well as provided an option to change language since 
+              the main clients are Thai companies that have their goal to grow the business beyond borders. I also changed 
+              the services section on the homepage to show just one of all services at a time to solve an over-scrolling issue.
+            </p>
           </div>
 
-          <div className="iteration" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h3>Iteration 2</h3>
-            <b>Comments</b>
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <center>
+              <h3>Iteration 2</h3>
+            </center>
+            <p>
+              As same as for the first prototype, we also did usability testing and reviewed. We then got more feedback as following:
+            </p>
             <ul>
               <li>Does not have a lot of changes.</li>
               <li>Why choose line stroke icons?</li>
               <li>The secondary color looks more outstanding than the primary one.</li>
             </ul>
+            <p>
+              After getting feedback, I deeply thought about the usability and the visual attraction of the prototype once 
+              again, and I decided to redesign all of it.
+            </p>
+            <p>
+              One primary reason was that I did more competitive analysis of the other companies that had done similar job 
+              as Code&amp;Craft. I found that most of their websites contained simple graphics with a clean template. I 
+              consulted with the team, and we agreed to start designing again from the beginning with more research. Therefore, 
+              we had our third prototype being totally different from the previous one.
+            </p>
           </div>
 
           <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -243,16 +281,29 @@ export default class CnC extends Component {
                 <img src="img/cnc/wireframe3.jpg" alt="Code&amp;Craft 3rd prototype"/>
               </div>
             </div>
+            <p className="paddingtop50">
+              I had an idea about using circles as the main theme when I looked at the objectivity of the company to combine 
+              technology, art and humanity within every digital product created. Since Code&amp;Craft describes itself as a 
+              digital experience agency that provides all-rounded services, circles could be used as a visual element to 
+              illustrate that. I also included messages along the page to interact with users and make them feel engaged.
+            </p>
           </div>
 
-          <div className="iteration" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h3>Iteration 3</h3>
-            <b>Comments</b>
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <center>
+              <h3>Iteration 3</h3>
+            </center>
+            <p>Feedback we got from usability testing and reviewed for our third prototype includes:</p>
             <ul>
               <li>Better UI.</li>
               <li>Customers only see one service.</li>
               <li>Why change the old concept to this concept?</li>
             </ul>
+            <p>
+              Before the pitching day, I collaborated with the team and fixed the last design to solve problems we received 
+              from our users. We reviewed the initial objectives and decided to remove <i>Blog</i> section as it did not highly 
+              fulfill our main goal.
+            </p>
           </div>
 
           <div className="solution" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -275,13 +326,11 @@ export default class CnC extends Component {
                   <img src="img/cnc/wireframe4.jpg" alt="Code&amp;Craft 4th prototype"/>
                 </div>
               </div>
-
-              {/* <p className="paddingtop50">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p> */}
+              <p className="paddingtop50">
+                Then it came to the final solution. My idea was to follow the animated circle throughout the site. 
+                I also redesigned <i>Services</i> as when users scroll down, the small circle will move around the 
+                bigger one and completely guide Code&amp;Craft clients to meet all services we have.
+              </p>
             </div>
 
           </div>
@@ -292,11 +341,12 @@ export default class CnC extends Component {
             </center>
             <p>
               The presentation went well and there were some comments we could bring to evaluate to improve our web, 
-              such as a back-to-top button, <b>considering more on competitive analysis</b>; as well as improve on our presentation 
-              such as <b>adding the old concept and led to why we changed it to the new concept</b>. Due to the limited time, 
-              we only finished the landing page of the desktop version. However, we would like to <b>develop the other pages </b>
-              including Services, Works, About Us, and Contact; on which we already brainstormed some ideas. Moreover, to 
-              enhance the accessibility, we would like to work on the <b>mobile version</b> of the website as well.
+              such as a back-to-top button, <b>considering even more on competitive analysis</b>; as well as improve on our 
+              presentation such as adding the old concept and led to why we changed it to the new concept. Due to the 
+              limited time, we only finished the landing page of the desktop version. However, we would like to <b>develop 
+              the other pages</b> including Services, Works, About Us, and Contact; on which we already brainstormed some ideas, 
+              as well as conduct an <b>interactive prototype</b> with animation that can clearly demonstrate our idea. Moreover, 
+              to enhance the <b>accessibility</b>, we would like to work on the <b>mobile version</b> of the website as well.
             </p>
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
