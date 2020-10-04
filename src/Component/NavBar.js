@@ -25,17 +25,15 @@ export default class Navbar extends Component {
               Pp
           </Link>
         </div>
-        <div className="Hamburger">
-          <Popup
-            modal
-            overlayStyle={{ background: "rgba(0,0,0,1" }}
-            contentStyle={contentStyle}
-            closeOnDocumentClick={false}
-            trigger={open => <Burger open={open} />}
-          >
-            {close => <Menu close={close} />}
-          </Popup>
-        </div>
+        <Popup
+          modal
+          overlayStyle={{ background: "rgba(0,0,0,1" }}
+          contentStyle={contentStyle}
+          closeOnDocumentClick={false}
+          trigger={open => <Burger open={open} />}
+        >
+          {close => <Menu close={close} />}
+        </Popup>
       </nav>
       );
     }

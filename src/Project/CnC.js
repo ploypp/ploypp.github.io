@@ -16,7 +16,7 @@ export default class CnC extends Component {
         <Cursor />
         <Navbar />
         <div className="project-content">
-          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h1>Code&amp;Craft Website Redesign Project</h1>
             <p>
               The new design of Thailand's growing digital product developer company — Code&Craft.
@@ -44,7 +44,7 @@ export default class CnC extends Component {
             <img src="img/cnc/vision.png" alt="Code&amp;Craft's Vision" className="main-image"></img>
           </center>
 
-          <div className="introduce twocolumns" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="introduce twocolumns" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <div className="background">
               <h2>Background</h2>
               <p>
@@ -73,14 +73,14 @@ export default class CnC extends Component {
             </div>
           </div>
 
-          <div className="process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h2>Design Process</h2>
               <img src="img/cnc/cnc_process.png" alt="Code&amp;Craft Design Process"/>
             </center>
           </div>
 
-          <div className="problem" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="problem" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h2>Problem Statement</h2>
             </center>
@@ -94,7 +94,7 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div className="research" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="research" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <div>
               <h2>Research</h2>
               {/* <img src="" alt="ScansIt Brainstorm"/> */}
@@ -106,31 +106,31 @@ export default class CnC extends Component {
 
               <p className="paddingtop50">Here are the problems I found.</p>
               <ol className="web-analyze">
-                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <li className="paddingtop50"><b>Single-paged</b></li>
                   <img src="img/cnc/cnc1.png" alt=""/>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <li className="paddingtop50"><b>No details for works</b></li>
                   <img src="img/cnc/cnc2.png" alt=""/>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <li className="paddingtop50"><b>No information in "About us"</b></li>
                   <img src="img/cnc/cnc3.png" alt=""/>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <li className="paddingtop50"><b>Not so functional map and contact information</b></li>
                   <img src="img/cnc/cnc4.png" alt=""/>
                 </div>
               </ol>
 
-              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
 
                 <center>
                   <p className="paddingtop200">From the <b>interview</b>, I discovered initial ideas from the designer.</p>
                 </center>
 
-                <ol className="padding-center">
+                <ol className="ordered-center padding-center">
                   <li>
                     The idea of <b>astronaut</b> was used as it related to the identity of Rabbit Digital Group. For clarification, 
                     Rabbit Digital Group was originally built from the company called Rabbit’s Tale, which served the creative 
@@ -149,7 +149,7 @@ export default class CnC extends Component {
             </div>
           </div>
 
-          <div className="ideation" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="ideation" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h2>Ideation</h2>
             
             <center className="storyboard">
@@ -161,7 +161,7 @@ export default class CnC extends Component {
 
             {/* <h3>Information Architecture</h3> */}
 
-            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h3>Sketch</h3>
               <center>
                 <div className="inline sketch">
@@ -180,7 +180,7 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h3>Prototype 1</h3>
             <div className="web-box">
               <div className="wireframe">
@@ -210,7 +210,7 @@ export default class CnC extends Component {
             </div>
           </center> */}
 
-          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h3>Iteration 1</h3>
             </center>
@@ -229,7 +229,7 @@ export default class CnC extends Component {
             </p>
           </div>
           
-          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h3>Prototype 2</h3>
             <div className="web-box">
               <div className="wireframe">
@@ -247,7 +247,7 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h3>Iteration 2</h3>
             </center>
@@ -271,7 +271,7 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h3>Prototype 3</h3>
             <div className="web-box">
               <div className="wireframe">
@@ -289,7 +289,7 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="iteration padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h3>Iteration 3</h3>
             </center>
@@ -306,17 +306,17 @@ export default class CnC extends Component {
             </p>
           </div>
 
-          <div className="solution" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="solution" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h3>Brand Guidelines</h3>
             <center>
               <div className="solution-intro paddingtop50">
-                <img src="img/cnc/moodboard.jpg" alt="Code&amp;Craft Moodboard" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
-                <img src="img/cnc/photography.jpg" alt="Code&amp;Craft Photography Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
-                <img src="img/cnc/font.jpg" alt="Code&amp;Craft Font Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"/>
+                <img src="img/cnc/moodboard.jpg" alt="Code&amp;Craft Moodboard" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true"/>
+                <img src="img/cnc/photography.jpg" alt="Code&amp;Craft Photography Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true"/>
+                <img src="img/cnc/font.jpg" alt="Code&amp;Craft Font Guide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true"/>
               </div>
             </center>
             
-            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h2>Final Solution</h2>
               <div className="web-box paddingtop50">
                 <div className="wireframe">
@@ -335,7 +335,7 @@ export default class CnC extends Component {
 
           </div>
 
-          <div className="next padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="next padding-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <center>
               <h2>Next Steps</h2>
             </center>
@@ -349,7 +349,7 @@ export default class CnC extends Component {
               to enhance the <b>accessibility</b>, we would like to work on the <b>mobile version</b> of the website as well.
             </p>
 
-            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <center>
                 <h2>Lessons Learned</h2>
               </center>

@@ -14,7 +14,7 @@ export default class About extends Component {
           <Cursor />
           <Navbar />
           <div className="project-content">
-            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h1>Hello, nice to meet you! </h1>
               <div className="container">
                 <div className="image">
@@ -38,7 +38,7 @@ export default class About extends Component {
                 </div>
               </div>
             
-              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <p className="paddingtop50">If you want to know me a little more, here are some bits of my life.</p>
                 <ul>
                   <li>

@@ -13,6 +13,7 @@
   font-variant-ligatures: none;
   /* background-color: #f7f5f1; */
   background-color: #ffffff;
+  /* overflow-x: hidden; */
 }
 
 /* html, body {
@@ -20,7 +21,7 @@
 } */
 
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: 'Red Rose', sans-serif;
   font-size: 20px;
   /* background-color: #f4f1e7; */
@@ -65,14 +66,14 @@ footer address .copyright {
 }
 
 .Navbar {
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0 50px 0;
   /* padding-left: 80px; */
   display: flex;
   /* display: grid;
   grid-template-columns: 50% 50%; */
   justify-content: space-between;
   align-items: center;
-  margin-left: 0.5em;
+  /* margin-left: 0.5em; */
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -102,7 +103,7 @@ a {
 .subhead {
   font-family: 'Red Rose', sans-serif;
   font-size: 20px;
-  padding: 30px 0 300px 150px;
+  padding: 30px 0 450px 150px;
 }
 
 #wording {
@@ -120,7 +121,7 @@ a {
   display: inline-block;
   cursor: pointer;
   position: relative;
-  right: 20px;
+  /* right: 20px; */
   /* bottom: 40px; */
   z-index: 9999;
   /* background: #fff; */
@@ -253,7 +254,7 @@ a {
 }
 
 .About .container .text {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .About p, .About .text li, .About i {
@@ -262,7 +263,7 @@ a {
   /* font-weight: normal; */
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  
+
 }
 
 .About li {
@@ -307,4 +308,321 @@ a {
 
 .gallery div img:hover {
   transform: scale(1.5);
+}
+
+/* mobile-friendly */
+
+@media (min-width: 280px) and (max-width: 425px)
+{
+  body, .About .project-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+  
+  p, ul, li, i {
+    font-size: 16px;
+  }
+
+  ol {
+    padding-inline-start: 20px;
+  }
+
+  .inlineblock {
+    display: block;
+  }
+
+  .Navbar {
+    background-color: #ffffff;
+    padding: 40px 0 20px 0;
+  }
+
+  .Greeting {
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 35px;
+  }
+
+  .subhead {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 300px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  #wording {
+    border: 0;
+    font-weight: bolder;
+  }
+
+  /* Project */
+
+  .project, .project2, .About .container {
+    display: grid;
+    grid-template-columns: 100%;
+    /* margin-bottom: 200px; */
+  }
+
+  .project .image,
+  .project2 .image {
+    max-height: 400px;
+    overflow: hidden;
+    text-indent: -80px;
+  }
+
+  .project .image img,
+  .project2 .image img {
+    padding: 40px 0 0 0;
+    height: auto;
+    width: auto;
+    margin-top: -170px;
+  }
+
+  .project .description,
+  .project2 .description {
+    padding-top: 20px;
+  }
+
+  .tool, .period {
+    margin-bottom: 8px;
+  }
+
+  .description h1 {
+    padding-top: 30px;
+  }
+
+  /* Cursor */
+
+  .cursor {
+    border: 0;
+  }
+
+  /* About */
+
+  .About .container .image img {
+    max-width: 250px;
+  }
+
+  .Menu li, .Menu li a {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px)
+{
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Greeting {
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 38px;
+  }
+
+  .project .image,
+  .project2 .image {
+    max-height: 400px;
+    overflow: hidden;
+    text-indent: -50px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 426px)
+{
+
+  .Greeting {
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 46px;
+  }
+
+  .project .image,
+  .project2 .image {
+    max-height: 400px;
+    overflow: hidden;
+    text-indent: -40px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px)
+{
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Navbar {
+    background-color: #ffffff;
+  }
+
+  .subhead {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* Project */
+
+  .project .image img,
+  .project2 .image img {
+    max-width: 330px;
+  }
+
+  .project .description,
+  .project2 .description {
+    padding-top: 30px;
+  }
+
+  .tool, .period {
+    margin-bottom: 8px;
+  }
+
+  /* Cursor */
+
+  .cursor {
+    border: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1148px)
+{
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Navbar {
+    background-color: #ffffff;
+  }
+
+  .subhead {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* Project */
+
+  .project .image img,
+  .project2 .image img {
+    max-width: 330px;
+  }
+
+  .project .description,
+  .project2 .description {
+    padding-top: 30px;
+  }
+
+  .tool, .period {
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 732px)
+{
+  h1 {
+    font-size: 22px;
+  }
+  
+  p, ul, li, i {
+    font-size: 16px;
+  }
+
+  .Navbar {
+    background-color: #ffffff;
+    padding: 40px 0 20px 0;
+  }
+
+  .Greeting {
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 35px;
+  }
+
+  .subhead {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 300px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  #wording {
+    border: 0;
+    font-weight: bolder;
+  }
+
+  /* Project */
+
+  .project, .project2 {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 200px;
+  }
+
+  .project .image,
+  .project2 .image {
+    max-height: 400px;
+    overflow: hidden;
+    text-indent: -80px;
+  }
+
+  .project .image img,
+  .project2 .image img {
+    padding: 40px 0 0 0;
+    height: auto;
+    width: auto;
+    margin-top: -100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .project .description,
+  .project2 .description {
+    padding-top: 20px;
+  }
+
+  .tool, .period {
+    margin-bottom: 8px;
+  }
+
+  .description h1 {
+    padding-top: 30px;
+  }
+
+  footer address .copyright {
+    padding-top: 0;
+  }
+
+  /* Cursor */
+
+  .cursor {
+    border: 0;
+  }
+}
+
+@media (max-width: 974px)
+{
+  .About .container {
+    display: grid;
+    grid-template-columns: 100%;
+    /* margin-bottom: 200px; */
+  }
+}
+
+@media (max-width: 1334px)
+{
+  .About .me {
+    max-width: 350px;
+  }
 }

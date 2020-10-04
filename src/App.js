@@ -44,10 +44,10 @@ export default class App extends Component {
         <Cursor />
         <Navbar />
         <body>
-          <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             Hi, I'm Ploy Pruekcharoen
           </div>
-          <div className="subhead" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="subhead" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             For every design I create, I
             <span id="wording">
               STUDY, SKETCH and REVIEW.
@@ -55,8 +55,11 @@ export default class App extends Component {
           </div>
           
           <Link to = "/scansit">
-            <div className="project">
-              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div className="project2">
+              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">     
+                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
+              </div>
+              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h1>Project ScansIt</h1>
                 <p>
                   A mobile application for better experiences of riding the Link Light Rail, including a
@@ -68,18 +71,15 @@ export default class App extends Component {
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Figma</div>
               </div>
-              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">        
-                <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
-              </div>
             </div>
           </Link>
 
           <Link to = "/cnc">
             <div className="project2">
-              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">        
+              <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">        
                 <img src="img/cnc/cnc_home.png" alt="Code&amp;Craft"/>
               </div>
-              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h1>Code&amp;Craft Website Redesign Project</h1>
                 <p>
                 The new design of Thailand's growing digital product developer company — Code&amp;Craft.
@@ -90,7 +90,6 @@ export default class App extends Component {
                 <div className="tool">Adobe Photoshop</div>
                 <div className="tool">Adobe XD</div>
               </div>
-              
             </div>
           </Link>
         </body>

@@ -49,6 +49,7 @@ b {
   width: 100vw;
   position: relative;
   left: -160px;
+  margin-left: -8px;
 }
 
 .introduce .contribution {
@@ -332,4 +333,125 @@ b {
 
 .col-left {
   text-align: left;
+}
+
+/* mobile-friendly */
+
+@media (min-width: 280px) and (max-width: 425px)
+{
+  /* body {
+    overflow-x: hidden;
+  } */
+
+  .ScansIt h2,
+  .CnC h2 {
+    padding-top: 50px;
+  }
+
+  .ScansIt b,
+  .CnC b {
+    font-size: 16px;
+  }
+
+  .project-content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .twocolumns,
+  .columns45-55,
+  .columns40-60 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .column2,
+  .initiatives,
+  .epics {
+    padding-left: 0px;
+  }
+
+  .main-image {
+    left: 0;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 49% 13%;
+  }
+
+  .introduce .contribution {
+    padding-left: 0px;
+  }
+
+  .process img,
+  .UserResearch img,
+  .ideation img,
+  .solution img {
+    max-width: 280px;
+  }
+
+  .padding-center {
+    padding: 0;
+  }
+
+  .inlineblock {
+    display: block;
+  }
+
+  /* Cursor */
+
+  .cursor {
+    border: 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px)
+{
+  .project-content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .column2,
+  .initiatives,
+  .epics {
+    padding-left: 0px;
+  }
+
+  .main-image {
+    max-width: 90vw;
+    left: 0;
+  }
+
+  .introduce .contribution {
+    padding-left: 0px;
+  }
+
+  .process img,
+  .UserResearch img,
+  .ideation img,
+  .solution img {
+    max-width: 90vw;
+  }
+
+  .padding-center {
+    padding: 0;
+  }
+
+  .inlineblock {
+    display: block;
+  }
+
+  .UserResearch .twocolumns,
+  .UserResearch .columns45-55,
+  .UserResearch .columns40-60 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  /* Cursor */
+
+  .cursor {
+    border: 0;
+  }
 }

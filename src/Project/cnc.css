@@ -91,3 +91,48 @@ input[type=checkbox]:checked ~ label > img {
   max-width: 800px;
   padding: 0 0 100px 0;
 }
+
+/* mobile-friendly */
+
+@media (min-width: 280px) and (max-width: 425px)
+{
+  .solution-intro img {
+    max-width: 280px;
+  }
+
+  .web-analyze img {
+    max-width: 270px;
+  }
+
+  .CnC .storyboard img,
+  .CnC .sketch img {
+    min-height: auto;
+  }
+
+  .ordered-center {
+    padding-left: 20px;
+  }
+
+  .wireframe {
+    display: none;
+  }
+
+  .scroll-box {
+    width: 88vw;
+  }
+
+  .scroll-box img {
+    width: 88vw;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px)
+{
+  .ordered-center {
+    padding-left: 20px;
+  }
+
+  .solution-intro img {
+    max-width: 90vw;
+  }
+}

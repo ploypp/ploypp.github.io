@@ -16,7 +16,7 @@ export default class ScansIt extends Component {
         <Cursor />
         <Navbar />
         <div className="project-content">
-          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
             <h1>Project ScansIt</h1>
             <p>
               A mobile application for a better experience of riding the Link Light Rail, including a
