@@ -64,7 +64,7 @@ export default class SnapAndDraw extends Component {
           <Navbar />
           <div className="gallery paddingtop100">
             <div className="photo">
-            <Gallery photos={photos} />
+              <Gallery photos={photos} />
             </div>
           </div>
           {/* <div className="inline">

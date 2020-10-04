@@ -519,7 +519,8 @@ a {
 
   .SnapAndDraw img {
     max-width: 350px;
-    max-height: auto;
+    height: auto;
+    max-height: none;
   }
 
   .gallery {
