@@ -420,11 +420,15 @@ a {
 
   .SnapAndDraw img {
     max-width: 280px;
-    max-height: auto;
+    height: auto;
   }
 
   .gallery {
     margin: 0;
+  }
+
+  .gallery div img:hover {
+    transform: scale(1);
   }
 }
 
@@ -519,6 +523,10 @@ a {
 
   .gallery {
     margin: 0;
+  }
+
+  .gallery div img:hover {
+    transform: scale(1);
   }
 }
 
