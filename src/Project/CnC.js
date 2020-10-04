@@ -193,8 +193,8 @@ export default class CnC extends Component {
             <p className="paddingtop50">
               When I designed this first prototype, I chose to maintain a lot of features and the functionality that 
               Code&amp;Craft currently had in their website and select the primary font to mimic the coding font to 
-              display main services of the company. I changed the design from single-paged to multi-paged by adding 
-              <i>About Us</i> and <i>Contact</i>, but since we had limited time to work on this project, we were expected 
+              display main services of the company. I changed the design from single-paged to multi-paged by adding
+              <i> About Us</i> and <i>Contact</i>, but since we had limited time to work on this project, we were expected 
               to finish only the homepage. For the visualization, I mainly used line stroke icons to represent the services 
               Code&amp;Craft provides.
             </p>
