@@ -419,7 +419,7 @@ a {
   /* Snap and draw */
 
   .SnapAndDraw img {
-    max-width: 280px;
+    max-width: 120%;
     height: auto;
     max-height: none;
   }
@@ -516,16 +516,6 @@ a {
   }
 
   /* Snap and draw */
-
-  .SnapAndDraw img {
-    max-width: 350px;
-    height: auto;
-    max-height: none;
-  }
-
-  .gallery {
-    margin: 0;
-  }
 
   .gallery div img:hover {
     transform: scale(1);
