@@ -402,6 +402,10 @@ a {
     border: 0;
   }
 
+  .cursor--clicked {
+    background-color: transparent;
+  }
+
   /* About */
 
   .About .container .image img {
@@ -410,6 +414,17 @@ a {
 
   .Menu li, .Menu li a {
     font-size: 45px;
+  }
+
+  /* Snap and draw */
+
+  .SnapAndDraw img {
+    max-width: 280px;
+    max-height: auto;
+  }
+
+  .gallery {
+    margin: 0;
   }
 }
 
@@ -432,6 +447,17 @@ a {
     max-height: 400px;
     overflow: hidden;
     text-indent: -50px;
+  }
+
+  /* Snap and draw */
+
+  .SnapAndDraw img {
+    max-width: 380px;
+    max-height: auto;
+  }
+
+  .gallery {
+    margin: 0;
   }
 }
 
@@ -489,6 +515,21 @@ a {
 
   .cursor {
     border: 0;
+  }
+
+  .cursor--clicked {
+    background-color: transparent;
+  }
+
+  /* Snap and draw */
+
+  .SnapAndDraw img {
+    max-width: 350px;
+    max-height: auto;
+  }
+
+  .gallery {
+    margin: 0;
   }
 }
 
@@ -608,6 +649,10 @@ a {
 
   .cursor {
     border: 0;
+  }
+
+  .cursor--clicked {
+    background-color: transparent;
   }
 }
 

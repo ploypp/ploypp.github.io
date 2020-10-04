@@ -35,7 +35,7 @@ b {
   /* font-weight: bold; */
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  
+
 }
 
 .ScansIt h3 {
@@ -400,9 +400,13 @@ b {
 
   /* Cursor */
 
-  .cursor {
+  /* .cursor {
     border: 0;
   }
+
+  .cursor--clicked {
+    background-color: transparent;
+  } */
 }
 
 @media (min-width: 426px) and (max-width: 768px)
@@ -451,7 +455,11 @@ b {
 
   /* Cursor */
 
-  .cursor {
+  /* .cursor {
     border: 0;
   }
+
+  .cursor--clicked {
+    background-color: transparent;
+  } */
 }
