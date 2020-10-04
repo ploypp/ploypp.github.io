@@ -448,17 +448,6 @@ a {
     overflow: hidden;
     text-indent: -50px;
   }
-
-  /* Snap and draw */
-
-  .SnapAndDraw img {
-    max-width: 380px;
-    max-height: auto;
-  }
-
-  .gallery {
-    margin: 0;
-  }
 }
 
 @media (min-width: 375px) and (max-width: 426px)
