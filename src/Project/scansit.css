@@ -386,7 +386,7 @@ b {
   .process img,
   .UserResearch img,
   .ideation img,
-  .solution img {
+  .ScansIt .solution img {
     max-width: 280px;
   }
 
@@ -398,15 +398,9 @@ b {
     display: block;
   }
 
-  /* Cursor */
-
-  /* .cursor {
-    border: 0;
+  .brainstorm {
+    padding-left: 0;
   }
-
-  .cursor--clicked {
-    background-color: transparent;
-  } */
 }
 
 @media (min-width: 426px) and (max-width: 768px)
@@ -453,13 +447,7 @@ b {
     grid-template-columns: 100%;
   }
 
-  /* Cursor */
-
-  /* .cursor {
-    border: 0;
+  .brainstorm {
+    padding-left: 0;
   }
-
-  .cursor--clicked {
-    background-color: transparent;
-  } */
 }
