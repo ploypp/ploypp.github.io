@@ -159,7 +159,10 @@ export default class CnC extends Component {
               </div>
             </center>
 
-            {/* <h3>Information Architecture</h3> */}
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+              <h3>Sitemap</h3>
+                <img src="img/cnc/sitemap.png" alt="ScansIt Information Architecture" className="CnCSitemap"/>
+            </div>
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h3>Sketch</h3>

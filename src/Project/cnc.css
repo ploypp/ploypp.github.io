@@ -37,6 +37,10 @@
   min-height: 400px;
 }
 
+.CnCSitemap {
+  max-height: 500px;
+}
+
 .web-box {
   display: grid;
   grid-template-columns: 15% 85%;
