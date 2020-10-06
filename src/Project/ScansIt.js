@@ -303,8 +303,8 @@ export default class ScansIt extends Component {
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
               <h3>Information Architecture</h3>
-              <a href="">
-                <img src="img/scansit/ScansIt_IA.jpg" alt="ScansIt Information Architecture" className="ScansItSitemap"/>
+              <a href="https://ploypil.in/img/scansit/ScansIt_IA.jpg">
+                <img src="img/scansit/ScansIt_IA.jpg" alt="ScansIt Information Architecture" className="ScansItSitemap " target="_blank"/>
               </a>
             </div>
 
