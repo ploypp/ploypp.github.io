@@ -302,10 +302,10 @@ export default class ScansIt extends Component {
             </div>
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-              <h3>Sitemap</h3>
-              <center>
-                <img src="img/scansit/sitemap_transparent.png" alt="ScansIt Sitemap" className="ScansItSitemap"/>
-              </center>
+              <h3>Information Architecture</h3>
+              <a href="">
+                <img src="img/scansit/ScansIt_IA.jpg" alt="ScansIt Information Architecture" className="ScansItSitemap"/>
+              </a>
             </div>
 
             <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
