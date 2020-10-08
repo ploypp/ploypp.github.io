@@ -86,7 +86,7 @@ b {
 }
 
 .ScansItSitemap {
-  max-height: 500px;
+  max-width: 800px;
   padding: 10px 0 10px 0;
   /* display: block;
   margin-left: auto;
