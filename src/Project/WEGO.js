@@ -7,7 +7,7 @@ export default class WEGO extends Component {
   render() {
     return (
       <div className="WEGO">
-        <Cursor />
+        {/* <Cursor /> */}
         <Navbar />
         <div className="project-content">
           <div className="overview">
@@ -172,79 +172,79 @@ export default class WEGO extends Component {
 
 /////////////
 
-const Cursor = () => {
-  // if (typeof navigator !== 'undefined' && isMobile()) return null;
-  const [position, setPosition] = React.useState({x: 0, y: 0});
-  const [hidden, setHidden] = React.useState(false);
-  const [linkHovered, setLinkHovered] = React.useState(false);
+// const Cursor = () => {
+//   // if (typeof navigator !== 'undefined' && isMobile()) return null;
+//   const [position, setPosition] = React.useState({x: 0, y: 0});
+//   const [hidden, setHidden] = React.useState(false);
+//   const [linkHovered, setLinkHovered] = React.useState(false);
 
-  React.useEffect(() => {
-    addEventListeners();
-    handleLinkHoverEvents();
-    return () => removeEventListeners();
-  }, []);
+//   React.useEffect(() => {
+//     addEventListeners();
+//     handleLinkHoverEvents();
+//     return () => removeEventListeners();
+//   }, []);
 
-  const [clicked, setClicked] = React.useState(false);
+//   const [clicked, setClicked] = React.useState(false);
 
-  const addEventListeners = () => {
-    document.addEventListener("mousemove", onMouseMove);
-    document.addEventListener("mouseenter", onMouseEnter);
-    document.addEventListener("mouseleave", onMouseLeave);
-    document.addEventListener("mousedown", onMouseDown);
-    document.addEventListener("mouseup", onMouseUp);
-  };
+//   const addEventListeners = () => {
+//     document.addEventListener("mousemove", onMouseMove);
+//     document.addEventListener("mouseenter", onMouseEnter);
+//     document.addEventListener("mouseleave", onMouseLeave);
+//     document.addEventListener("mousedown", onMouseDown);
+//     document.addEventListener("mouseup", onMouseUp);
+//   };
 
-  const removeEventListeners = () => {
-    document.removeEventListener("mousemove", onMouseMove);
-    document.removeEventListener("mouseenter", onMouseEnter);
-    document.removeEventListener("mouseleave", onMouseLeave);
-    document.removeEventListener("mousedown", onMouseDown);
-    document.removeEventListener("mouseup", onMouseUp);
-  };
+//   const removeEventListeners = () => {
+//     document.removeEventListener("mousemove", onMouseMove);
+//     document.removeEventListener("mouseenter", onMouseEnter);
+//     document.removeEventListener("mouseleave", onMouseLeave);
+//     document.removeEventListener("mousedown", onMouseDown);
+//     document.removeEventListener("mouseup", onMouseUp);
+//   };
 
-  const onMouseDown = () => {
-    setClicked(true);
-  };
+//   const onMouseDown = () => {
+//     setClicked(true);
+//   };
 
-  const onMouseUp = () => {
-    setClicked(false);
-  };
+//   const onMouseUp = () => {
+//     setClicked(false);
+//   };
 
-  const onMouseLeave = () => {
-    setHidden(true);
-  };
+//   const onMouseLeave = () => {
+//     setHidden(true);
+//   };
 
-  const onMouseEnter = () => {
-    setHidden(false);
-  };
+//   const onMouseEnter = () => {
+//     setHidden(false);
+//   };
 
-  const handleLinkHoverEvents = () => {
-    document.querySelectorAll("a").forEach(el => {
-      el.addEventListener("mouseover", () => setLinkHovered(true));
-      el.addEventListener("mouseout", () => setLinkHovered(false));
-    });
-  };
+//   const handleLinkHoverEvents = () => {
+//     document.querySelectorAll("a").forEach(el => {
+//       el.addEventListener("mouseover", () => setLinkHovered(true));
+//       el.addEventListener("mouseout", () => setLinkHovered(false));
+//     });
+//   };
 
-  const cursorClasses = classNames (
-  'cursor',
-    {
-      'cursor--clicked': clicked,
-      'cursor--hidden': hidden,
-      'cursor--link-hovered': linkHovered
-    }
-  );
+//   const cursorClasses = classNames (
+//   'cursor',
+//     {
+//       'cursor--clicked': clicked,
+//       'cursor--hidden': hidden,
+//       'cursor--link-hovered': linkHovered
+//     }
+//   );
 
-  const onMouseMove = (e) => {
-    setTimeout(() => setPosition({x: (e.clientX - 20), y: (e.clientY - 20)}), 50);
-  }
+//   const onMouseMove = (e) => {
+//     setTimeout(() => setPosition({x: (e.clientX - 20), y: (e.clientY - 20)}), 50);
+//   }
 
-  return (
-    <div className={cursorClasses}
-      style={{
-      position: 'fixed',
-      transform: 'translate3d(' + position.x + 'px, ' + position.y + 'px, 0)',
-      left: 0,
-      top: 0
-    }}/>
-  );
-}
+//   return (
+//     <div className={cursorClasses}
+//       style={{
+//       position: 'fixed',
+//       transform: 'translate3d(' + position.x + 'px, ' + position.y + 'px, 0)',
+//       left: 0,
+//       top: 0
+//     }}/>
+//   );
+// }

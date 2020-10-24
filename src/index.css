@@ -153,7 +153,7 @@ a {
 }
 
 /* Cursor */
-
+/* 
 .cursor {
   width: 40px;
   height: 40px;
@@ -180,7 +180,7 @@ a {
 .cursor--link-hovered {
   transform: translate(-50%, -50%) scale(1.25);
   background-color: #fefefe;
-}
+} */
 
 a {
   text-decoration: none;
@@ -398,13 +398,13 @@ a {
 
   /* Cursor */
 
-  .cursor {
+  /* .cursor {
     border: 0;
   }
 
   .cursor--clicked {
     background-color: transparent;
-  }
+  } */
 
   /* About */
 
@@ -506,13 +506,13 @@ a {
 
   /* Cursor */
 
-  .cursor {
+  /* .cursor {
     border: 0;
   }
 
   .cursor--clicked {
     background-color: transparent;
-  }
+  } */
 
   /* Snap and draw */
 
@@ -635,13 +635,13 @@ a {
 
   /* Cursor */
 
-  .cursor {
+  /* .cursor {
     border: 0;
   }
 
   .cursor--clicked {
     background-color: transparent;
-  }
+  } */
 }
 
 @media (max-width: 974px)
