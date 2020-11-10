@@ -1,0 +1,192 @@
+.Projects h2,
+.Projects h3 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  color: #EFC256;
+}
+
+.project-overview {
+  padding: 0 120px 0 120px;
+}
+
+.project-title {
+  padding-top: 150px;
+}
+
+.project-main-image {
+  width: 100vw;
+}
+
+.project-info {
+  padding: 20px 0 20px 0;
+}
+
+.project-body {
+  padding-right: 200px;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 140px;
+}
+
+.sidenav--active {
+  display: none;
+}
+
+.sidenav a {
+  padding: 2px 60px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #8b8b8b;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #EFC256;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+blockquote {
+  /* background: #f9f9f9; */
+  border-left: 2px solid #ccc;
+  margin: 50px 10px;
+  padding: 1em 50px;
+  font-size: 22px;
+  font-style: italic;
+}
+/* blockquote:before {
+  color: #ccc;
+}
+blockquote p {
+  display: inline;
+} */
+
+.project-body img {
+  max-width: 60vw;
+  padding: 30px 0;
+}
+
+.project-insight li {
+  list-style-position: inside;
+}
+
+/* padding */
+
+.paddingleft30 {
+  padding-left: 30px;
+}
+
+.project-brainstorm img {
+  max-width: 50vw;
+}
+
+.project-competitive img {
+  max-width: 40vw;
+  padding-bottom: 60px;
+}
+
+.project-ideation div img {
+  max-height: 15vw;
+}
+
+.project-ia img {
+  max-height: 50vw;
+}
+
+.figma {
+  width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+iframe {
+  border: 0;
+  width: 350px;
+  height: 700px;
+}
+
+/* mobile-friendly */
+
+@media (min-width: 280px) and (max-width: 425px)
+{
+  .sidenav {
+    display: none;
+  }
+  /* body {
+    overflow-x: hidden;
+  } */
+
+  .Projects h2 {
+    padding-top: 50px;
+  }
+
+  .Projects {
+    font-size: 16px;
+  }
+
+  .project-overview,
+  .project-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .twocolumns,
+  .columns45-55,
+  .columns40-60,
+  .columns35-65,
+  .columns25-75 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .column2,
+  .initiatives,
+  .epics {
+    padding-left: 0px;
+  }
+
+  .main-image {
+    left: 0;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 49% 13%;
+  }
+
+  .introduce .contribution {
+    padding-left: 0px;
+  }
+
+  .process img,
+  .UserResearch img,
+  .ideation img,
+  .ScansIt .solution img {
+    max-width: 280px;
+  }
+
+  .padding-center {
+    padding: 0;
+  }
+
+  .inlineblock {
+    display: block;
+  }
+
+  .brainstorm {
+    padding-left: 0;
+  }
+}

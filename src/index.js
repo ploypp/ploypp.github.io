@@ -8,6 +8,7 @@ import About from './About';
 import SnapAndDraw from './snapanddraw';
 
 import ScansIt from './Project/ScansIt';
+import Projects from './Project/Projects';
 import CnC from './Project/CnC';
 import WEGO from './Project/WEGO';
 
@@ -21,7 +22,8 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/snapanddraw" component={SnapAndDraw} />
-        <Route path="/scansit" component={ScansIt} />
+        <Route path="/scansit2" component={ScansIt} />
+        <Route path="/scansit" component={Projects} />
         <Route path="/cnc" component={CnC} />
         {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
