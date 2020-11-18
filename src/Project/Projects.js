@@ -22,10 +22,10 @@ class ScrollItem extends React.Component {
   
   handleScroll = () => {
     // const { top } = this.wrapRef.getBoundingClientRect();
-    if (window.scrollY < 800) {
+    if (window.scrollY < 950) {
       this.setState({ isActive: true });
     }
-    if (window.scrollY >= 800) {
+    if (window.scrollY >= 950) {
       this.setState({ isActive: false });
     }
   }
@@ -78,6 +78,7 @@ export default class Projects extends Component {
             <div className="column1">
               <ScrollItem>
                   {/* <a href="#project-overview">Project Overview</a> */}
+                  <a href="#project-overview">Project Overview</a>
                   <a href="#project-background">Background</a>
                   <a href="#project-contribution">My Contributions</a>
                   <a href="#project-process">Design Process</a>
@@ -87,10 +88,10 @@ export default class Projects extends Component {
                   <a href="#project-stakeholder">Stakeholder Analysis</a>
                   <a href="#project-competitive">Competitive Analysis</a>
                   {/* <a href="#project-stakeholder">Analysis</a> */}
-                  <a href="#project-brainstorm">Research Summary and Brainstorm</a>
+                  <a href="#project-brainstorm">Research Summary</a>
                   <a href="#project-ideation">Ideation</a>
-                  <a href="#project-initiative-epic">Initiatives, Epics and User Stories</a>
-                  {/* <a href="#project-project-userstories">User Stories</a> */}
+                  <a href="#project-initiative-epic">Initiatives and Epics</a>
+                  <a href="#project-userstories">User Stories</a>
                   <a href="#project-solution">Solution</a>
                   <a href="#project-brandguide">Brand Guidelines</a>
                   <a href="#project-ia">Information Architecture</a>
@@ -208,7 +209,7 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div className="project-brainstorm" id="project-brainstorm">
-                <h3>Research Summary and Brainstorm</h3>
+                <h3>Research Summary</h3>
                 <img src="img/scansit/scansit_brainstorm.png" alt="ScansIt Brainstorm"/>
               </div>
               <div className="project-ideation" id="project-ideation">

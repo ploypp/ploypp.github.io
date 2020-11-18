@@ -36,7 +36,7 @@
 }
 
 .sidenav--active {
-  display: none;
+  position: relative;
 }
 
 .sidenav a {
@@ -74,7 +74,7 @@ blockquote p {
 } */
 
 .project-body img {
-  max-width: 60vw;
+  max-width: 55vw;
   padding: 30px 0;
 }
 
