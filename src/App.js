@@ -5,6 +5,7 @@ import './Project/projects.css';
 import './Project/scansit.css';
 import './Project/cnc.css';
 import './Project/wego.css';
+import './webfontkit/stylesheet.css'
 import Navbar from './Component/NavBar';
 // import Cursor from './Component/Cursor';
 import classNames from "classnames";
