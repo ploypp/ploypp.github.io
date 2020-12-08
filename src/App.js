@@ -80,6 +80,16 @@ export default class App extends Component {
                   <div className="period">UX/UI Design</div>
                 </center>
               </li></Link>
+
+              <li>     
+                <center>
+                  <img id="li-img3" src="img/cbc/cbc-main.png" alt="CBC"/>
+                  <b id="li-text3">Cascade Bicycle Club Brandbook</b>
+                  <p id="li-text3">The brand guidlines of Cascade Bicycle Club's new design. (in progress)</p>
+                  <div className="period">Graphic Design</div>
+                  <div className="period">UX/UI Design</div>
+                </center>
+              </li>
             </ul>
           </div>
 

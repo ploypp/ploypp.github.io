@@ -184,12 +184,14 @@ ul {
 }
 
 #li-img1:hover,
-#li-img2:hover {
+#li-img2:hover,
+#li-img3:hover {
   opacity: 0.5;
 }
 
 #li-img1:hover ~ #li-text1,
-#li-img2:hover ~ #li-text2 {
+#li-img2:hover ~ #li-text2,
+#li-img3:hover ~ #li-text3 {
   color: #757575;
 }
 
