@@ -96,6 +96,7 @@ export default class Projects extends Component {
                   <a href="#project-solution">Solution</a>
                   <a href="#project-brandguide">Brand Guidelines</a>
                   <a href="#project-ia">Information Architecture</a>
+                  <a href="#project-final">Featured Functions</a>
                   <a href="#project-prototype">Prototype</a>
                   <a href="#project-next">Next Steps</a>
                   <a href="#project-learn">Lessons Learned</a>
@@ -277,7 +278,7 @@ export default class Projects extends Component {
               </div>
               <div className="project-final" id="project-final" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Featured Functions</h3>
-                <div className="columns35-65">
+                <div className="columns35-65" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <div className="column1">
                     <img src="img/scansit/3_homepage_2.png" alt="" className="ScansIt Homepage"/>
                   </div>
@@ -285,7 +286,7 @@ export default class Projects extends Component {
                     <p>Homepage includes <b>links to main focused features</b>: login/sign up, digital card, schedule, setting.</p>
                   </div>
                 </div>
-                <div className="columns35-65">
+                <div className="columns35-65" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <div className="column1">
                     <img src="img/scansit/4_digital_card_front.png" alt="" className="ScansIt Digital Card"/>
                   </div>
@@ -296,7 +297,7 @@ export default class Projects extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="columns35-65">
+                <div className="columns35-65" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                   <div className="column1">
                     <img src="img/scansit/7_schedule_dropdown.png" alt="" className="ScansIt Schedule"/>
                   </div>
