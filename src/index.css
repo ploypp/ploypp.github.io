@@ -124,7 +124,7 @@ a {
 .subhead {
   font-family: 'Red Rose', sans-serif;
   font-size: 20px;
-  padding: 30px 0 450px 0;
+  padding: 30px 0 200px 0;
 }
 
 #wording {
@@ -134,6 +134,77 @@ a {
   border: 1px solid;
   /* position: fixed; */
 }
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+  position: relative;
+  margin-top: 40px;
+  /* display: block; */
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+/* .work-list {
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+} */
+
+.work-list li:nth-child(odd) {
+  width: 50%;
+  padding-right: 0px;
+  vertical-align: top;
+}
+
+.work-list li:nth-child(even) {
+  width: 50%;
+  padding-left: 0px;
+  vertical-align: top;
+}
+
+.work-list li img {
+  max-width: 380px;
+  margin-bottom: 30px;
+}
+
+.work-list li b {
+  display: inherit;
+}
+
+.work-list li p {
+  padding: 0 50px;
+}
+
+#li-img1:hover,
+#li-img2:hover {
+  opacity: 0.5;
+}
+
+#li-img1:hover ~ #li-text1,
+#li-img2:hover ~ #li-text2 {
+  color: #757575;
+}
+
+.work-list li {
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+.mainpagetitle {
+  padding-left: 190px;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+
 
 /* Burger */
 
@@ -216,6 +287,10 @@ a {
   font-weight: 300;
 }
 
+.nav-info a:hover {
+  color: #54b4a1;
+}
+
 /* Project */
 
 .project, .project2 {
@@ -254,11 +329,11 @@ a {
 }
 
 .period {
-  font-size: 18px;
+  font-size: 14px;
   color: #eefdff;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #7bc4c4;
-  padding: 3px 18px;
+  padding: 3px 10px;
   line-height: 1.5;
   vertical-align: middle;
   white-space: nowrap;

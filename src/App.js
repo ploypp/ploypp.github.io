@@ -48,7 +48,7 @@ export default class App extends Component {
         <body>
           <center>
             <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              Hi, I'm Ploy Pruekcharoen
+              Hi, I'm Ploy Pruekcharoen.
             </div>
             
             <div className="subhead" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
@@ -58,12 +58,33 @@ export default class App extends Component {
               </span>
             </div>
           </center>
+          
+          <h2 className="mainpagetitle" id="featured-works">Featured Works</h2>
+          <div className="wrapper">
+            <ul className="work-list">
+              <Link to = "/scansit"><li>
+                <center>
+                  <img id="li-img1" src="img/scansit/scansit-main.png" alt="ScansIt"/>
+                  <b id="li-text1">Project ScansIt</b>
+                  <p id="li-text1">A mobile application for better experiences of riding the Link Light Rail.</p>
+                  <div className="period">UX Research</div>
+                  <div className="period">UX/UI Design</div>
+                </center>
+              </li></Link>
 
-          <div className="project2 twocolumns">
-            <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">     
-              <img src="img/scansit/scansit_logo.png" alt="ScansIt Logo"/>
-            </div>
-            <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
+              <Link to = "/cnc"><li>     
+                <center>
+                  <img id="li-img2" src="img/cnc/cnc-main.png" alt="CnC"/>
+                  <b id="li-text2">Code&amp;Craft Website Redesign Project</b>
+                  <p id="li-text2">The new design of Thailand's growing digital product developer company — Code&amp;Craft.</p>
+                  <div className="period">UX/UI Design</div>
+                </center>
+              </li></Link>
+            </ul>
+          </div>
+
+          {/* <div className="project2 twocolumns"> */}
+            {/* <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h1>Project ScansIt</h1>
               <p>
                 A mobile application for better experiences of riding the Link Light Rail, including a
@@ -71,23 +92,21 @@ export default class App extends Component {
                 Scan, and Ride.
               </p>
               <Link to = "/scansit"><div className="period">View more</div></Link>
-            </div>
-          </div>
-
-          <div className="project2 twocolumns">
+          </div> */}
+          {/* <div className="project2 twocolumns">
             <div className="image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">        
               <img src="img/cnc/cnc_home.png" alt="Code&amp;Craft"/>
             </div>
             <div className="description" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <h1>Code&amp;Craft Website Redesign Project</h1>
               <p>
-              The new design of Thailand's growing digital product developer company — Code&amp;Craft.
-              Introduce to you the more creative, functional and promising site to learn more about Code&amp;Craft's
-              all-rounded services with its vision to combine technology, art and humanity.
+                The new design of Thailand's growing digital product developer company — Code&amp;Craft.
+                Introduce to you the more creative, functional and promising site to learn more about Code&amp;Craft's
+                all-rounded services with its vision to combine technology, art and humanity.
               </p>
               <Link to = "/cnc"><div className="period">View more</div></Link>
             </div>
-          </div>
+          </div> */}
           
         </body>
         <Footnote/>

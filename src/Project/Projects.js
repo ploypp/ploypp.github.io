@@ -4,6 +4,7 @@ import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
 import classNames from "classnames";
 import {Link } from "react-router-dom";
+import * as tocbot from 'tocbot';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -22,10 +23,10 @@ class ScrollItem extends React.Component {
   
   handleScroll = () => {
     // const { top } = this.wrapRef.getBoundingClientRect();
-    if (window.scrollY < 950) {
+    if (window.scrollY < 1250) {
       this.setState({ isActive: true });
     }
-    if (window.scrollY >= 950) {
+    if (window.scrollY >= 1250) {
       this.setState({ isActive: false });
     }
   }
@@ -72,7 +73,7 @@ export default class Projects extends Component {
             </div>
           </div>
           <center>
-            <img src="img/scansit/scansit_animated_logo_crop.gif" alt="ScansIt Animated Logo" className="project-main-image"/>
+            <img src="img/scansit/scansit-overview.png" alt="ScansIt Overview" className="project-main-image"/>
           </center>
           <div className="row columns25-75">
             <div className="column1">
@@ -88,10 +89,10 @@ export default class Projects extends Component {
                   <a href="#project-stakeholder">Stakeholder Analysis</a>
                   <a href="#project-competitive">Competitive Analysis</a>
                   {/* <a href="#project-stakeholder">Analysis</a> */}
-                  <a href="#project-brainstorm">Research Summary</a>
+                  {/* <a href="#project-brainstorm">Research Summary</a> */}
                   <a href="#project-ideation">Ideation</a>
-                  <a href="#project-initiative-epic">Initiatives and Epics</a>
-                  <a href="#project-userstories">User Stories</a>
+                  {/* <a href="#project-initiative-epic">Initiatives and Epics</a>
+                  <a href="#project-userstories">User Stories</a> */}
                   <a href="#project-solution">Solution</a>
                   <a href="#project-brandguide">Brand Guidelines</a>
                   <a href="#project-ia">Information Architecture</a>
@@ -101,7 +102,7 @@ export default class Projects extends Component {
               </ScrollItem>
             </div>
             <div className="project-body column2">
-              <div className="project-background" id="project-background">
+              <div className="project-background" id="project-background" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Background</h2>
                 <p>
                   The ScansIt team was tasked with solving the following issue:
@@ -116,7 +117,7 @@ export default class Projects extends Component {
                   and know could use improvement. 
                 </p>
               </div>
-              <div className="project-contribution" id="project-contribution">
+              <div className="project-contribution" id="project-contribution" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>My Contributions</h2>
                 <div className="list">
                   <li>
@@ -127,11 +128,11 @@ export default class Projects extends Component {
                   <li>Fixed and <b>developed</b> the mockups based on comments after peer reviews.</li>
                 </div>
               </div>
-              <div className="project-process" id="project-process">
+              <div className="project-process" id="project-process" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Design Process</h2>
                 <img src="img/scansit/scansit_process.png" alt="ScansIt Design Process"/>
               </div>
-              <div className="project-problem" id="project-problem">
+              <div className="project-problem" id="project-problem" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Problem Statement</h2>
                 <p>
                   Seattle is a forward-thinking, technologically advanced and environmentally influential city and 
@@ -144,7 +145,7 @@ export default class Projects extends Component {
                   The City of Seattle, as a center of technology and innovation, should also lead the way in this pursuit.
                 </p>
               </div>
-              <div className="project-research" id="project-research">
+              <div className="project-research" id="project-research" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Research</h2>
                 <img src="img/scansit/scansit_research.png" alt="ScansIt Research"/>
                 <br/><b>Research process: </b>
@@ -156,11 +157,11 @@ export default class Projects extends Component {
                   <li>Sent out the first <b>survey</b> to get the main scope of the problems from the riders.</li>
                 </ul>
               </div>
-              <div className="project-insight" id="project-insight">
+              <div className="project-insight" id="project-insight" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Insights</h3>
                 <p>From the Link Light Rail’s riders (interviewees and survey takers):</p>
                 <b>#1 Looking for more convenient ways to pay for fares</b>
-                <p className="paddingleft30">
+                <p>
                   People who have to reperchase the pass for each ride tend to be interested in having a new method
                   to save their time since the current existing methods to pay for fares are only
                 </p>
@@ -173,46 +174,48 @@ export default class Projects extends Component {
                 <b>
                   #2 Seeing the Link schedules and know when the trains are arriving at and leaving the stations
                 </b>
-                <p className="paddingleft30">
+                <p>
                   During the prime time, the riders need to plan for their travel to avoid unexpected situations that
                   might cause in wasting time or meney, the problem is no real-time schedule is currently available for them 
                   to check.
                 </p>
               </div>
-              <div className="project-stakeholder" id="project-stakeholder">
+              <div className="project-stakeholder" id="project-stakeholder" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Stakeholder Analysis</h3>
                 <b>The Mayor</b>
-                <p className="paddingleft30">
+                <p>
                   Mayor Durkin’s perspective is considered continually as it influences the transportation strategy. 
                   This included <b>considering funding, policies in place, new potential policies and 
                   vision</b> of the City of Seattle and King County as a whole
                 </p>
                 <b>The Users</b>
-                <p className="paddingleft30">
+                <p>
                   For the users, we identified that users wanted more ease of use in paying for fares. This meant making the card 
                   accessible in a way currently not available. Daily riders looking for <b>convenient and advanced technological solutions,
                   safety, reduction of stress, increased daily productivity and participation in reduced carbon footprint</b>.
                 </p>
               </div>
-              <div className="project-competitive" id="project-competitive">
+              <div className="project-competitive" id="project-competitive" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Competitive Analysis</h3>
                 <img src="img/scansit/competitive1.png" alt="Competitive Analysis"/>
                 <div className="competitive-scansit-text">
-                  <b>More convenient with the digital card option.</b>
-                  <ul><li>ScansIt app (on any device) can scan digitally to access the link.</li></ul>
-                  <b>Lower chance of getting lost or scammed.</b>
-                  <ul><li>Physical cards can easily be lost, stolen, and scammed — but on the app, only the user can access the card.</li></ul>
-                  <b>Accessing the link or other transits become faster.</b>
-                  <ul><li>As simple as scanning.</li></ul>
-                  <b>Does not ask for current location.</b>
-                  <ul><li>Unlike most other transit apps, ScansIt app does not need to ask for a user’s location, enhancing privacy and security.</li></ul>
+                  <ol>
+                    <li><b>More convenient with the digital card option.</b></li>
+                    <p>ScansIt app (on any device) can scan digitally to access the link.</p>
+                    <li><b>Lower chance of getting lost or scammed.</b></li>
+                    <p>Physical cards can easily be lost, stolen, and scammed — but on the app, only the user can access the card.</p>
+                    <li><b>Accessing the link or other transits become faster.</b></li>
+                    <p>As simple as scanning.</p>
+                    <li><b>Does not ask for current location.</b></li>
+                    <p>Unlike most other transit apps, ScansIt app does not need to ask for a user’s location, enhancing privacy and security.</p>
+                  </ol>
                 </div>
               </div>
-              <div className="project-brainstorm" id="project-brainstorm">
+              {/* <div className="project-brainstorm" id="project-brainstorm">
                 <h3>Research Summary</h3>
                 <img src="img/scansit/scansit_brainstorm.png" alt="ScansIt Brainstorm"/>
-              </div>
-              <div className="project-ideation" id="project-ideation">
+              </div> */}
+              <div className="project-ideation" id="project-ideation" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Ideation</h2>
                 <div className="inline">
                   <img src="img/scansit/sketch.png" alt-="ScansIt Sketch"/>
@@ -226,7 +229,7 @@ export default class Projects extends Component {
                 the number of people owning smartphones is continuing to increase. Therefore, this choice was the best option to promote accessibility.
                 </p>
               </div>
-              <div className="project-initiative-epic" id="project-initiative-epic">
+              {/* <div className="project-initiative-epic" id="project-initiative-epic">
                 <h3>Initiatives and Epics</h3>
                 <div className="columns40-60">
                   <img src="img/scansit/initiatives.png" alt="ScansIt Initiatives" className="initiatives"/>
@@ -236,15 +239,15 @@ export default class Projects extends Component {
               <div className="project-userstories" id="project-userstories">
                 <h3>User Stories</h3>
                 <img src="img/scansit/stories.png" alt="ScansIt Stories" className="stories"/>
-              </div>
-              <div className="project-solution" id="project-solution">
+              </div> */}
+              <div className="project-solution" id="project-solution" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Solution</h2>
                 <p>
                   For our solution, we created ScansIt, which stands for <b>Scanning for Transit</b>. It is a simple and seamless 
                   digital card and scheduling app for your public transit needs.
                 </p>
               </div>
-              <div className="project-brandguide" id="project-brandguide">
+              <div className="project-brandguide" id="project-brandguide" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Brand Guidelines</h3>
                 <img src="img/scansit/brandguide.png" alt="ScansIt Brand Guidelines" className="ScansItGuide"/>
                 <p>
@@ -266,20 +269,49 @@ export default class Projects extends Component {
                   the shape of the train that represents ScanIts app’s ability to access the schedule and scan for a ride.
                 </p>
               </div>
-              <div className="project-ia" id="project-ia">
+              <div className="project-ia" id="project-ia" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Information Architecture</h3>
                 <a href="https://ploypil.in/img/scansit/ScansIt_IA2.jpg" target="_blank">
                   <img src="img/scansit/ScansIt_IA2.jpg" alt="ScansIt Information Architecture" className="ScansItSitemap "/>
                 </a>
               </div>
-              <div className="project-prototype" id="project-prototype">
+              <div className="project-final" id="project-final" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
+                <h3>Featured Functions</h3>
+                <div className="columns35-65">
+                  <div className="column1">
+                    <img src="img/scansit/3_homepage_2.png" alt="" className="ScansIt Homepage"/>
+                  </div>
+                  <div className="column2">
+                    <p>Homepage includes <b>links to main focused features</b>: login/sign up, digital card, schedule, setting.</p>
+                  </div>
+                </div>
+                <div className="columns35-65">
+                  <div className="column1">
+                    <img src="img/scansit/4_digital_card_front.png" alt="" className="ScansIt Digital Card"/>
+                  </div>
+                  <div className="column2">
+                    <p>
+                      Digital card can be <b>scanned to get into the station</b>. Users have an option to connect to their existing cards,
+                      there will be a page that contains card information with remaining card value and different available payment methods.
+                    </p>
+                  </div>
+                </div>
+                <div className="columns35-65">
+                  <div className="column1">
+                    <img src="img/scansit/7_schedule_dropdown.png" alt="" className="ScansIt Schedule"/>
+                  </div>
+                  <div className="column2">
+                    <p>Schedule page is available to check the train's <b>up-to-date arriving and departing time</b> from each station.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="project-prototype" id="project-prototype" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h3>Prototype</h3>
                 <div className="figma">
                   <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkqdCcVRZ4j7XyMqxuEreN8%2FScansIt%3Fnode-id%3D1%253A7%26scaling%3Dscale-down" allowfullscreen></iframe>
                 </div>
-
               </div>
-              <div className="project-next" id="project-next">
+              <div className="project-next" id="project-next" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Next Steps</h2>
                 <p>
                   Since this project is a part of INFO 360: Design Methods class, we did not have a chance to build the real 
@@ -290,17 +322,17 @@ export default class Projects extends Component {
                   enhancing the ability to serve all their needs would benefit not only the user but the community as a whole too.
                 </p>
               </div>
-              <div className="project-learn" id="project-learn"> 
+              <div className="project-learn" id="project-learn" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true"> 
                 <h2>Lessons Learned</h2>
                 <b>Insights lead to a solution.</b>
-                <p className="paddingleft30">
+                <p>
                   As we interviewed and conducted the surveys, I have seen various perspectives from the users. 
                   Some may like what already the Link has, some may not. The key is what problems they have faced 
                   rom their riding experience. From that point, I think to deeply understand and analyze the insights 
                   can even direct to the solution simply.
                 </p>
                 <b>Always ask for the team’s opinions.</b>
-                <p className="paddingleft30">
+                <p>
                   As I designed, I had been facing some indecisiveness and dissatisfaction with my own works. One thing 
                   I experienced from this project was “asking is learning”. To ask my teammates for comments, suggestions, 
                   or even questions they had on my design was the way I gained more ideas to improve. Also, even though 
@@ -324,3 +356,14 @@ export default class Projects extends Component {
     );
   }
 }
+
+tocbot.init({
+  // Where to render the table of contents.
+  tocSelector: '.js-toc',
+  // Where to grab the headings to build the table of contents.
+  contentSelector: '.js-toc-content',
+  // Which headings to grab inside of the contentSelector element.
+  headingSelector: 'h1, h2, h3',
+  // For headings inside relative or absolute positioned containers within content.
+  hasInnerContainers: true,
+});

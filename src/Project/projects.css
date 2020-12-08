@@ -123,6 +123,15 @@ iframe {
   height: 700px;
 }
 
+.project-final img {
+  max-width: 220px;
+}
+
+.project-final .column2{
+  padding-top: 150px;
+  padding-right: 100px;
+}
+
 /* mobile-friendly */
 
 @media (min-width: 280px) and (max-width: 425px)
