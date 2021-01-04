@@ -5,7 +5,7 @@ import './index.css';
 import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
-import SnapAndDraw from './snapanddraw';
+import SnapAndDraw from './artandgraphic';
 
 import ScansIt from './Project/ScansIt';
 import Projects from './Project/Projects';
@@ -14,6 +14,7 @@ import WEGO from './Project/WEGO';
 
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ArtAndGraphic from './artandgraphic';
 
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
@@ -21,7 +22,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
-        <Route path="/snapanddraw" component={SnapAndDraw} />
+        <Route path="/artandgraphic" component={ArtAndGraphic} />
         <Route path="/scansit2" component={ScansIt} />
         <Route path="/scansit" component={Projects} />
         <Route path="/cnc" component={CnC} />

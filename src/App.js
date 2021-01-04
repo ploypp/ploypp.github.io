@@ -47,48 +47,138 @@ export default class App extends Component {
         <Navbar />
         <body>
           <center>
-            <div className="Greeting" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              Hi, I'm Ploy Pruekcharoen.
-            </div>
-            
-            <div className="subhead" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              For every design I create, I
-              <span id="wording">
-                STUDY, SKETCH and REVIEW.
-              </span>
+            <div className="Greeting">
+              Hi, I'm <b>Ploy</b><strike>pilin</strike><br/>Pruekcharoen.
             </div>
           </center>
-          
-          <h2 className="mainpagetitle" id="featured-works">Featured Works</h2>
+          <svg className="smile" width="180" height="180">
+          {/* <svg className="smile"> */}
+            <circle cx="80" cy="80" r="70" stroke="#B48AB2" stroke-width="3" fill="#F2E9E4" />
+            <circle cx="45" cy="75" r="3" fill="#B48AB2" />
+            <circle cx="85" cy="80" r="3" fill="#B48AB2"/>
+            <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#B48AB2" stroke-width="3" fill="transparent"/>
+          </svg> 
+          <div className="subhead">
+            <p>An aspiring UX/UI designer /</p>
+            <p>For every design I create, I <b>study</b>, <b>sketch</b>, and <b>review</b>.</p>
+          </div>
+          {/* <div id="scroll-down">
+            <span class="arrow-down">
+            </span>
+          </div> */}
+          <center>
+            <div className="featuredintro">
+              Some of my <br/><b>featured <u>works</u></b>
+            </div>
+          </center>
+          <svg className="star" width="200" height="180" stroke="#B48AB2" stroke-width="3" fill="#F2E9E4">
+            <path class="star"  d="
+            M 90.000 155.000
+            L 142.901 172.812
+            L 142.308 116.996
+            L 175.595 72.188
+            L 122.328 55.504
+            L 90.000 10.000
+            L 57.672 55.504
+            L 4.405 72.188
+            L 37.692 116.996
+            L 37.099 172.812
+            L 90.000 155.000
+            "/>
+            <circle cx="55" cy="75" r="1.5" fill="#B48AB2" />
+            <circle cx="95" cy="80" r="1.5" fill="#B48AB2"/>
+            <path d="M 44 80 C 44 100, 83 120, 105 90" stroke="#B48AB2" stroke-width="3" fill="transparent"/>
+          </svg>
+          {/* <center>
+            <svg className="line" height="150" width="10" stroke="#B48AB2" stroke-width="5">
+              <line x1="0" y1="0" x2="0" y2="150"/>
+            </svg>
+          </center> */}
+          <div id="scroll-down" className="main-arrow">
+            <span className="arrow-down"/>
+          </div>
+
           <div className="wrapper">
             <ul className="work-list">
-              <Link to = "/scansit"><li>
-                <center>
-                  <img id="li-img1" src="img/scansit/scansit-main.png" alt="ScansIt"/>
-                  <b id="li-text1">Project ScansIt</b>
-                  <p id="li-text1">A mobile application for better experiences of riding the Link Light Rail.</p>
-                  <div className="period">UX Research</div>
-                  <div className="period">UX/UI Design</div>
-                </center>
-              </li></Link>
+              <li>
+                <Link to = "/scansit">
+                  <svg className="project-link" id="project-link" width="160" height="160">
+                    <circle cx="80" cy="80" r="75" stroke="#22223B" stroke-width="3" fill="#B48AB2" />
+                    <text x="0" y="30" letter-spacing="4px" fill="#22223B">
+                      <textPath xlinkHref="#textcircle">Click here to view</textPath>
+                    </text>
+                    <path d="M10,80a70,70 0 1,0 140,0a70,70 0 1,0 -140,0" stroke="#22223B" stroke-width="0" fill="transparent" id="textcircle" />
+                    <circle cx="45" cy="75" r="3" fill="#22223B" />
+                    <circle cx="85" cy="80" r="3" fill="#22223B"/>
+                    <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#22223B" stroke-width="3" fill="transparent"/>
+                  </svg>
+                </Link>
+                <div className="twocolumns">
+                  <div className="project-img">
+                    <img id="li-img1" src="img/scansit/scansit-main.png" alt="ScansIt"/>
+                  </div>
+                  <div className="project-description">
+                    <h1 id="li-text1">ScansIt<br/>Mobile App</h1>
+                    <div className="project-textbox">
+                      <p className="project-main-role">UX RESEARCH<br/>UX/UI DESIGN</p>
+                      <p>A mobile application for a better experience of riding the Link Light Rail.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
 
-              <Link to = "/cnc"><li>     
-                <center>
-                  <img id="li-img2" src="img/cnc/cnc-main.png" alt="CnC"/>
-                  <b id="li-text2">Code&amp;Craft Website Redesign Project</b>
-                  <p id="li-text2">The new design of Thailand's growing digital product developer company — Code&amp;Craft.</p>
-                  <div className="period">UX/UI Design</div>
-                </center>
-              </li></Link>
+              <li>
+                <Link to = "/cnc">
+                  <svg className="project-link" id="project-link" width="160" height="160">
+                    <circle cx="80" cy="80" r="75" stroke="#22223B" stroke-width="3" fill="#B48AB2" />
+                    <text x="0" y="30" letter-spacing="4px" fill="#22223B">
+                      <textPath xlinkHref="#textcircle">Click here to view</textPath>
+                    </text>
+                    <path d="M10,80a70,70 0 1,0 140,0a70,70 0 1,0 -140,0" stroke="#22223B" stroke-width="0" fill="transparent" id="textcircle" />
+                    <circle cx="45" cy="75" r="3" fill="#22223B" />
+                    <circle cx="85" cy="80" r="3" fill="#22223B"/>
+                    <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#22223B" stroke-width="3" fill="transparent"/>
+                  </svg>
+                </Link>
+                <div className="twocolumns">
+                  <div className="project-img">
+                    <img id="li-img2" src="img/cnc/cnc-main.png" alt="CnC"/>
+                  </div>
+                  <div className="project-description">
+                    <h1 id="li-text1">Code&amp;Craft<br/>Website Redesign</h1>
+                    <div className="project-textbox">
+                      <p className="project-main-role">UX/UI DESIGN</p>
+                      <p>The new design of Thailand's growing digital product developer company — Code&amp;Craft.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
 
-              <li>     
-                <center>
-                  <img id="li-img3" src="img/cbc/cbc-main.png" alt="CBC"/>
-                  <b id="li-text3">Cascade Bicycle Club Brandbook</b>
-                  <p id="li-text3">The brand guidlines of Cascade Bicycle Club's new design. (in progress)</p>
-                  <div className="period">Graphic Design</div>
-                  <div className="period">UX/UI Design</div>
-                </center>
+              <li>
+                {/* <Link to = "/"> */}
+                  <svg className="project-link" id="project-link" width="160" height="160">
+                    <circle cx="80" cy="80" r="75" stroke="#22223B" stroke-width="3" fill="#B48AB2" />
+                    <text x="0" y="30" letter-spacing="4px" fill="#22223B">
+                      <textPath xlinkHref="#textcircle">Click here to view</textPath>
+                    </text>
+                    <path d="M10,80a70,70 0 1,0 140,0a70,70 0 1,0 -140,0" stroke="#22223B" stroke-width="0" fill="transparent" id="textcircle" />
+                    <circle cx="45" cy="75" r="3" fill="#22223B" />
+                    <circle cx="85" cy="80" r="3" fill="#22223B"/>
+                    <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#22223B" stroke-width="3" fill="transparent"/>
+                  </svg>
+                {/* </Link> */}
+                <div className="twocolumns">
+                  <div className="project-img">
+                    <img id="li-img3" src="img/cbc/cbc-main.png" alt="CBC"/>
+                  </div>
+                  <div className="project-description">
+                    <h1 id="li-text1">Cascade Bicycle Club<br/>Brand Book</h1>
+                    <div className="project-textbox">
+                      <p className="project-main-role">Graphic Design<br/>UX/UI DESIGN</p>
+                      <p>The brand guidlines of Cascade Bicycle Club's new design. <br/>(in progress)</p>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>

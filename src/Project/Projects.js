@@ -58,7 +58,7 @@ export default class Projects extends Component {
             <h1 className="project-title">Project ScansIt</h1>
             <div className="project-info twocolumns">
               <div className="column1">
-                <p className="project-description">
+                <p className="projects-description">
                   A mobile application for a better experience of riding the Link Light Rail, including a
                   digital card for scanning into the station and real-time schedule. It is as simple as Schedule, 
                   Scan, and Ride.
@@ -78,7 +78,6 @@ export default class Projects extends Component {
           <div className="row columns25-75">
             <div className="column1">
               <ScrollItem>
-                  {/* <a href="#project-overview">Project Overview</a> */}
                   <a href="#project-overview">Project Overview</a>
                   <a href="#project-background">Background</a>
                   <a href="#project-contribution">My Contributions</a>
@@ -88,11 +87,7 @@ export default class Projects extends Component {
                   <a href="#project-insight">Insights</a>
                   <a href="#project-stakeholder">Stakeholder Analysis</a>
                   <a href="#project-competitive">Competitive Analysis</a>
-                  {/* <a href="#project-stakeholder">Analysis</a> */}
-                  {/* <a href="#project-brainstorm">Research Summary</a> */}
                   <a href="#project-ideation">Ideation</a>
-                  {/* <a href="#project-initiative-epic">Initiatives and Epics</a>
-                  <a href="#project-userstories">User Stories</a> */}
                   <a href="#project-solution">Solution</a>
                   <a href="#project-brandguide">Brand Guidelines</a>
                   <a href="#project-ia">Information Architecture</a>

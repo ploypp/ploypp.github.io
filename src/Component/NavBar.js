@@ -63,9 +63,9 @@ export default class Navbar extends Component {
           <Link to = "/" className="nav-link">Work</Link>
           <Link to = "/about" className="nav-link">About</Link>
           <a href="https://drive.google.com/file/d/1V-zYSe3f6kY6Uri4Ioi3p9R3u_jxmeyn/view?usp=sharing" target="_blank">Resume</a>
-          <Link to = "/snapanddraw" className="nav-link">Snap&Draw</Link>
+          <Link to = "/artandgraphic" className="nav-link">Art&Graphic</Link>
         </div>
-        {/* <Popup
+        <Popup
           modal
           overlayStyle={{ background: "rgba(0,0,0,1" }}
           contentStyle={contentStyle}
@@ -73,7 +73,7 @@ export default class Navbar extends Component {
           trigger={open => <Burger open={open} />}
         >
           {close => <Menu close={close} />}
-        </Popup> */}
+        </Popup>
       </nav>
       );
     }

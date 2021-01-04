@@ -1,3 +1,12 @@
+.CnC {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.CnC .Navbar {
+  background-color: #fff;
+}
+
 .CnC h1 {
   padding-top: 150px;
 }
@@ -142,5 +151,12 @@ input[type=checkbox]:checked ~ label > img {
 
   .solution-intro img {
     max-width: 90vw;
+  }
+}
+
+@media (min-width: 1550px)
+{
+  .CnC h1 {
+    padding-top: 300px;
   }
 }

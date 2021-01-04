@@ -17,7 +17,7 @@ export default class CnC extends Component {
         <Navbar />
         <div className="project-content">
           <div className="overview" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-            <h1>Code&amp;Craft Website Redesign Project</h1>
+            <h1 className="projects-title">Code&amp;Craft Website Redesign Project</h1>
             <p>
               The new design of Thailand's growing digital product developer company — Code&Craft.
               Introduce to you the more creative, functional and promising site to learn more about Code&Craft's

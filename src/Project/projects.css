@@ -1,5 +1,10 @@
 .Projects {
+  background-color: #fff;
   overflow: hidden;
+}
+
+.Projects .Navbar {
+  background-color: #fff;
 }
 
 .Projects h2,
@@ -45,7 +50,7 @@
 
 .sidenav a {
   padding: 2px 60px;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 1.5;
@@ -201,5 +206,12 @@ iframe {
 
   .brainstorm {
     padding-left: 0;
+  }
+}
+
+@media (min-width: 1550px)
+{
+  .project-title {
+    padding-top: 300px;
   }
 }
