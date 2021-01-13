@@ -155,7 +155,7 @@ export default class App extends Component {
               </li>
 
               <li>
-                {/* <Link to = "/"> */}
+                <Link to = "/cbc">
                   <svg className="project-link" id="project-link" width="160" height="160">
                     <circle cx="80" cy="80" r="75" stroke="#22223B" stroke-width="3" fill="#B48AB2" />
                     <text x="0" y="30" letter-spacing="4px" fill="#22223B">
@@ -166,7 +166,7 @@ export default class App extends Component {
                     <circle cx="85" cy="80" r="3" fill="#22223B"/>
                     <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#22223B" stroke-width="3" fill="transparent"/>
                   </svg>
-                {/* </Link> */}
+                </Link>
                 <div className="twocolumns">
                   <div className="project-img">
                     <img id="li-img3" src="img/cbc/cbc-main.png" alt="CBC"/>

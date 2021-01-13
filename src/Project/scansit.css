@@ -320,7 +320,8 @@ b {
 }
 
 .project-content a b {
-  color: #54b4a1;
+  /* color: #54b4a1; */
+  color: #B48AB2;
 }
 
 .other-project {
@@ -336,7 +337,8 @@ b {
 }
 
 .other-project p:hover {
-  color: #54b4a1;
+  /* color: #54b4a1; */
+  color: #B48AB2;
   font-weight: 500;
 }
 

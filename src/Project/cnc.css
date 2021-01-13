@@ -1,9 +1,10 @@
-.CnC {
+.CnC, .cbc {
   background-color: #fff;
   overflow: hidden;
 }
 
-.CnC .Navbar {
+.CnC .Navbar,
+.cbc .Navbar {
   background-color: #fff;
 }
 

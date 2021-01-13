@@ -376,10 +376,15 @@ export default class CnC extends Component {
             </div>
           </div>
 
-          <div className="other-project">
+          <div className="other-project twocolumns">
             <div className="col-left">
               <Link to = "/scansit">
                 <p>Previous &lt; Project ScansIt</p>
+              </Link>
+            </div>
+            <div className="col-right">
+              <Link to = "/cbc">
+                <p>Next &gt; Cascade Bicycle Club Brand Book</p>
               </Link>
             </div>
           </div>

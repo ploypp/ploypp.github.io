@@ -11,6 +11,7 @@ import ScansIt from './Project/ScansIt';
 import Projects from './Project/Projects';
 import CnC from './Project/CnC';
 import WEGO from './Project/WEGO';
+import cbc from './Project/cbc';
 
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="/scansit2" component={ScansIt} />
         <Route path="/scansit" component={Projects} />
         <Route path="/cnc" component={CnC} />
+        <Route path="/cbc" component={cbc} />
         {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
   </Router>

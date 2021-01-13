@@ -18,7 +18,7 @@ export default class About extends Component {
               <h1>Hello, nice to meet you! </h1>
               <div className="container">
                 <div className="image">
-                  <img src="img/me2.jpg" alt="My Portrait" className="me"/>
+                  <img src="img/me3.jpg" alt="My Portrait" className="me"/>
                 </div>
                 <div className="text">
                   <p>

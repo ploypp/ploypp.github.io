@@ -71,7 +71,8 @@ p, ul, li, i, b, blockquote {
 
 footer address .copyright {
   font-size: 16px;
-  color: #B48AB2;
+  /* color: #B48AB2; */
+  color: lightgray;
   padding-top: 100px;
   padding-bottom: 30px;
   /* text-align: right;
@@ -80,6 +81,10 @@ footer address .copyright {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.App footer address .copyright {
+  color: #B48AB2;
 }
 
 .Navbar {
@@ -101,6 +106,10 @@ footer address .copyright {
 
 .App .Navbar {
   background-color: #F2E9E4;
+}
+
+.About .Navbar {
+  background-color: #fff;
 }
 
 .Navbar--hidden {
@@ -455,7 +464,7 @@ a {
 }
 
 .About .me {
-  max-width: 450px;
+  max-width: 400px;
   padding-top: 50px;
 }
 
@@ -507,12 +516,13 @@ b {
   /* color: #3268ff; */
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Work Sans', sans-serif;
-  color: #54b4a1;
+  /* color: #54b4a1; */
+  color: #B48AB2;
   font-weight: 600;
 }
 
 .SnapAndDraw img {
-  max-height: 250px;
+  max-height: 350px;
 }
 
 .SnapAndDraw .Navbar {
@@ -1208,7 +1218,7 @@ footer p {
   }
 
   .Logo a {
-    font-size: 80px;
+    font-size: 40px;
     padding-left: 100px;
   }
 
