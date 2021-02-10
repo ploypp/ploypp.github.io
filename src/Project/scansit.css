@@ -52,15 +52,12 @@ b {
   padding-left: 50px;
 }
 
-.list li, .research li {
+/* .list li, .research li {
   font-size: 17px;
-  /* font-family: 'Bellota Text', sans-serif; */
-  /* font-weight: normal; */
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   line-height: 1.6;
-}
+} */
 
 .research img {
   max-width: 500px;

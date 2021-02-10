@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import './work.css';
 import './Component/menu.css';
 import './Project/projects.css';
 import './Project/scansit.css';
@@ -58,10 +59,10 @@ export default class App extends Component {
             <circle cx="85" cy="80" r="3" fill="#B48AB2"/>
             <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#B48AB2" stroke-width="3" fill="transparent"/>
           </svg> 
-          <div className="subhead">
+          {/* <div className="subhead">
             <p>An aspiring UX/UI designer /</p>
             <p>For every design I create, I <b>study</b>, <b>sketch</b>, and <b>review</b>.</p>
-          </div>
+          </div> */}
           {/* <div id="scroll-down">
             <span class="arrow-down">
             </span>

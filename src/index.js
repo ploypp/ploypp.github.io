@@ -5,7 +5,7 @@ import './index.css';
 import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
-import SnapAndDraw from './artandgraphic';
+import Work from './Work';
 
 import ScansIt from './Project/ScansIt';
 import Projects from './Project/Projects';
@@ -23,6 +23,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
+        <Route path="/work" component={Work} />
         <Route path="/artandgraphic" component={ArtAndGraphic} />
         <Route path="/scansit2" component={ScansIt} />
         <Route path="/scansit" component={Projects} />

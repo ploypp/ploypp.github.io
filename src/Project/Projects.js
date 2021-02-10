@@ -75,9 +75,9 @@ export default class Projects extends Component {
           <center>
             <img src="img/scansit/scansit-overview.png" alt="ScansIt Overview" className="project-main-image"/>
           </center>
-          <div className="row columns25-75">
-            <div className="column1">
-              <ScrollItem>
+          {/* <div className="row columns25-75"> */}
+            {/* <div className="column1"> */}
+              {/* <ScrollItem>
                   <a href="#project-overview">Project Overview</a>
                   <a href="#project-background">Background</a>
                   <a href="#project-contribution">My Contributions</a>
@@ -96,8 +96,9 @@ export default class Projects extends Component {
                   <a href="#project-next">Next Steps</a>
                   <a href="#project-learn">Lessons Learned</a>
               </ScrollItem>
-            </div>
-            <div className="project-body column2">
+            </div> */}
+            {/* <div className="project-body column2"> */}
+            <div className="project-body">
               <div className="project-background" id="project-background" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
                 <h2>Background</h2>
                 <p>
@@ -337,7 +338,7 @@ export default class Projects extends Component {
                   it lacked so that I could make it better.
                 </p>
               </div>
-            </div>
+            {/* </div> */}
           </div>
           <div className="other-project twocolums">
             <div className="col-right">

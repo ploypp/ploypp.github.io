@@ -123,7 +123,7 @@ footer address .copyright {
 
 .Logo a {
   font-family: 'Red Rose', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -1033,6 +1033,21 @@ footer p {
 
 }
 
+@media (min-width: 476px) and (max-width: 695px) {
+  .burger-menu {
+    display: inline-block;
+    padding-right: 80px;
+  }
+
+  .burger-menu.open {
+    padding-right: 80px;
+  }
+
+  .nav-info {
+    display: none;
+  }
+}
+
 @media (min-width: 476px) and (max-width: 768px)
 {
   /* body {
@@ -1218,12 +1233,12 @@ footer p {
   }
 
   .Logo a {
-    font-size: 40px;
+    font-size: 32px;
     padding-left: 100px;
   }
 
   .nav-info a {
-    font-size: 30px;
+    font-size: 24px;
     padding-right: 70px;
   }
 
