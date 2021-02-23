@@ -465,7 +465,7 @@ a {
 
 .About .me {
   max-width: 300px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .About .container {
@@ -509,9 +509,9 @@ a {
   padding-bottom: 20px;
 }
 
-/* .aboutme1 h1 {
-  color: #B48AB2;
-} */
+.aboutme1 h1 {
+  padding-bottom: 30px;
+}
 
 b {
   /* font-family: 'Poppins', sans-serif; */
@@ -826,8 +826,7 @@ footer p {
 @media (min-width: 280px) and (max-width: 475px) {
 
   .Projects,
-  .CnC,
-  .About .project-content {
+  .About .about-content {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -971,6 +970,10 @@ footer p {
   .project-textbox {
     margin-right: 50px;
   }
+
+  .About .me {
+    max-width: 60vw;
+  }
 }
 
 @media (min-width: 591px) and (max-width: 990px)
@@ -1053,6 +1056,10 @@ footer p {
     display: initial;
   }
 
+  .About .me {
+    max-width: 60vw;
+  }
+
 }
 
 @media (min-width: 476px) and (max-width: 695px) {
@@ -1067,6 +1074,10 @@ footer p {
 
   .nav-info {
     display: none;
+  }
+
+  .About .me {
+    max-width: 60vw;
   }
 }
 
@@ -1117,7 +1128,6 @@ footer p {
     text-align: right;
     padding-left: 0;
   }
-
   /* Project */
 
 }
@@ -1223,10 +1233,6 @@ footer p {
 
 @media (min-width: 1025px) and (max-width: 1334px)
 {
-  .About .me {
-    max-width: 350px;
-  }
-
   .App .twocolumns {
     display: initial;
   }

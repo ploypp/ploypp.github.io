@@ -239,7 +239,8 @@ iframe {
   .fourcol {
     display: grid;
     grid-template-columns: 100%;
-    padding: 0 80px;
+    /* padding: 0 80px; */
+    padding: 0;
   }
   
   .brandbookimg {
