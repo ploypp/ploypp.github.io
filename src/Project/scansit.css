@@ -405,7 +405,7 @@ b {
   }
 
   .padding-center {
-    padding: 0;
+    padding: 0 80px 0 80px;
   }
 
   .inlineblock {
@@ -451,7 +451,7 @@ b {
   }
 
   .padding-center {
-    padding: 0;
+    padding: 0 80px 0 80px;
   }
 
   .inlineblock {

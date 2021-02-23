@@ -1,4 +1,4 @@
-.cbc .brandbookimg {
+.brandbookimg {
   max-width: 900px;
   padding-top: 100px;
 }
@@ -12,16 +12,27 @@
   background-color: #fff;
 }
 
+.Projects h1,
 .Projects h2,
-.Projects h3 {
-  padding-top: 70px;
-  padding-bottom: 20px;
-  color: #EFC256;
+.Projects h3,
+.Projects h4 {
+  font-family: 'Work Sans', sans-serif;
 }
 
-.project-overview {
-  padding: 0 120px 0 120px;
+.Projects h2,
+.Projects h3 {
+  /* padding-top: 70px; */
+  padding-bottom: 20px;
 }
+
+.fourcol {
+  display: grid;
+  grid-template-columns: 15% 35% 30% 20%;
+}
+
+/* .project-overview {
+  padding: 0 200px 0 200px;
+} */
 
 .project-title {
   padding-top: 150px;
@@ -35,10 +46,9 @@
   padding: 20px 0 20px 0;
 }
 
-.project-body {
-  /* padding-right: 150px; */
+/* .project-body {
   padding: 0 120px 0 120px;
-}
+} */
 
 .sidenav {
   height: 100%;
@@ -68,6 +78,10 @@
   color: #EFC256;
 }
 
+.paddingbottom100 {
+  padding-bottom: 100px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -77,8 +91,8 @@ blockquote {
   /* background: #f9f9f9; */
   border-left: 2px solid #ccc;
   margin: 50px 10px;
-  padding: 1em 50px;
-  font-size: 22px;
+  padding-left: 15px;
+  font-size: 15px;
   font-style: italic;
 }
 /* blockquote:before {
@@ -89,7 +103,7 @@ blockquote p {
 } */
 
 .project-body img {
-  max-width: 55vw;
+  max-width: 70vw;
   padding: 30px 0;
 }
 
@@ -112,8 +126,8 @@ blockquote p {
   padding-bottom: 60px;
 }
 
-.project-ideation div img {
-  max-height: 15vw;
+.project-ideationimg img {
+  max-height: 20vw;
 }
 
 .project-ia img {
@@ -154,9 +168,9 @@ iframe {
     overflow-x: hidden;
   } */
 
-  .Projects h2 {
+  /* .Projects h2 {
     padding-top: 50px;
-  }
+  } */
 
   .Projects {
     font-size: 16px;
@@ -215,9 +229,27 @@ iframe {
   }
 }
 
+@media (max-width: 770px)
+{
+  .twocolumns,
+  .columns45-55,
+  .columns40-60,
+  .columns35-65,
+  .columns25-75,
+  .fourcol {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 80px;
+  }
+  
+  .brandbookimg {
+    width: 100vw;
+  }
+}
+
 @media (min-width: 1550px)
 {
-  .project-title {
-    padding-top: 300px;
+  .brandbookimg {
+    max-width: 1300px;
   }
 }

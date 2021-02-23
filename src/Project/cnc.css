@@ -46,9 +46,9 @@
   padding-top: 50px;
 }
 
-.CnC .sketch img {
+.sketch img {
   padding-right: 7px;
-  min-height: 400px;
+  max-height: 400px;
 }
 
 .CnCSitemap {
@@ -60,7 +60,11 @@
   grid-template-columns: 15% 85%;
 }
 
-.CnC .wireframe img {
+.web-box img {
+  padding: 0;
+}
+
+.wireframe img {
   max-width: 135px;
 }
 

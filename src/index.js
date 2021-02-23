@@ -9,6 +9,8 @@ import Work from './Work';
 
 import ScansIt from './Project/ScansIt';
 import Projects from './Project/Projects';
+import ProjectCnc from './Project/ProjectCnc';
+import ProjectCbc from './Project/ProjectCbc';
 import CnC from './Project/CnC';
 import WEGO from './Project/WEGO';
 import cbc from './Project/cbc';
@@ -23,12 +25,13 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
-        <Route path="/work" component={Work} />
+        {/* <Route path="/work" component={Work} /> */}
+        <Route path="/work" component={App} />
         <Route path="/artandgraphic" component={ArtAndGraphic} />
         <Route path="/scansit2" component={ScansIt} />
         <Route path="/scansit" component={Projects} />
-        <Route path="/cnc" component={CnC} />
-        <Route path="/cbc" component={cbc} />
+        <Route path="/cnc" component={ProjectCnc} />
+        <Route path="/cbc" component={ProjectCbc} />
         {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
   </Router>

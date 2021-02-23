@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
 * {
   font-family: 'Work Sans', sans-serif;
@@ -45,7 +45,7 @@ div, p, b, li, i, h1, h2, h3, h4 {
 }
 
 p, ul, li, i, b, blockquote {
-  font-size: 17px;
+  font-size: 15px;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
@@ -88,7 +88,7 @@ footer address .copyright {
 }
 
 .Navbar {
-  padding: 50px 0 20px 0;
+  padding: 30px 0 20px 0;
   /* padding-left: 80px; */
   display: flex;
   /* display: grid;
@@ -108,12 +108,8 @@ footer address .copyright {
   background-color: #F2E9E4;
 }
 
-.About .Navbar {
-  background-color: #fff;
-}
-
 .Navbar--hidden {
-  top: -100px;
+  top: -160px;
 }
 
 .Logo {
@@ -388,7 +384,7 @@ a {
   font-family: 'Work Sans', sans-serif;
   padding-right: 40px;
   color: #22223B;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -457,6 +453,10 @@ a {
 
 /* About */
 
+.About {
+  background-color: #22223B;
+}
+
 .About .project-content {
   padding-left: 80px;
   padding-right: 80px;
@@ -464,8 +464,8 @@ a {
 }
 
 .About .me {
-  max-width: 400px;
-  padding-top: 50px;
+  max-width: 300px;
+  padding-top: 20px;
 }
 
 .About .container {
@@ -477,19 +477,41 @@ a {
   padding-top: 50px;
 }
 
-.About p, .About .text li, .About i {
-  /* font-family: 'Bellota Text', sans-serif; */
-  font-size: 17px;
-  /* font-weight: normal; */
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+.About h1,
+.About h2,
+.About h3,
+.About b,
+.About p,
+.About .text li,
+.About i,
+.About u {
+  color: #fff;
+}
 
+.About .Navbar {
+  background-color: #22223B;
+}
+
+.About .Navbar a {
+  color: #fff;
+}
+
+.About .Navbar a:hover {
+  color: #B48AB2;
+}
+
+.About .burger-menu .bar1,
+.About .burger-menu .bar2 {
+  background-color: #fff;
 }
 
 .About li {
   padding-bottom: 20px;
 }
+
+/* .aboutme1 h1 {
+  color: #B48AB2;
+} */
 
 b {
   /* font-family: 'Poppins', sans-serif; */
@@ -816,7 +838,7 @@ footer p {
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
   
   p, ul, li, i {
@@ -1103,7 +1125,7 @@ footer p {
 @media (min-width: 476px) and (max-width: 768px)
 {
   h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
   
   p, ul, li, i {
@@ -1228,17 +1250,17 @@ footer p {
 @media (min-width: 1550px)
 {
 
-  .Navbar {
+  /* .Navbar {
     padding-top: 100px;
-  }
+  } */
 
   .Logo a {
-    font-size: 32px;
+    font-size: 24px;
     padding-left: 100px;
   }
 
   .nav-info a {
-    font-size: 24px;
+    font-size: 18px;
     padding-right: 70px;
   }
 
@@ -1246,16 +1268,20 @@ footer p {
     padding-right: 200px;
   }
 
-  .Greeting {
+  /* .Greeting {
     padding-top: 500px;
+  } */
+
+  .project-title {
+    font-size: 2.3em;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
   
   p, b, ul, li, i {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .subhead {
