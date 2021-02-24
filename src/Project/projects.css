@@ -229,6 +229,31 @@ iframe {
   }
 }
 
+@media (min-width: 475px) and (max-width: 770px)
+{
+  .twocolumns,
+  .columns45-55,
+  .columns40-60,
+  .columns35-65,
+  .columns25-75,
+  .fourcol {
+    padding: 0 50px;
+    /* padding: 0; */
+  }
+
+  .Logo {
+    padding-left: 50px;
+  }
+
+  .burger-menu {
+    padding-right: 50px;
+  }
+
+  .project-img, .project-description {
+    padding-left: 80px;
+  }
+}
+
 @media (max-width: 770px)
 {
   .twocolumns,
@@ -239,8 +264,8 @@ iframe {
   .fourcol {
     display: grid;
     grid-template-columns: 100%;
-    /* padding: 0 80px; */
-    padding: 0;
+    /* padding: 0 50px; */
+    /* padding: 0; */
   }
   
   .brandbookimg {
