@@ -27,19 +27,22 @@ export default class About extends Component {
                 <img src="img/me3.jpg" alt="My Portrait" className="me"/>
               </div>
               <div className="aboutme2">
+                <p>👋 I'm Ploy.</p>
                 <p>
-                  I'm currently pursuing a Bachelor degree in <u>Human Centered Design & Engineering</u> with a minor in Informatics at 
-                  the <u>University of Washington</u>, Seattle.
+                  🌱 I'm currently pursuing a Bachelor degree in <u>Human Centered Design & Engineering</u> with a minor in Informatics at 
+                  the University of Washington, Seattle.
                 </p>
                 <p>
-                  My interest in design blossomed when I worked as a graphic designer for the high school. My feeling toward 
-                  design at that time was only enjoyment of creating something new and beautiful; however, I got a sense of 
-                  designing for a change when I learned more about the process of design. It made me realize how the stage 
-                  of understanding the problem and users was as important as the stage of making a visualization.
+                  👀 I'm interested in user experience design, human-computer interaction, and interactive media/art.
+                  As an aspiring designer, I believe that design is a possibility-driven tool that can better improve the community. 
+                  I passionate about applying design skills to help people accomplishing their goals.
                 </p>
                 <p>
-                  I appreciate your time here a lot! Feel free to reach out via email: <a href="mailto:ploypp@uw.edu">ploypp@uw.edu </a>
-                  or <a href="https://www.linkedin.com/in/ploypruekcharoen/">LinkedIn</a>. Let's get in touch!
+                  📫 Feel free to reach out via email: <a href="mailto:ploypp@uw.edu">ploypp@uw.edu </a>
+                  or <a href="https://www.linkedin.com/in/ploypruekcharoen/">LinkedIn</a>. 
+                </p>
+                <p>
+                  💞️ I appreciate your time here a lot! Let's get in touch!
                 </p>
               </div>
             </div>
