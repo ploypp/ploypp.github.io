@@ -56,14 +56,14 @@ export default class ProjectCnc extends Component {
                     interface (UI), usability research, search engine optimization (SEO), and e-commerce service. The other interns 
                     and I were tasked with <b>redesigning the Code&amp;Craft website</b> to fulfill the following objectives:
                   </p>
-                  <ul className="inlineblock">
+                  {/* <ul className="inlineblock"> */}
                     <li className="paddingright100">Easy to use</li>
                     <li className="paddingright100">Create a new experience</li>
-                  </ul>
-                  <ul className="inlineblock">
+                  {/* </ul> */}
+                  {/* <ul className="inlineblock"> */}
                     <li className="paddingright100">Good UX/UI</li>
                     <li className="paddingright100">Better SEO</li>
-                  </ul>
+                  {/* </ul> */}
                 </div>
               </div>
 
@@ -271,11 +271,11 @@ export default class ProjectCnc extends Component {
                     After doing usability testing and review with the team and some of Code&amp;Craft employees, 
                     we got the feedback as following:
                   </p>
-                  <ul>
+                  {/* <ul> */}
                     <li>Still over scrolling.</li>
                     <li>Not so interesting UI.</li>
                     <li>How does it differ from the current version?</li>
-                  </ul>
+                  {/* </ul> */}
                   <p>
                     I then brainstormed with the team and began to work on the second prototype, in which we added 
                     more functions to the website.
@@ -310,11 +310,11 @@ export default class ProjectCnc extends Component {
                   <p>
                     As same as for the first prototype, we also did usability testing and reviewed. We then got more feedback as following:
                   </p>
-                  <ul>
+                  {/* <ul> */}
                     <li>Does not have a lot of changes.</li>
                     <li>Why choose line stroke icons?</li>
                     <li>The secondary color looks more outstanding than the primary one.</li>
-                  </ul>
+                  {/* </ul> */}
                   <p>
                     After getting feedback, I deeply thought about the usability and the visual attraction of the prototype once 
                     again, and I decided to redesign all of it.
@@ -353,11 +353,11 @@ export default class ProjectCnc extends Component {
                 </div>
                 <div>
                   <p>Feedback we got from usability testing and reviewed for our third prototype includes:</p>
-                  <ul>
+                  {/* <ul> */}
                     <li>Better UI.</li>
                     <li>Customers only see one service.</li>
                     <li>Why change the old concept to this concept?</li>
-                  </ul>
+                  {/* </ul> */}
                   <p>
                     Before the pitching day, I collaborated with the team and fixed the last design to solve problems we received 
                     from our users. We reviewed the initial objectives and decided to remove <i>Blog</i> section as it did not highly 

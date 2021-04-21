@@ -136,13 +136,13 @@ export default class Projects extends Component {
                 <div/>
                 <div><h2>Research</h2></div>
                 <div>
-                  <ul>
+                  {/* <ul> */}
                     <li>Completed a <b>stakeholder analysis</b> of two identified stakeholders: the mayor (Jenny Durkan) and the users of Link Light Rail.</li>
                     <li>Did research about Seattle’s transportation <b>compared with other cities</b> in the United States.</li>
                     <li>Collected information that could be used for another phase of brainstorming.</li>
                     <li>Conducted <b>in-person interviews</b>.</li>
                     <li>Sent out the first <b>survey</b> to get the main scope of the problems from the riders.</li>
-                  </ul>
+                  {/* </ul> */}
                 </div>
               </div>
 

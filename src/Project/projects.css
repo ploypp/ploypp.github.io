@@ -16,7 +16,8 @@
 .Projects h2,
 .Projects h3,
 .Projects h4 {
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .Projects h2,
@@ -27,7 +28,7 @@
 
 .fourcol {
   display: grid;
-  grid-template-columns: 15% 35% 30% 20%;
+  grid-template-columns: 15% 30% 35% 20%;
 }
 
 /* .project-overview {
@@ -50,33 +51,6 @@
   padding: 0 120px 0 120px;
 } */
 
-.sidenav {
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 100px;
-}
-
-.sidenav--active {
-  position: relative;
-}
-
-.sidenav a {
-  padding: 2px 60px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #8b8b8b;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #EFC256;
-}
 
 .paddingbottom100 {
   padding-bottom: 100px;

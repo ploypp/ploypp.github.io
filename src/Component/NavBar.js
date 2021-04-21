@@ -56,14 +56,14 @@ export default class Navbar extends Component {
       })}>
         <div className="Logo">
           <Link to = "/">
-              Pp
+              Ploypilin P.
           </Link>
         </div>
         <div className="nav-info">
-          <Link to = "/work" className="nav-link">Work</Link>
-          <Link to = "/about" className="nav-link">About</Link>
-          <a href="https://drive.google.com/file/d/1kn2lm7zzyfCXStlnALBsfcKdJcMVHtZZ/view?usp=sharing" target="_blank">Resume</a>
+          <Link to = "/ux" className="nav-link">UX</Link>
           <Link to = "/artandgraphic" className="nav-link">Art&Graphic</Link>
+          <Link to = "/about" className="nav-link">About</Link>
+          <a href="https://drive.google.com/file/d/1NrRxUTLwCJ-O_KR_1H7uIIRayfSs3RqQ/view?usp=sharing" target="_blank">Resume</a>
         </div>
         <Popup
           modal

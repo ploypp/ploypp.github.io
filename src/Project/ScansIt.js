@@ -125,11 +125,11 @@ export default class ScansIt extends Component {
                   People who have to reperchase the pass for each ride tend to be interested in having a new method
                   to save their time since the current existing methods to pay for fares are only
                 </p>
-                <ul>
+                {/* <ul> */}
                   <li>buying a one-way or round-trip ticket at the station.</li>
                   <li>using ORCA card, which is a stored-value card that works like cash or a pass.</li>
                   <li>using identification cards under institutions, for example, UW Husky card.</li>
-                </ul>
+                {/* </ul> */}
                 
                 <b className="paddingtop100">
                   #2 Seeing the Link schedules and know when the trains are arriving at and leaving the stations
