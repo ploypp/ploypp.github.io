@@ -514,9 +514,9 @@ a {
   color: #000;
 }
 
-/* .About .Navbar {
-  background-color: #000000;
-} */
+.About .Navbar {
+  background-color: #fff;
+}
 
 /* .About .Navbar a {
   color: #000;
