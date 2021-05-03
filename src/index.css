@@ -147,7 +147,7 @@ a {
   padding: 0px 120px 0px 100px;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 30px;
   /* text-align: center; */
   line-height: 135%;
   /* color: #22223B; */
@@ -155,7 +155,7 @@ a {
 
 .Greeting b {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   color:#171bff;
   font-weight: 500;
   line-height: 135%;
@@ -181,7 +181,7 @@ a {
 }
 
 .smile {
-  margin-top: -50px;
+  margin-top: -70px;
   margin-left: 100px;
   background-color: transparent;
   animation: rotation 2s infinite linear;
@@ -901,7 +901,7 @@ footer p {
     /* padding-top: 200px; */
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .smile {
@@ -911,7 +911,7 @@ footer p {
   }
 
   .Greeting b {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .featuredtitle,
@@ -1142,6 +1142,7 @@ footer p {
   .project-textbox {
     margin-right: 180px;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 1148px)
@@ -1259,6 +1260,10 @@ footer p {
 
   .project-description {
     padding-top: 0;
+  }
+
+  .App .greet {
+    display: initial;
   }
 
 }

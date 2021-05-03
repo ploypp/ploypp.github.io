@@ -55,13 +55,15 @@ export default class App extends Component {
             <circle cx="85" cy="80" r="3" fill="#000"/>
             <path d="M 34 80 C 34 100, 73 120, 95 90" stroke="#000" stroke-width="3" fill="transparent"/>
           </svg>
-          <div className="Greeting">
-            Hello! I'm <b>Ploy</b>, a designer who aims <br/>
-            to create a meaningful experience <br/>
-            through human-centered design and <br/>
-            interactive media.
+          <div className="twocolumns greet">
+            <div className="Greeting">
+              Hello! I'm <b>Ploy</b>, an aspiring designer 
+              who aims to create a meaningful 
+              experience through human-centered 
+              design and interactive media.
+            </div>
+            <div></div>
           </div>
-  
           {/* <svg className="star" width="200" height="180" stroke="#fff" stroke-width="3" fill="#000">
             <path class="star"  d="
             M 90.000 155.000
@@ -86,6 +88,7 @@ export default class App extends Component {
           </div>
           
           <h2 className="featuredtitle paddingtop100">— Featured Works</h2>
+
           <div className="twocolumns">
             <div>
               <div id="li-text1">
