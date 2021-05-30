@@ -95,7 +95,7 @@ export default class App extends Component {
                 <a href="https://famapp.weebly.com/" target="_blank"><div><p><u>Fam App</u> &#8594;</p></div></a>
               </div>
               <div className="work-img">
-                <img id="li-img1" src="img/famapp-main.png" alt="Fam App"/>
+                <img id="li-img1" src="img/famapp-home.png" alt="Fam App"/>
                 <p className="italic-text">—— User research, UX/UI Design</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default class App extends Component {
                 {/* <p>A mobile application for a better experience of riding the Link Light Rail.</p> */}
               </div>
               <div className="work-img">
-                <img id="li-img1" src="img/scansit/scansit-main.png" alt="ScansIt"/>
+                <img id="li-img1" src="img/scansit/scansit-home.png" alt="ScansIt"/>
                 <p className="italic-text">—— User Research, UX/UI Design</p>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default class App extends Component {
                 {/* <p>The new design of Thailand's growing digital product developer company — Code&Craft.</p> */}
               </div>
               <div className="work-img">
-                <img id="li-img2" src="img/cnc/cnc-main.png" alt="CnC"/>
+                <img id="li-img2" src="img/cnc/cnc-home.png" alt="CnC"/>
                 <p className="italic-text">—— UX/UI Design</p>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default class App extends Component {
                 <Link to = "/cbc"><div><p><u>Cascade Bicycle Club<br/>Brand Book</u> &#8594;</p></div></Link>
               </div>
               <div className="work-img">
-                <img id="li-img3" src="img/cbc/cbc-main.png" alt="CBC"/>
+                <img id="li-img3" src="img/cbc/cbc-home.png" alt="CBC"/>
                 <p className="italic-text">—— Graphic Design, UX/UI Design</p>
               </div>
             </div>
