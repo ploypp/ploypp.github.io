@@ -131,6 +131,10 @@ iframe {
   padding-right: 100px;
 }
 
+.padding-center {
+  padding: 200px
+}
+
 /* mobile-friendly */
 
 @media (min-width: 280px) and (max-width: 425px)
