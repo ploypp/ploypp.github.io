@@ -61,7 +61,7 @@ export default class Navbar extends Component {
         </div>
         <div className="nav-info">
           <Link to = "/ux" className="nav-link">UX</Link>
-          <Link to = "/artandgraphic" className="nav-link">Art&Graphic</Link>
+          <Link to = "/graphic" className="nav-link">Graphic</Link>
           <Link to = "/about" className="nav-link">About</Link>
           <a href="https://drive.google.com/file/d/1NrRxUTLwCJ-O_KR_1H7uIIRayfSs3RqQ/view?usp=sharing" target="_blank">Resume</a>
         </div>

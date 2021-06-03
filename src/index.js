@@ -27,7 +27,7 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         {/* <Route path="/work" component={Work} /> */}
         <Route path="/ux" component={App} />
-        <Route path="/artandgraphic" component={ArtAndGraphic} />
+        <Route path="/graphic" component={ArtAndGraphic} />
         <Route path="/scansit2" component={ScansIt} />
         <Route path="/scansit" component={Projects} />
         <Route path="/cnc" component={ProjectCnc} />

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 import './work.css';
+import './graphic.css'
 import './Component/menu.css';
 import './Project/projects.css';
 import './Project/scansit.css';

@@ -567,9 +567,9 @@ b {
   font-weight: 600;
 }
 
-.SnapAndDraw img {
+/* .SnapAndDraw img {
   max-height: 350px;
-}
+} */
 
 .SnapAndDraw .Navbar {
   background-color: #fff;
@@ -581,9 +581,9 @@ b {
   padding-top: 200px;
 }
 
-.gallery div img:hover {
+/* .gallery div img:hover {
   transform: scale(1.5);
-}
+} */
 
 .main-arrow {
   padding-top: 79px;
@@ -939,18 +939,18 @@ footer p {
 
   /* Snap and draw */
 
-  .SnapAndDraw img {
+  /* .SnapAndDraw img {
     max-width: 120%;
     height: auto;
-  }
+  } */
 
-  .gallery {
+  /* .gallery {
     margin: 0;
   }
 
   .gallery div img:hover {
     transform: scale(1);
-  }
+  } */
 
   .Greeting {
     /* padding-top: 200px; */
@@ -1135,9 +1135,9 @@ footer p {
     margin-right: 0;
   }
 
-  .gallery div img:hover {
+  /* .gallery div img:hover {
     transform: scale(1);
-  }
+  } */
 
   .project-textbox {
     margin-right: 180px;

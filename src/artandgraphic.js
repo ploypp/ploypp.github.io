@@ -38,30 +38,7 @@ const photos = [
   {
     src: 'img/gallery/graphic/12.jpg',
   },
-  {
-    src: 'img/gallery/draw/1.png',
-  },
-  {
-    src: 'img/gallery/draw/2.png',
-  },
-  {
-    src: 'img/gallery/draw/3.png',
-  },
-  {
-    src: 'img/gallery/draw/4.png',
-  },
-  {
-    src: 'img/gallery/draw/5.png',
-  },
-  {
-    src: 'img/gallery/draw/6.png',
-  },
-  {
-    src: 'img/gallery/draw/7.png',
-  },
-  {
-    src: 'img/gallery/draw/8.png',
-  },
+
 ];
 
 export default class ArtAndGraphic extends Component {
@@ -71,18 +48,29 @@ export default class ArtAndGraphic extends Component {
           {/* <Cursor /> */}
           <Navbar />
           <div className="gallery">
-            <div className="photo">
-              <Gallery photos={photos} />
+            <div className="grow">
+              <div className="gcolumn">
+                <img src="img/gallery/graphic/6.png"/>
+                <img src="img/gallery/graphic/1.jpg"/>
+                <img src="img/gallery/graphic/13.png"/>
+              </div>
+              <div className="gcolumn">
+                <img src="img/gallery/graphic/11.png"/>           
+                <img src="img/gallery/graphic/7.png"/>
+                <img src="img/gallery/graphic/14.png"/>
+                <img src="img/gallery/graphic/12.jpg"/>
+              </div>
+              <div className="gcolumn">
+                <img src="img/gallery/graphic/3.jpg"/>
+                <img src="img/gallery/graphic/9.png"/>
+                <img src="img/gallery/graphic/8.png"/>              
+                <img src="img/gallery/graphic/2.png"/>
+              </div>
             </div>
+            {/* <div className="photo">
+              <Gallery photos={photos} />
+            </div> */}
           </div>
-          {/* <div className="inline">
-            <div><img src="img/gallery/snap/1.jpeg"/></div>
-            <div><img src="img/gallery/snap/2.jpeg"/></div>
-            <div><img src="img/gallery/snap/3.jpeg"/></div>
-            <div><img src="img/gallery/snap/4.jpeg"/></div>
-            <div><img src="img/gallery/snap/5.jpeg"/></div>
-            <div><img src="img/gallery/snap/6.jpeg"/></div>
-          </div> */}
           <Footnote/>
         </div>
     );
