@@ -1,45 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
-import classNames from "classnames";
-import Gallery from "react-photo-gallery";
-
-const photos = [
-  {
-    src: 'img/gallery/graphic/1.jpg',
-  },
-  {
-    src: 'img/gallery/graphic/2.png',
-  },
-  {
-    src: 'img/gallery/graphic/3.jpg',
-  },
-  {
-    src: 'img/gallery/graphic/4.jpg',
-  },
-  {
-    src: 'img/gallery/graphic/5.jpg',
-  },
-  {
-    src: 'img/gallery/graphic/6.png',
-  },
-  {
-    src: 'img/gallery/graphic/7.png',
-  },
-  {
-    src: 'img/gallery/graphic/8.png',
-  },
-  {
-    src: 'img/gallery/graphic/9.png',
-  },
-  {
-    src: 'img/gallery/graphic/11.png',
-  },
-  {
-    src: 'img/gallery/graphic/12.jpg',
-  },
-
-];
 
 export default class ArtAndGraphic extends Component {
   render() {
@@ -47,25 +8,30 @@ export default class ArtAndGraphic extends Component {
         <div className="SnapAndDraw">
           {/* <Cursor /> */}
           <Navbar />
+          
           <div className="gallery">
             <div className="grow">
               <div className="gcolumn">
-                <img src="img/gallery/graphic/6.png"/>
-                <img src="img/gallery/graphic/1.jpg"/>
+                {/* <img src="img/gallery/graphic/14.png"/> */}
+                {/* <img src="img/gallery/graphic/6.png"/> */}
                 <img src="img/gallery/graphic/13.png"/>
+                <img src="img/gallery/graphic/1.jpg"/>
               </div>
               <div className="gcolumn">
-                <img src="img/gallery/graphic/11.png"/>           
-                <img src="img/gallery/graphic/7.png"/>
-                <img src="img/gallery/graphic/14.png"/>
-                <img src="img/gallery/graphic/12.jpg"/>
-              </div>
-              <div className="gcolumn">
-                <img src="img/gallery/graphic/3.jpg"/>
                 <img src="img/gallery/graphic/9.png"/>
-                <img src="img/gallery/graphic/8.png"/>              
-                <img src="img/gallery/graphic/2.png"/>
+                {/* <img src="img/gallery/graphic/17.jpeg"/> */}
+                <img src="img/gallery/graphic/8.png"/>
+                {/* <img src="img/gallery/graphic/7.png"/> */}
               </div>
+              <div className="gcolumn">
+                {/* <img src="img/gallery/graphic/12.png"/> */}
+                <img src="img/gallery/graphic/3.jpg"/>
+                <img src="img/gallery/graphic/11-2.png"/>    
+                {/* <img src="img/gallery/graphic/2.png"/> */}
+              </div>
+            </div>
+            <div className="g1">
+              <img src="img/gallery/graphic/16.png"/>
             </div>
             {/* <div className="photo">
               <Gallery photos={photos} />

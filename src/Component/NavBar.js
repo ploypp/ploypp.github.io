@@ -63,7 +63,7 @@ export default class Navbar extends Component {
           <Link to = "/ux" className="nav-link">UX</Link>
           <Link to = "/graphic" className="nav-link">Graphic</Link>
           <Link to = "/about" className="nav-link">About</Link>
-          <a href="https://drive.google.com/file/d/1NrRxUTLwCJ-O_KR_1H7uIIRayfSs3RqQ/view?usp=sharing" target="_blank">Resume</a>
+          <a href="https://drive.google.com/file/d/1tPM7DYwudUTJ-ryL2wGG5rgi2H8VuGDp/view?usp=sharing" target="_blank">Resume</a>
         </div>
         <Popup
           modal
