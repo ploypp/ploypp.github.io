@@ -58,7 +58,7 @@ export default class App extends Component {
           </svg>
           <div className="twocolumns greet">
             <div className="Greeting">
-              Hello! I'm <b>Ploy</b>, an aspiring designer 
+              Hello! I'm <b>Ploypilin</b>, an aspiring designer 
               who aims to create a meaningful 
               experience through human-centered 
               design and interactive media.
