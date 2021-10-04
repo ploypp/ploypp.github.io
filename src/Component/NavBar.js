@@ -5,11 +5,6 @@ import Menu from "./Menu";
 import {Link } from "react-router-dom";
 import classnames from "classnames";
 
-// const styles = {
-//     fontFamily: "sans-serif",
-//     textAlign: "center",
-//     marginTop: "40px"
-//   };
 const contentStyle = {
   background: "rgba(0,0,0,0)",
   width: "80%",
@@ -56,14 +51,14 @@ export default class Navbar extends Component {
       })}>
         <div className="Logo">
           <Link to = "/">
-              Ploypilin P.
+              PLOYPILIN P.
           </Link>
         </div>
         <div className="nav-info">
-          <Link to = "/ux" className="nav-link">UX</Link>
-          <Link to = "/graphic" className="nav-link">Graphic</Link>
-          <Link to = "/about" className="nav-link">About</Link>
-          <a href="https://drive.google.com/file/d/1tPM7DYwudUTJ-ryL2wGG5rgi2H8VuGDp/view?usp=sharing" target="_blank">Resume</a>
+          <a href="#design">DESIGN</a>
+          <a href="#interactive" className="nav-link">INTERACTIVE</a>
+          <a href="#about" className="nav-link">ABOUT</a>
+          <a href="https://drive.google.com/file/d/1tPM7DYwudUTJ-ryL2wGG5rgi2H8VuGDp/view?usp=sharing" target="_blank">RESUME</a>
         </div>
         <Popup
           modal

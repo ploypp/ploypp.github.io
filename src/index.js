@@ -8,9 +8,10 @@ import About from './About';
 import Ux from './Ux';
 
 import ScansIt from './Project/ScansIt';
-import Projects from './Project/Projects';
+import ProjectScansIt from './Project/ProjectScansIt';
 import ProjectCnc from './Project/ProjectCnc';
 import ProjectCbc from './Project/ProjectCbc';
+import ProjectFamApp from './Project/ProjectFamApp';
 import CnC from './Project/CnC';
 import WEGO from './Project/WEGO';
 import cbc from './Project/cbc';
@@ -26,12 +27,13 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         {/* <Route path="/work" component={Work} /> */}
-        <Route path="/ux" component={App} />
-        <Route path="/graphic" component={ArtAndGraphic} />
-        <Route path="/scansit2" component={ScansIt} />
-        <Route path="/scansit" component={Projects} />
+        <Route path="/design" component={App} />
+        <Route path="/interactive" component={App} />
+        {/* <Route path="/scansit2" component={ScansIt} /> */}
+        <Route path="/scansit" component={ProjectScansIt} />
         <Route path="/cnc" component={ProjectCnc} />
         <Route path="/cbc" component={ProjectCbc} />
+        <Route path="/famapp" component={ProjectFamApp} />
         {/* <Route path="/wego" component={WEGO} /> */}
       </Switch>
   </Router>

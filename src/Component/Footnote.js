@@ -6,7 +6,7 @@ export default class Footnote extends Component {
       <footer>
         <address>
           {/* <p> Contact me at <a href='ploypp@uw.edu'>ploypp@uw.edu</a>.</p> */}
-          <p className="copyright">&copy;2021 Ploypilin Pruekcharoen</p>
+          <p className="copyright">&copy;2021 PLOYPILIN PRUEKCHAROEN</p>
         </address>
       </footer>
     );

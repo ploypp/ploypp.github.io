@@ -8,8 +8,20 @@
   overflow: hidden;
 }
 
-.Projects .Navbar {
-  background-color: #fff;
+.Projects .NavbarProject {
+  padding: 30px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.6s;
+}
+
+.Projects .Navbar--hidden {
+  top: -160px
 }
 
 .Projects h1,
@@ -20,10 +32,22 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.Projects h2,
-.Projects h3 {
-  /* padding-top: 70px; */
-  padding-bottom: 20px;
+.h-box {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+.threecol-forbox {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.threecol {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
 }
 
 .fourcol {
@@ -31,29 +55,35 @@
   grid-template-columns: 15% 30% 35% 20%;
 }
 
+.fivecol {
+  display: grid;
+  grid-template-columns: 10% 40% 10% 30% 10%;
+}
+
+.fivecol-image img {
+  max-width: 30vw;
+}
+
 /* .project-overview {
   padding: 0 200px 0 200px;
 } */
 
-.project-title {
+/* .project-title {
   padding-top: 150px;
-}
+} */
 
 .project-main-image {
-  width: 100vw;
+  padding-top: 80px;
+  width: 80vw;
 }
 
 .project-info {
-  padding: 20px 0 20px 0;
+  padding: 20px 0 50px 0;
 }
 
-/* .project-body {
-  padding: 0 120px 0 120px;
-} */
-
-
-.paddingbottom100 {
-  padding-bottom: 100px;
+.project-background-box {
+  background-color:#fff;
+  padding: 10px 40px;
 }
 
 @media screen and (max-height: 450px) {
@@ -64,7 +94,7 @@
 blockquote {
   /* background: #f9f9f9; */
   border-left: 2px solid #ccc;
-  margin: 50px 10px;
+  margin: 20px 10px;
   padding-left: 15px;
   font-size: 15px;
   font-style: italic;
@@ -77,8 +107,8 @@ blockquote p {
 } */
 
 .project-body img {
-  max-width: 70vw;
-  padding: 30px 0;
+  max-width: 80vw;
+  padding: 20px 0;
 }
 
 .project-insight li {
@@ -97,7 +127,6 @@ blockquote p {
 
 .project-competitive img {
   max-width: 40vw;
-  padding-bottom: 60px;
 }
 
 .project-ideationimg img {
@@ -105,7 +134,7 @@ blockquote p {
 }
 
 .project-ia img {
-  max-height: 50vw;
+  max-height: 100vw;
 }
 
 .figma {
@@ -214,9 +243,13 @@ iframe {
   .columns40-60,
   .columns35-65,
   .columns25-75,
-  .fourcol {
+  .threecol, .fourcol, .fivecol {
     padding: 0 50px;
     /* padding: 0; */
+  }
+
+  .threecol-forbox {
+    padding: 0;
   }
 
   .Logo {
@@ -239,7 +272,7 @@ iframe {
   .columns40-60,
   .columns35-65,
   .columns25-75,
-  .fourcol {
+  .threecol, .fourcol, .fivecol, .threecol-forbox {
     display: grid;
     grid-template-columns: 100%;
     /* padding: 0 50px; */
@@ -256,4 +289,86 @@ iframe {
   .brandbookimg {
     max-width: 1300px;
   }
+}
+
+/* ScansIt */
+
+.scansit-color {
+  color: #3e689e;
+}
+
+.scansit-challenge-banner {
+  display: block;
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url('../images/metro.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scansit-project-box {
+  background-color: #e7f1ff;
+  padding: 20px 20px;
+}
+
+/* Code and Craft */
+
+.cnc-color {
+  color: #39b6f8;
+}
+
+.cnc-background-banner {
+  display: block;
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url('../images/cnc-sketchbook.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cnc-project-box {
+  background-color: #f2fcff;
+  padding: 20px 20px;
+}
+
+.famapp-color {
+  color: #af92c0;
+}
+
+.famapp-project-box {
+  background-color: #decde8;
+  padding: 20px 20px;
+}
+
+.famapp-link {
+  font-size: 16px;
+  color: #af92c0;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cbc-color {
+  color: #f2542d;
 }

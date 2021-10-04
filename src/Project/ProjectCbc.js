@@ -8,6 +8,7 @@ import * as tocbot from 'tocbot';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NavbarProject from '../Component/NavBarProject';
 
 AOS.init();
 
@@ -15,33 +16,34 @@ export default class ProjectCbc extends Component {
   render() {
     return (
       <div className="Projects">
-        <Navbar />
+        <NavbarProject/>
         <div>
+          <center>
+            <img src="img/cbc/scene2.png" alt="Cascade Bicycle Club's Design" className="project-main-image"/>
+          </center>
           <div className="project-overview" id="project-overview">
-            <div className="project-info fourcol">
-              <div/>
-              <h1 className="project-title">Cascade Bicycle Club Brand Book</h1>
-              <div/>
-              <div/>
-            </div>
-            <div className="project-info fourcol">
-              <div/>
+            <div className="project-info fivecol">
+              <div />
               <div className="column1">
-                <p><b>Individual project: </b>Brand Research, Graphic Design, UX/UI Design</p>
-                <p><b>Duration: </b>November - December 2020</p>
-                <p><b>Tools: </b>Adobe Photoshop, Adobe Illustrator</p>
-              </div>
-              <div className="column2">
-                <p className="projects-description">
+                <h1 className="project-title cbc-color">Cascade Bicycle Club Brand Book</h1>
+                <p>
                   The brand guidlines of Cascade Bicycle Club's new design, including logo, color scheme, typography, 
                   iconography, photography, and selected task application prototypes.
                 </p>
               </div>
+              <div />
+              <div className="column2">
+                <p className="projects-description">
+                  <br/>
+                  <p><b>Individual project: </b>Brand Research, Graphic Design, UX/UI Design<br/>
+                  <b>Duration: </b>November - December 2020<br/>
+                  <b>Other Teammates: </b>1 Project manager, 2 UX Researchers<br/>
+                  <b>Tools: </b>Adobe Photoshop, Adobe Illustrator</p>
+                </p>
+              </div>
+              <div />
             </div>
           </div>
-          <center>
-            <img src="img/cbc/scene2.png" alt="Cascade Bicycle Club's Design" className="project-main-image paddingtop150"/>
-          </center>
 
           <center>
             {/* <img src="img/cbc/file/1.png" alt="" className="brandbookimg"></img> */}
