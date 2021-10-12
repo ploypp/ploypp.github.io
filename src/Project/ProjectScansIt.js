@@ -70,7 +70,7 @@ export default class ProjectScansIt extends Component {
             <div className="project-contribution fivecol paddingtop50" id="project-contribution">
               <div/>
               <div>
-                <h2 className="scansit-color">My Contributions</h2>
+                <h2 className="waparks-color">My Contributions</h2>
                 <li>
                   Conducted <b>user research</b> and brainstormed with the team to come up with ideas for improving the problems
                   getting from interviews and surveys.

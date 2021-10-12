@@ -58,7 +58,7 @@ export default class Navbar extends Component {
           <a href="#design">DESIGN</a>
           <a href="#interactive">INTERACTIVE</a>
           <a href="#about">ABOUT</a>
-          <a href="https://drive.google.com/file/d/1tPM7DYwudUTJ-ryL2wGG5rgi2H8VuGDp/view?usp=sharing" target="_blank">RESUME</a>
+          <a href="https://drive.google.com/file/d/1aRxGnr9faSMWo8gbUeCIKEz71bKxiDa6/view?usp=sharing" target="_blank">RESUME</a>
         </div>
         <Popup
           modal

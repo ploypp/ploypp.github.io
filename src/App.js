@@ -63,7 +63,7 @@ export default class App extends Component {
               </svg>
             </div>
           </div> */}
-          
+          <div className="pro-title">
           <div className="twocolumns">
             <div>
               <div id="li-text1">
@@ -85,7 +85,7 @@ export default class App extends Component {
             </div>
           </div>
 
-          <div className="twocolumns paddingtop100">
+          <div className="twocolumns">
             <div>
               <div id="li-text1">
                 <Link to = "/cnc"><div><p><u>Code&amp;Craft Website Redesign</u> &#8594;</p></div></Link>
@@ -105,7 +105,7 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          
+          </div>
           <h2 className="featuredtitle paddingtop150" id="interactive">INTERCTIVE<br/>MEDIA</h2>
           <svg className="after-title-path" height="100" width="100">
             <line x1="70" y1="0" x2="30" y2="100"/>

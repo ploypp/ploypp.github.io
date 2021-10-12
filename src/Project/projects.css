@@ -372,3 +372,72 @@ iframe {
 .cbc-color {
   color: #f2542d;
 }
+
+.waparks-color {
+  color: #6aa84f;
+}
+
+.waparks-field-method-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/research-bg-img.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.waparks-interview-method-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/interview.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.waparks-survey-method-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/survey.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.waparks-box {
+  background-color: #dbf0d5;
+  padding: 20px 20px;
+}
