@@ -33,7 +33,7 @@
 
 * {
   font-family: 'helvetica-neue', sans-serif;
-  overflow-x: clip;
+  overflow-x: hidden;
   color: #000000;
   background-color: transparent;
   scroll-behavior: smooth;
@@ -46,7 +46,6 @@
 body {
   margin: 0;
   font-family: 'helvetica-neue', sans-serif;
-  overflow-x: clip;
 }
 
 span {
@@ -397,7 +396,7 @@ footer p {
 }
 
 .interactive-project img {
-  max-width: 60vw;
+  max-width: 70vw;
   margin-top: 20px;
 }
 
