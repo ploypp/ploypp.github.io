@@ -213,11 +213,14 @@ export default class ProjectFamApp extends Component {
             </div>
             <div className="col3-start col7-end">
               <h2 className="headline">
-                
+                Play with the prototype
               </h2>
-              <p>
+              <div className="figma">
+                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyuGozk181NKerSs642kach%2FFamApp%3Fnode-id%3D2%253A3249%26starting-point-node-id%3D2%253A3249%26scaling%3Dscale-down" allowfullscreen/>
+              </div>
+              {/* <p>
                 
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="wrapper">

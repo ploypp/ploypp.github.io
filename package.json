@@ -28,8 +28,8 @@
     "tocbot": "^4.12.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build && cp build/index.html build/404.html && mv build docs",
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/404.html && mv build docs ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -190,10 +190,13 @@ export default class ProjectScansIt extends Component {
             </div>
             <div className="col3-start col7-end">
               <h2 className="headline">
-                
+                Play with the prototype
               </h2>
-              <p>
-              </p>
+              <div className="figma">
+                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkqdCcVRZ4j7XyMqxuEreN8%2FScansIt%3Fnode-id%3D55%253A22%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A7" allowfullscreen/>
+              </div>
+              {/* <p>
+              </p> */}
             </div>
           </div>
           <div className="wrapper">

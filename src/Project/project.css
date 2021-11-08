@@ -61,6 +61,28 @@
   text-underline-offset: 2px;
 }
 
+.figma {
+  width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.xd {
+  width: 375px;
+  /* margin: auto; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+iframe {
+  border: 0;
+  width: 350px;
+  height: 700px;
+}
+
 /* famapp */
 
 .famapp-banner {

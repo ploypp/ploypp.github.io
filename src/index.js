@@ -5,6 +5,7 @@ import './index.css';
 import ScrollToTop from './ScrollToTop';
 import App from './App';
 import About from './About';
+import Interactive from './Interactive';
 
 import ProjectScansIt from './Project/ProjectScansIt';
 import ProjectFamApp from './Project/ProjectFamApp';
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
+        <Route path="/interactive" component={Interactive} />
         <Route path="/scansit" component={ProjectScansIt} />
         <Route path="/waparks" component={ResearchWAParks} />
         <Route path="/famapp" component={ProjectFamApp} />

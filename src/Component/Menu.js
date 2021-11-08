@@ -7,7 +7,7 @@ export default ({ close }) => (
       <a href="/#design"><li onClick={close}>design</li></a>
       <a href="/interactive"><li onClick={close}>interactive</li></a>
       <a href="/about"><li onClick={close}>about</li></a>
-      <li onClick={close}><a href="https://drive.google.com/file/d/1aRxGnr9faSMWo8gbUeCIKEz71bKxiDa6/view?usp=sharing" target="_blank">RESUME</a></li>
+      <li onClick={close}><a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank">resume</a></li>
     </ul>
   </div>
 );

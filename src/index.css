@@ -329,6 +329,72 @@ footer p {
   padding-top: 100px;
 }
 
+/* about */
+
+.About {
+  background-color: #000;
+}
+
+.About h1,
+.About h2,
+.About p,
+.About b,
+.About a {
+  color: #fff;
+}
+
+/* interactive */
+
+.Interactive {
+  background-color: #000;
+}
+
+.Interactive h1,
+.Interactive h2,
+.Interactive p,
+.Interactive b,
+.Interactive a {
+  color: #fff;
+}
+
+.interactive-project {
+  position: relative;
+}
+
+.interactive-title {
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 300;
+  text-transform: lowercase;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  /* transition: opacity .2s, visibility .2s; */
+}
+
+.interactive-project img {
+  max-width: 60vw;
+  margin-top: 20px;
+}
+
+.interactive-project :hover .interactive-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  
+}
+
+.interactive-project:hover .interactive-title {
+  visibility: visible;
+  opacity: 1;
+  
+}
+
 /* screen sizes */
 
 @media (max-width: 768px)

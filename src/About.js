@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
+import {Link } from "react-router-dom";
 import classNames from "classnames";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -61,7 +62,15 @@ export default class About extends Component {
               </ul>
             </div> */}
           </div>
-
+          <div className="previous-next">
+            <div className="previous">
+              <Link to = "/interactive">
+                <p>see more</p>
+                <h1 className="home-project-title">&#10229; Interactive Projects</h1>
+              </Link>
+            </div>
+            <div className="next"/>
+          </div>
           <Footnote/>
         </div>
     );
