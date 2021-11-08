@@ -417,6 +417,7 @@ footer p {
 @media (max-width: 426px)
 {
   .wrapper {
+    position: relative;
     display: inline-block;
     padding: 30px 20px;
   }
@@ -433,6 +434,7 @@ footer p {
 @media (min-width:426px) and (max-width: 768px)
 {
   .wrapper {
+    position: relative;
     display: inline-block;
     padding: 60px 45px;
   }
