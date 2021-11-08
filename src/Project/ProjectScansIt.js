@@ -175,7 +175,7 @@ export default class ProjectScansIt extends Component {
               <p>
                 After reviewing the features and user flow, I created an information architecture to  organize, structure, and label provided tasks.
               </p>
-              <img src="img/scansit/scansit-competitive-analysis.png" alt="ScansIt Information Architecture"/>
+              <img src="img/scansit/scansit-info-arch.png" alt="ScansIt Information Architecture"/>
             </div>
           </div>
           <div className="wrapper">

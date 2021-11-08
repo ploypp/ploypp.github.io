@@ -10,6 +10,7 @@ import ProjectScansIt from './Project/ProjectScansIt';
 import ProjectCnc from './Project/ProjectCnc';
 import ProjectCbc from './Project/ProjectCbc';
 import ProjectFamApp from './Project/ProjectFamApp';
+import ProjectLink from './Project/ProjectLink';
 import ResearchWAParks from './Project/ResearchWAParks';
 
 import * as serviceWorker from './serviceWorker';
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="/cbc" component={ProjectCbc} />
         <Route path="/waparks" component={ResearchWAParks} />
         <Route path="/famapp" component={ProjectFamApp} />
+        <Route path="/link" component={ProjectLink} />
       </Switch>
   </Router>
  ,document.getElementById('root'));
