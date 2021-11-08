@@ -1,16 +1,8 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom'
-import Navbar from '../Component/NavBar';
 import Footnote from '../Component/Footnote';
-import classNames from "classnames";
 import {Link } from "react-router-dom";
-import * as tocbot from 'tocbot';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import NavbarProject from '../Component/NavBarProject';
-
-AOS.init();
 
 export default class ProjectScansIt extends Component {
   render() {

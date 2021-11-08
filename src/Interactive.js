@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
-import classNames from "classnames";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
