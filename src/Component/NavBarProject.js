@@ -49,9 +49,9 @@ export default class NavbarProject extends Component {
       <nav className={classnames("Navbar", {
         "Navbar--hidden": !this.state.visible
       })}>
-        <div className="Logo">
+        <div className="Logo left">
           <Link to = "/">
-              PLOYPILIN P.
+              ploypil.in
           </Link>
         </div>
       </nav>
