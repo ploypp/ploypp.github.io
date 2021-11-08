@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.42d7b91f.chunk.css",
     "main.js": "/static/js/main.45e87a46.chunk.js",
     "main.js.map": "/static/js/main.45e87a46.chunk.js.map",
@@ -23,5 +24,28 @@
     "static/js/2.ea2e0c1c.chunk.js",
     "static/css/main.42d7b91f.chunk.css",
     "static/js/main.45e87a46.chunk.js"
+=======
+    "main.css": "/static/css/main.e74286a9.chunk.css",
+    "main.js": "/static/js/main.03fe118d.chunk.js",
+    "main.js.map": "/static/js/main.03fe118d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.30fbed10.chunk.css": "/static/css/2.30fbed10.chunk.css",
+    "static/js/2.b97f9925.chunk.js": "/static/js/2.b97f9925.chunk.js",
+    "static/js/2.b97f9925.chunk.js.map": "/static/js/2.b97f9925.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.30fbed10.chunk.css.map": "/static/css/2.30fbed10.chunk.css.map",
+    "static/css/main.e74286a9.chunk.css.map": "/static/css/main.e74286a9.chunk.css.map",
+    "static/js/2.b97f9925.chunk.js.LICENSE.txt": "/static/js/2.b97f9925.chunk.js.LICENSE.txt",
+    "static/media/project.css": "/static/media/waparks-overview.fdd578bb.jpg",
+    "static/media/index-new.css": "/static/media/helveticaneueit-webfont.d9b786a7.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.30fbed10.chunk.css",
+    "static/js/2.b97f9925.chunk.js",
+    "static/css/main.e74286a9.chunk.css",
+    "static/js/main.03fe118d.chunk.js"
+>>>>>>> b4560a26a8017ab5f6defb46c1f1fc9cbf455f43
   ]
 }

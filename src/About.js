@@ -13,20 +13,15 @@ export default class About extends Component {
         <div className="About">
           {/* <Cursor /> */}
           <Navbar />
-          <div className="about-content">
-            <div className="aboutme1 fourcol paddingtop150" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              <div/>
+          <div className="wrapper">
+            <div className="col2-start col4-end">
               <div>
                 <h1>Hello, nice to meet you!</h1>
-              </div>
-            </div>
-
-            <div className="aboutme1 fourcol" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              <div/>
-              <div>
                 <img src="img/me3.jpg" alt="My Portrait" className="me"/>
               </div>
-              <div className="aboutme2">
+            </div>
+            <div className="col5-start col8-end">
+              <div className="aboutme2 paddingtop50">
                 <p>👋 I'm Ploy.</p>
                 <p>
                   🌱 I'm currently pursuing a Bachelor degree in <u>Human Centered Design & Engineering</u> with a minor in Informatics at 
