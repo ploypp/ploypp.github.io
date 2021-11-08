@@ -58,7 +58,7 @@ export default class App extends Component {
           <div className="next">
             <Link to = "/interactive">
               <p>see more</p>
-              <h1 className="home-project-title">Interactive Projects &#10230;</h1>
+              <h1 className="home-project-title">interactive projects &#10230;</h1>
             </Link>
           </div>
         </div>

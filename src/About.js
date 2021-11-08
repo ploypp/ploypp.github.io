@@ -16,7 +16,7 @@ export default class About extends Component {
           <div className="wrapper">
             <div className="col2-start col4-end">
               <div>
-                <h1>Hello, nice to meet you!</h1>
+                <h1>hello, nice to meet you!</h1>
                 <img src="img/me.gif" alt="My Portrait" className="me"/>
               </div>
             </div>
@@ -24,20 +24,20 @@ export default class About extends Component {
               <div className="aboutme2 paddingtop50">
                 <p>👋 My name is Ploy.</p>
                 <p>
-                  🌱 I'm currently pursuing a Bachelor degree in Human Centered Design & Engineering with a minor in Informatics at 
-                  the University of Washington, Seattle.
+                  🌱 I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> at 
+                  the University of Washington.
                 </p>
                 <p>
-                  👀 I'm interested in user experience design, human-computer interaction, and interactive media/art.
-                  As a designer, I believe that design is a possibility-driven tool that can better improve the community. 
-                  I passionate about applying design skills to help people accomplishing their goals.
+                  👀 I'm passionate about creating meaningful experiences through design and art. Growing up in 
+                  a remote area in Thailand, I also am interested in <b>environmental values and cultural diversity</b>. My personal background majorly
+                  drives me to work on creative projects and research related to humans and the environment.
+                  <ul>
+                  <li><a href="https://medium.com/@ploypp/learn-the-heart-of-hmong-culture-through-hmong-embroidery-9f19df6f608a" target="blank">Ethnographic research on Hmong embroidery</a></li>
+                  <li><a href="https://medium.com/@ploypp/computer-as-a-medium-for-human-environment-interaction-the-color-of-nature-tangible-interactive-16865e213ad1" target="blank">A proposed interactive art that enhances interactions between human, computer, and environment</a></li>
+                  </ul>
                 </p>
                 <p>
-                  📫 Feel free to reach out via email: <a href="mailto:ploypp@uw.edu">ploypp@uw.edu </a>
-                  or <a href="https://www.linkedin.com/in/ploypruekcharoen/">LinkedIn</a>. 
-                </p>
-                <p>
-                  💞️ I appreciate your time here a lot! Let's get in touch!
+                  💞️ I appreciate your time here a lot! <a href="mailto:ploypp@uw.edu">Let's get in touch!</a>
                 </p>
               </div>
             </div>
@@ -66,10 +66,15 @@ export default class About extends Component {
             <div className="previous">
               <Link to = "/interactive">
                 <p>see more</p>
-                <h1 className="home-project-title">&#10229; Interactive Projects</h1>
+                <h1 className="home-project-title">&#10229; interactive projects</h1>
               </Link>
             </div>
-            <div className="next"/>
+            <div className="next">
+              <a href="https://medium.com/@ploypp" target="_blank">
+                <p>check out my</p>
+                <h1 className="home-project-title">medium posts &#10230;</h1>
+              </a>
+            </div>
           </div>
           <Footnote/>
         </div>
