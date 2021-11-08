@@ -134,6 +134,8 @@ export default class ProjectLink extends Component {
               <h2 className="headline">
                 Play with the prototype
               </h2>
+            </div>
+            <div className="col3-start col7-end">
               <div className="xd">
                 <iframe src="https://xd.adobe.com/embed/d9712a9b-03b4-43a5-b238-2b92897758da-8c22/" frameborder="0" allowfullscreen/>
               </div>

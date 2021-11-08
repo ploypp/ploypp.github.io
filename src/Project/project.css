@@ -70,7 +70,7 @@
 }
 
 .xd {
-  width: 375px;
+  width: 300px;
   /* margin: auto; */
   height: 100%;
   display: flex;
@@ -172,6 +172,12 @@ iframe {
 }
 
 /* screen sizes */
+@media (max-width: 426px)
+{
+  .previous {
+    padding-left: 0;
+  }
+}
 
 @media (max-width: 768px)
 {

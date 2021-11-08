@@ -33,7 +33,7 @@
 
 * {
   font-family: 'helvetica-neue', sans-serif;
-  overflow-x: none;
+  overflow-x: clip;
   color: #000000;
   background-color: transparent;
   scroll-behavior: smooth;
@@ -415,11 +415,31 @@ footer p {
 
 /* screen sizes */
 
-@media (max-width: 768px)
+@media (max-width: 426px)
+{
+  .wrapper {
+    display: inline-block;
+    padding: 30px 20px;
+  }
+
+  .Projects ul, .Projects ol {
+    padding-inline-start: 0;
+  }
+
+  footer .col1-start {
+    padding-left: 0;
+  }
+}
+
+@media (min-width:426px) and (max-width: 768px)
 {
   .wrapper {
     display: inline-block;
     padding: 60px 45px;
+  }
+
+  .Projects ul, .Projects ol {
+    padding-inline-start: 0;
   }
 
   footer .wrapper,
