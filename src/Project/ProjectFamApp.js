@@ -16,7 +16,7 @@ export default class ProjectFamApp extends Component {
     return (
       <div className="Projects">
         <NavbarProject/>
-        <body>
+        <div>
           <div className="famapp-banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
@@ -289,7 +289,7 @@ export default class ProjectFamApp extends Component {
               </p>
             </div>
           </div>
-        </body>
+        </div>
         <Footnote/>
       </div>
     );

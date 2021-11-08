@@ -17,7 +17,7 @@ export default class ProjectScansIt extends Component {
     return (
       <div className="Projects">
         <NavbarProject/>
-        <body>
+        <div>
           <div className="scansit-banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
@@ -221,7 +221,7 @@ export default class ProjectScansIt extends Component {
               </p>
             </div>
           </div>
-        </body>
+        </div>
         <Footnote/>
       </div>
     );

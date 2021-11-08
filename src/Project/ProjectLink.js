@@ -16,7 +16,7 @@ export default class ProjectLink extends Component {
     return (
       <div className="Projects">
         <NavbarProject/>
-        <body>
+        <div>
           <div className="link-banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
@@ -159,7 +159,7 @@ export default class ProjectLink extends Component {
               </p>
             </div>
           </div>
-        </body>
+        </div>
         <Footnote/>
       </div>
     );

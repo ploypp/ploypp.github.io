@@ -15,7 +15,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <body>
+        <div>
           <div className="wrapper">
             <div className="col3-start col7-end">
               <h1>
@@ -55,7 +55,7 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-        </body>
+        </div>
         <Footnote/>
       </div>
     );
