@@ -17,16 +17,22 @@ export default class ProjectLink extends Component {
       <div className="Projects">
         <NavbarProject/>
         <div>
-          <div className="link-banner"/>
+          <div className="link-banner banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
               <h1 className="project-title">Link</h1>
-              <span>
-                <b>ROLE:</b>&nbsp; User Experience and Interface Designer<br/>
-                <b>OTHER TEAMMATE:</b>&nbsp; 1 User Experience Designer<br/>
-                <b>DURATION:</b>&nbsp; 7 Days<br/>
-                <b>TOOLS:</b>&nbsp; Adobe XD, Adobe Illustrator, Miro
-              </span>
+            </div>
+            <div className="col2-start col5-end">
+              <p>
+                <span><b>ROLE:</b></span>&nbsp; User Experience and Interface Designer<br/>
+                <span><b>OTHER TEAMMATE:</b></span>&nbsp; 1 User Experience Designer<br/>
+              </p>
+            </div>
+            <div className="col5-start col7-end">
+              <p>
+                <span><b>DURATION:</b></span>&nbsp; 7 Days<br/>
+                <span><b>TOOLS:</b></span>&nbsp; Adobe XD, Adobe Illustrator, Miro
+              </p>
             </div>
           </div>
           <div className="wrapper">
@@ -158,6 +164,20 @@ export default class ProjectLink extends Component {
                 Because I only had a week to finish this project, I carefully looked at each little detail before moving to the next step because it would waste more time to come back and fix anything. I also gained problem-solving and decision-making skills from working independently on the interactive prototype. However, having a teammate who I could ask for opinions also benefited in finalizing the design choices.
               </p>
             </div>
+          </div>
+        </div>
+        <div className="previous-next">
+          <div className="previous">
+            <Link to = "/famapp">
+              <p>previous</p>
+              <h1 className="home-project-title">&#10229; Fam App</h1>
+            </Link>
+          </div>
+          <div className="next">
+            <Link to = "/scansit">
+              <p>next</p>
+              <h1 className="home-project-title">ScansIt &#10230;</h1>
+            </Link>
           </div>
         </div>
         <Footnote/>

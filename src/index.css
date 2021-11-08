@@ -228,6 +228,10 @@ img {
   grid-column-end: 8;
 }
 
+.wrapper .col9-end {
+  grid-column-end: 9;
+}
+
 /* navbar */
 
 .Navbar {
@@ -240,12 +244,18 @@ img {
   transition: top 0.6s;
 }
 
-.left {
+.previous-next {
+  padding: 40px;
+  display: flow-root;
+  position: relative;
+}
+
+.left, .previous {
   float: left;
   padding-left: 40px;
 }
 
-.right {
+.right, .next {
   float: right;
   padding-right: 40px;
 }
@@ -254,13 +264,30 @@ img {
   background-color: transparent;
 }
 
-.Navbar a {
+.Navbar a,
+.previous-next a {
   text-decoration: none;
 }
 
 .Navbar a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+.previous-next a:hover h1{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.previous-next p {
+  color: #a5a5a5;
+  margin-block-end: 0;
+}
+
+.previous-next h1 {
+  margin-block-start: 0;
+  font-size: 2.5rem;
 }
 
 .nav-info {
@@ -273,13 +300,18 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover,
 footer a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 footer .col1-start {
-  padding-left: 60px;
+  padding-left: 40px;
+}
+
+footer .col9-end {
+  padding-right: 40px;
 }
 
 footer p {
@@ -295,4 +327,28 @@ footer p {
 
 .paddingtop100 {
   padding-top: 100px;
+}
+
+/* screen sizes */
+
+@media (max-width: 768px)
+{
+  .wrapper {
+    display: inline-block;
+    padding: 60px 45px;
+  }
+
+  footer .wrapper,
+  NavBar .wrapper {
+    padding: 0;
+  }
+
+  footer .col1-start,
+  footer .col9-end {
+    padding: 0;
+  }
+
+  .wrapper div {
+    margin-bottom: 32px;
+}
 }

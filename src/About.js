@@ -11,25 +11,24 @@ export default class About extends Component {
   render() {
     return (
         <div className="About">
-          {/* <Cursor /> */}
           <Navbar />
           <div className="wrapper">
             <div className="col2-start col4-end">
               <div>
                 <h1>Hello, nice to meet you!</h1>
-                <img src="img/me3.jpg" alt="My Portrait" className="me"/>
+                <img src="img/me.gif" alt="My Portrait" className="me"/>
               </div>
             </div>
             <div className="col5-start col8-end">
               <div className="aboutme2 paddingtop50">
-                <p>👋 I'm Ploy.</p>
+                <p>👋 My name is Ploy.</p>
                 <p>
-                  🌱 I'm currently pursuing a Bachelor degree in <u>Human Centered Design & Engineering</u> with a minor in Informatics at 
+                  🌱 I'm currently pursuing a Bachelor degree in Human Centered Design & Engineering with a minor in Informatics at 
                   the University of Washington, Seattle.
                 </p>
                 <p>
                   👀 I'm interested in user experience design, human-computer interaction, and interactive media/art.
-                  As an aspiring designer, I believe that design is a possibility-driven tool that can better improve the community. 
+                  As a designer, I believe that design is a possibility-driven tool that can better improve the community. 
                   I passionate about applying design skills to help people accomplishing their goals.
                 </p>
                 <p>

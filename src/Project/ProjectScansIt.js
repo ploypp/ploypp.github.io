@@ -18,16 +18,22 @@ export default class ProjectScansIt extends Component {
       <div className="Projects">
         <NavbarProject/>
         <div>
-          <div className="scansit-banner"/>
+          <div className="scansit-banner banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
               <h1 className="project-title">ScansIt</h1>
-              <span>
-                <b>ROLE:</b>&nbsp; Product Designer and Researcher<br/>
-                <b>OTHER TEAMMATES:</b>&nbsp; 1 Project manager, 2 UX Researchers<br/>
-                <b>DURATION:</b>&nbsp; February - March 2020<br/>
-                <b>TOOLS:</b>&nbsp; Adobe Photoshop, Figma, Miro, Trello
-              </span>
+            </div>
+            <div className="col2-start col5-end">
+              <p>
+                <span><b>ROLE:</b></span>&nbsp; Product Designer and Researcher<br/>
+                <span><b>OTHER TEAMMATES:</b></span>&nbsp; 1 Project manager, 2 UX Researchers<br/>
+              </p>
+            </div>
+            <div className="col5-start col7-end">
+              <p>
+                <span><b>DURATION:</b></span>&nbsp; February - March 2020<br/>
+                <span><b>TOOLS:</b></span>&nbsp; Adobe Photoshop, Figma, Miro, Trello
+              </p>
             </div>
           </div>
           <div className="wrapper">
@@ -220,6 +226,20 @@ export default class ProjectScansIt extends Component {
                 As I designed the solution, I had been facing some indecisiveness and dissatisfaction with my own work. One thing I experienced from this project was to always ask for opinions. To ask my teammates for comments, suggestions, or even questions they had on my design brought me more ideas. Although we did not have a chance to do usability testing with the outsiders, my teammates provided helpful feedback as they played with the prototype. Their comments reflected things my design did well and what it lacked so that I could improve it.
               </p>
             </div>
+          </div>
+        </div>
+        <div className="previous-next">
+          <div className="previous">
+            <Link to = "/link">
+              <p>previous</p>
+              <h1 className="home-project-title">&#10229; Link</h1>
+            </Link>
+          </div>
+          <div className="next">
+            <Link to = "/waparks">
+              <p>next</p>
+              <h1 className="home-project-title">Exercising in WA Parks &#10230;</h1>
+            </Link>
           </div>
         </div>
         <Footnote/>

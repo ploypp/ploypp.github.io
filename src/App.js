@@ -20,11 +20,11 @@ export default class App extends Component {
                 and passionate about interactive art.
               </h1>
               <div className="paddingtop50">
-                <p>scroll to see my work &#8628;</p>
+                <p>scroll to see my work &nbsp; &#10549;</p>
               </div>
             </div>
           </div>
-          <div className="wrapper home-project-wrap">
+          <div className="wrapper home-project-wrap" id="design">
             <div className="col2-start col5-end">
               <div>
                 <Link to = "/famapp">
@@ -51,6 +51,15 @@ export default class App extends Component {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="previous-next">
+          <div className="previous"/>
+          <div className="next">
+            <Link to = "/interactive">
+              <p>see more</p>
+              <h1 className="home-project-title">Interactive Projects &#10230;</h1>
+            </Link>
           </div>
         </div>
         <Footnote/>

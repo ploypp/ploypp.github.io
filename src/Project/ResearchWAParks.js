@@ -14,17 +14,23 @@ export default class ResearchWAParks extends Component {
     return (
       <div className="Projects">
         <NavbarProject/>
-        <body>
-          <div className="waparks-banner"/>
+        <div>
+          <div className="waparks-banner banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
               <h1 className="project-title">Exercising in Washington Parks — Pandemic Edition</h1>
-              <span>
-                <b>ROLE:</b>&nbsp; User Researcher<br/>
-                <b>COLLABORATION:</b>&nbsp; Team of 3<br/>
-                <b>DURATION:</b>&nbsp;  April - June 2021<br/>
-                <b>TOOLS:</b>&nbsp; Otter.ai, ATLAS.ti, Miro
-              </span>
+            </div>
+            <div className="col2-start col5-end">
+              <p>
+                <span><b>ROLE:</b></span>&nbsp; User Researcher<br/>
+                <span><b>COLLABORATION:</b></span>&nbsp; Team of 3<br/>
+              </p>
+            </div>
+            <div className="col5-start col7-end">
+              <p>
+                <span><b>DURATION:</b></span>&nbsp;  April - June 2021<br/>
+                <span><b>TOOLS:</b></span>&nbsp; Otter.ai, ATLAS.ti, Miro
+              </p>
             </div>
           </div>
           <div className="wrapper">
@@ -210,7 +216,7 @@ export default class ResearchWAParks extends Component {
               </p>
             </div>
           </div>
-          <div className="wrapper">
+          {/* <div className="wrapper">
             <div className="col2-start process">
               <span>08. REFLECTION</span>
             </div>
@@ -220,21 +226,24 @@ export default class ResearchWAParks extends Component {
                 <li>Choose specific findings to focus on as we move to the next stage.</li>
               </ul>
             </div>
+          </div> */}
+        </div>
+        <div className="previous-next">
+          <div className="previous">
+            <Link to = "/scansit">
+              <p>previous</p>
+              <h1 className="home-project-title">&#10229; ScansIt</h1>
+            </Link>
           </div>
-        </body>
+          <div className="next">
+            <Link to = "/interactive">
+              <p>see more</p>
+              <h1 className="home-project-title">Interactive Projects &#10230;</h1>
+            </Link>
+          </div>
+        </div>
         <Footnote/>
       </div>
     );
   }
 }
-
-tocbot.init({
-  // Where to render the table of contents.
-  tocSelector: '.js-toc',
-  // Where to grab the headings to build the table of contents.
-  contentSelector: '.js-toc-content',
-  // Which headings to grab inside of the contentSelector element.
-  headingSelector: 'h1, h2, h3',
-  // For headings inside relative or absolute positioned containers within content.
-  hasInnerContainers: true,
-});

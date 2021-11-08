@@ -3,6 +3,7 @@ import NavbarProject from '../Component/NavBarProject';
 import Footnote from '../Component/Footnote';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Link } from "react-router-dom";
 
 AOS.init();
 
@@ -12,16 +13,22 @@ export default class ProjectFamApp extends Component {
       <div className="Projects">
         <NavbarProject/>
         <div>
-          <div className="famapp-banner"/>
+          <div className="famapp-banner banner"/>
           <div className="wrapper">
             <div className="col2-start col7-end">
               <h1 className="project-title">Fam App</h1>
-              <span>
-                <b>ROLE:</b>&nbsp; Product Designer and Researcher<br/>
-                <b>COLLABORATION:</b>&nbsp; Team of 3<br/>
-                <b>DURATION:</b>&nbsp; January - March 2021<br/>
-                <b>TOOLS:</b>&nbsp; Adobe Photoshop, Figma, Miro
-              </span>
+            </div>
+            <div className="col2-start col5-end">
+              <p>
+                <span><b>ROLE:</b></span>&nbsp; Product Designer and Researcher<br/>
+                <span><b>COLLABORATION:</b></span>&nbsp; Team of 3<br/>
+              </p>
+            </div>
+            <div className="col5-start col7-end">
+              <p>
+                <span><b>DURATION:</b></span>&nbsp; January - March 2021<br/>
+                <span><b>TOOLS:</b></span>&nbsp; Adobe Photoshop, Figma, Miro
+              </p>
             </div>
           </div>
           <div className="wrapper">
@@ -45,7 +52,7 @@ export default class ProjectFamApp extends Component {
               </p>
             </div>
           </div>
-          <div className="wrapper">
+          <div className="wrapper users-stakeholders">
             <div className="col2-start process">
               <span>01. USERS &amp; STAKEHOLDERS</span>
             </div>
@@ -54,10 +61,10 @@ export default class ProjectFamApp extends Component {
                 Who are we focusing on?
               </h2>
             </div>
-            <div className="col3-start col4-end">
+            <div className="col3-start col4-end users">
               <img src="img/famapp/father.png"/>
             </div>
-            <div className="col5-start col6-end">
+            <div className="col5-start col6-end users">
               <img src="img/famapp/mother.png"/>
             </div>
             <div className="col3-start col7-end">
@@ -283,6 +290,20 @@ export default class ProjectFamApp extends Component {
                 One thing I learned from working with my team is how to manage time and deadlines well. We always communicated with each other, took notes during the meetings, and finished our assigned work on time. Having clear communication and expectations, we were able to keep ourselves on track and work together remotely.
               </p>
             </div>
+          </div>
+        </div>
+        <div className="previous-next">
+          <div className="previous">
+            <Link to = "/#design">
+              <p>back to</p>
+              <h1 className="home-project-title">&#10229; selected projects</h1>
+            </Link>
+          </div>
+          <div className="next">
+            <Link to = "/link">
+              <p>next</p>
+              <h1 className="home-project-title">Link &#10230;</h1>
+            </Link>
           </div>
         </div>
         <Footnote/>
