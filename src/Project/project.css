@@ -1,0 +1,150 @@
+.project-title {
+  padding-bottom: 2rem;
+}
+
+.process {
+  margin-top: 1rem;
+}
+
+.process span {
+  color: #7c7c7c;
+}
+
+.headline {
+  margin-block-start: 0;
+}
+
+.img-caption {
+  color: #a5a5a5;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.img-inline {
+  display: inline-block;
+}
+
+.img-inline img {
+  display: inline;
+  max-width: 30%;
+}
+
+/* navbar */
+
+.NavbarProject {
+  padding: 30px 0 20px 0;
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.6s;
+}
+
+.left {
+  float: left;
+  padding-left: 40px;
+}
+
+.right {
+  float: right;
+  padding-right: 40px;
+}
+
+.NavbarProject a {
+  text-decoration: none;
+}
+
+.NavbarProject a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* famapp */
+
+.famapp-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/famapp-overview.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* link */
+
+.link-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/link-overview.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* scansit */
+
+.scansit-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/scansit-overview.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* waparks */
+
+.waparks-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/waparks-overview.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}

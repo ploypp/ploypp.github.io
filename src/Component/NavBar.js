@@ -49,16 +49,16 @@ export default class Navbar extends Component {
       <nav className={classnames("Navbar", {
         "Navbar--hidden": !this.state.visible
       })}>
-        <div className="Logo">
+        <div className="Logo left">
           <Link to = "/">
-              PLOYPILIN P.
+              ploypil.in
           </Link>
         </div>
-        <div className="nav-info">
-          <a href="#design">DESIGN</a>
-          <a href="#interactive">INTERACTIVE</a>
-          <a href="#about">ABOUT</a>
-          <a href="https://drive.google.com/file/d/1tPM7DYwudUTJ-ryL2wGG5rgi2H8VuGDp/view?usp=sharing" target="_blank">RESUME</a>
+        <div className="nav-info right">
+          <a href="/#design">design</a>
+          <a href="/interactive">interactive</a>
+          <a href="/about">about</a>
+          <a href="https://drive.google.com/file/d/1aRxGnr9faSMWo8gbUeCIKEz71bKxiDa6/view?usp=sharing" target="_blank">resume</a>
         </div>
         <Popup
           modal
