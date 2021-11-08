@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom'
 import NavbarProject from '../Component/NavBarProject';
 import Footnote from '../Component/Footnote';
-import classNames from "classnames";
-import {Link } from "react-router-dom";
-import * as tocbot from 'tocbot';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

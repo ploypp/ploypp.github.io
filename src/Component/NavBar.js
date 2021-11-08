@@ -60,7 +60,7 @@ export default class Navbar extends Component {
           <a href="/about">about</a>
           <a href="https://drive.google.com/file/d/1aRxGnr9faSMWo8gbUeCIKEz71bKxiDa6/view?usp=sharing" target="_blank">resume</a>
         </div>
-        {/* <Popup
+        <Popup
           modal
           overlayStyle={{ background: "rgba(0,0,0,1" }}
           contentStyle={contentStyle}
@@ -68,7 +68,7 @@ export default class Navbar extends Component {
           trigger={open => <Burger open={open} />}
         >
           {close => <Menu close={close} />}
-        </Popup> */}
+        </Popup>
       </nav>
       );
     }

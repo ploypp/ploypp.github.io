@@ -6,9 +6,6 @@ import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 export default class App extends Component {
   render() {
 
