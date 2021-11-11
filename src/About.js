@@ -52,25 +52,6 @@ export default class About extends Component {
                 </ul>
               </div>
             </div>
-            {/* <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
-              <p className="paddingtop50">If you want to know me a little more, here are some bits of my life.</p>
-              <ul>
-                <li>
-                  I love taking <b>film photos</b>. I like it when I have some time to think before
-                  pressing the shutter button. I also love the process of waiting. <i>Yeah, you didn't read it wrong. </i>
-                  It's exciting to wait for the result and some unintended mistakes. And of course, they are
-                  all my favorite mistakes.
-                </li>
-                <li>
-                  I also love <b>watching movies and documentaries</b>. My favorite ones, as of now, are <i>Chungking Express</i>,
-                  <i> The Grand Budapest Hotel</i> and <i>Oasis: Supersonic</i> (I'm a big fan of Oasis, too!)
-                </li>
-                <li>
-                  I like to <b>draw</b>. It is the best way for me to relax and express myself. Spending time alone with a colored pencil 
-                  (now kinda more toward Apple pencil) is the most satisfying moment!
-                </li>
-              </ul>
-            </div> */}
           </div>
           <div className="previous-next">
             <div className="previous">
