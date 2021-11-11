@@ -404,6 +404,13 @@ footer p {
   color: #fff;
 }
 
+.Interactive .Menu li,
+.Interactive .Menu li a,
+.About .Menu li,
+.About .Mene li a {
+  color: #fff;
+}
+
 .Interactive a {
   text-decoration: none;
 }
@@ -454,10 +461,10 @@ footer p {
 }
 
 .burger-menu .bar1,
-.bar2 {
+.burger-menu .bar2 {
   width: 30px;
   height: 1px;
-  background-color: #22223B;
+  background-color: #000;
   margin: 7px 0;
   transition: 0.4s;
 }
@@ -472,6 +479,17 @@ footer p {
   -webkit-transform: rotate(30deg) translate(-4px, -4px);
   transform: rotate(30deg) translate(-4px, -4px);
   background-color: #000000;
+}
+
+.Interactive .burger-menu .bar1,
+.Interactive .burger-menu .bar2,
+.Interactive .burger-menu.open bar1,
+.Interactive .burger-menu.open bar2,
+.About .burger-menu .bar1,
+.About .burger-menu .bar2,
+.About .burger-menu.open bar1,
+.About .burger-menu.open bar2 {
+  background-color: #fff;
 }
 
 .burger-menu {

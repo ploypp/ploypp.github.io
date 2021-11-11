@@ -8,12 +8,12 @@
     padding: 0px;
     background-color: transparent;
 }
-.Menu ul, .Menu li a {
+.Menu li, .Menu li a {
   position: relative;
   top: 0px;
-  /* font-size: 60px; */
+  font-size: 2rem;
   padding: 0px;
-  color: #f4f1e7;
+  color: #fff !important;
   background-color: transparent;
 }
 .Menu li {
@@ -24,8 +24,9 @@
   background-color: transparent;
 }
 .Menu li:hover, .Menu li a:hover {
-  /* color: #fffc5f; */
-  color: #7476ff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .popup-overlay {
