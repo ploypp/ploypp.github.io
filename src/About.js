@@ -19,7 +19,7 @@ export default class About extends Component {
               </div>
             </div>
             <div className="col5-start col8-end">
-              <div className="aboutme2 paddingtop50">
+              <div className="aboutme2 paddingtop100">
                 <p>👋 My name is Ploy. I use she/her/hers pronouns.</p>
                 <p>
                   🌱 I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> at 
@@ -39,7 +39,19 @@ export default class About extends Component {
                 </p>
               </div>
             </div>
-            
+          </div>
+          <div className="wrapper">
+            <div className="col2-start col7-end">
+              <div>
+                <p><b>now listening: </b>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q">spotify playlist</a></p>
+                <b>now reading: </b>
+                <ul>
+                  {/* <li>Doing Visual Ethnography <i>by Sarah Pink</i></li> */}
+                  <li>Beartown <i>by Fredrik Backman</i></li>
+                  <li>ขอฝันใฝ่ในฝันอันเหลือเชื่อ <i>by ณัฐพล ใจจริง</i></li>
+                </ul>
+              </div>
+            </div>
             {/* <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" once="true">
               <p className="paddingtop50">If you want to know me a little more, here are some bits of my life.</p>
               <ul>

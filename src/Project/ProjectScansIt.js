@@ -185,7 +185,7 @@ export default class ProjectScansIt extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/scansit/gif/scansit-login.gif"/>
@@ -197,7 +197,7 @@ export default class ProjectScansIt extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/scansit/gif/scansit-card.gif"/>
@@ -209,7 +209,7 @@ export default class ProjectScansIt extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/scansit/gif/scansit-schedule.gif"/>
@@ -221,7 +221,7 @@ export default class ProjectScansIt extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/scansit/gif/scansit-setting.gif"/>

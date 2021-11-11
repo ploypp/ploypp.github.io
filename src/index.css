@@ -348,7 +348,9 @@ footer p {
 .About h2,
 .About p,
 .About b,
-.About a {
+.About a,
+.About li,
+.About i {
   color: #fff;
 }
 
@@ -472,5 +474,9 @@ footer p {
 
   .wrapper div {
     margin-bottom: 32px;
+  }
+
+  .About .wrapper div {
+    margin-bottom: 0;
   }
 }

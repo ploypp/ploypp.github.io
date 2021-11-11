@@ -214,7 +214,7 @@ export default class ProjectFamApp extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/famapp/gif/famapp-home.gif"/>
@@ -225,7 +225,7 @@ export default class ProjectFamApp extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/famapp/gif/famapp-statusmood.gif"/>
@@ -236,7 +236,7 @@ export default class ProjectFamApp extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/famapp/gif/famapp-calendar.gif"/>
@@ -247,7 +247,7 @@ export default class ProjectFamApp extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/famapp/gif/famapp-playlist.gif"/>
@@ -258,7 +258,7 @@ export default class ProjectFamApp extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/famapp/gif/famapp-devices.gif"/>

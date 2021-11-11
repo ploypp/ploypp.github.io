@@ -127,7 +127,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/link/gif/link-tutorial.gif"/>
@@ -138,7 +138,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/link/gif/link-devices.gif"/>
@@ -149,7 +149,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/link/gif/link-connect.gif"/>
@@ -160,7 +160,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/link/gif/link-electricity.gif"/>
@@ -171,7 +171,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/link/gif/link-support.gif"/>
@@ -182,7 +182,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
                 <img src="img/link/gif/link-accessibility.gif"/>
@@ -193,7 +193,7 @@ export default class ProjectLink extends Component {
             </div>
           </div>
 
-          <div class="prototype">
+          <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
                 <img src="img/link/gif/link-profile.gif"/>
