@@ -11,26 +11,40 @@ export default class Interactive extends Component {
     return (
       <div className="Interactive">
         <Navbar />
-        <center className="paddingtop100">
-          <div className="interactive-project">
-            <a href="https://youtu.be/0-Ngf4_q-EA" target="_blank">
+        <div className="wrapper">
+          <div className="col3-start col7-end interactive-project">
+            <a href="https://youtu.be/0-Ngf4_q-EA" target="_blank" rel="noreferrer">
+              <span>Blooming Flower &#10230;</span>
               <img className="interactive-img" src="img/blooming-flower.png" alt="Blooming Flower"/>
-              <p className="interactive-title">Blooming Flower</p>
             </a>
           </div>
-          <div className="interactive-project">
-            <a href="https://youtu.be/wv0huFyQkLE" target="_blank">
+        </div>   
+
+        <div className="wrapper">
+          <div className="col3-start col7-end interactive-project">
+            <a href="https://youtu.be/wv0huFyQkLE" target="_blank" rel="noreferrer">
+              <span>The World From My Hands &#10230;</span>
               <img className="interactive-img" src="img/a-world.png" alt="The World From My Hands"/>
-              <p className="interactive-title">The World From My Hands</p>
             </a>
           </div>
-          <div className="interactive-project">
-            <a href="https://youtu.be/l7tdk8AF210" target="_blank">
+        </div>
+
+        <div className="wrapper">
+          <div className="col3-start col7-end interactive-project">
+            <a href="https://youtu.be/l7tdk8AF210" target="_blank" rel="noreferrer">
+              <span>The Vest of Memories &#10230;</span>
               <img className="interactive-img" src="img/vest-memo.png" alt="The Vest of Memories"/>
-              <p className="interactive-title">The Vest of Memories</p>
             </a>
           </div>
-        </center>
+        </div>
+
+        <div className="wrapper">
+          <div className="col3-start col7-end interactive-project heart-hand">
+            <span>Sound of Heart and Hand (upcoming)</span>
+            <img className="interactive-img" src="img/heart-hand.png" alt="Sound of Heart and Hand"/>
+          </div>
+        </div>
+
         <div className="previous-next">
           <div className="previous">
             <Link to = "/#design">

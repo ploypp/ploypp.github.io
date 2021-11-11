@@ -67,6 +67,9 @@ export default class ResearchWAParks extends Component {
               <span>02. FIELD STUDY</span>
             </div>
             <div className="col3-start col7-end">
+              <p>I set up the field study from a stationary observation point perspective by choosing a spot at Gas Works Park to sit and take notes.</p>
+            </div>
+            <div className="col3-start col7-end">
               <h2 className="headline">
                 Field Study Research Questions
               </h2>
@@ -108,6 +111,13 @@ export default class ResearchWAParks extends Component {
             <div className="col2-start process">
               <span>03. INTERVIEW</span>
             </div>
+            <div className="col3-start col7-end">
+              <p>
+                I conducted interviews with three park users, two via Zoom and one in-person. With the interviewee's consent,
+                I recorded audio duting the interviews and used Otter.ai to transcribe the audio files to text.
+              </p>
+              <img src="img/waparks/gif/otterai.gif" alt="Audio to Text Transcription"/>
+            </div>
             <div className="col3-start col5-end">
               <h2 className="headline">
                 Interview Research Questions
@@ -127,6 +137,10 @@ export default class ResearchWAParks extends Component {
               </ul>
             </div>
             <div className="col3-start col7-end">
+              <p>After interviewing the park users, I did a qualitative analysis of the interview transcription using the coding tool ATLAS.ai.</p>
+              <img src="img/waparks/gif/atlasai.gif" alt="Coding Interview Data"/>
+            </div>
+            <div className="col3-start col7-end">
               <h2 className="headline">
                 From the interviews, we gained insights that led to the following results.
               </h2>
@@ -143,6 +157,12 @@ export default class ResearchWAParks extends Component {
           <div className="wrapper">
             <div className="col2-start process">
               <span>04. SURVEY</span>
+            </div>
+            <div className="col3-start col7-end">
+              <p>
+                To validate the findings and get more perspective on things we recently discovered from our interview analysis, we sent out a survey.
+                A survey study allowed us to gather data supporting our hypothesis on the social aspect of outdoor exercise.
+              </p>
             </div>
             <div className="col3-start col7-end">
               <h2 className="headline">

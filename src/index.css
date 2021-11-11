@@ -48,11 +48,22 @@ body {
   font-family: 'helvetica-neue', sans-serif;
 }
 
+.greeting:hover {
+  mix-blend-mode: multiply;
+}
+
 span {
   font-family: 'Overpass Mono', monospace;
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.8;
+}
+
+h1 span {
+  margin: 0;
+  font-family: 'helvetica-neue', sans-serif;
+  line-height: 100%;
+  color: rgb(120, 136, 209);
 }
 
 span b {
@@ -61,7 +72,7 @@ span b {
   font-size: 0.9rem;
 }
 
-h1, h2, h3, h4, p, i {
+h1, h2, h3, h4, p, i, h1 span {
   font-weight: 400;
 }
 
@@ -77,7 +88,7 @@ b {
   font-weight: 600;
 }
 
-h1 {
+h1, h1 span {
   /* font-family: 'Lora', serif; */
   font-size: 3rem;
 }
@@ -123,6 +134,11 @@ blockquote {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
+}
+
+.home-project-wrap a:hover,
+.home-project-wrap div:hover {
+  mix-blend-mode: multiply;
 }
 
 .home-project-wrap h1  {
@@ -248,8 +264,13 @@ img {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000;
+  z-index: 999;
   transition: top 0.6s;
+}
+
+.App .Navbar,
+.Interactive .Navbar {
+  z-index: 0;
 }
 
 .previous-next {
@@ -350,7 +371,8 @@ footer p {
 .About b,
 .About a,
 .About li,
-.About i {
+.About i,
+.About span {
   color: #fff;
 }
 
@@ -375,48 +397,48 @@ footer p {
 
 .Interactive h1,
 .Interactive h2,
+.Interactive h3,
 .Interactive p,
 .Interactive b,
-.Interactive a {
+.Interactive a,
+.Interactive span {
   color: #fff;
+}
+
+.Interactive a {
+  text-decoration: none;
 }
 
 .interactive-project {
   position: relative;
+  text-align: center;
 }
 
-.interactive-title {
-  font-family: 'Overpass Mono', monospace;
-  font-weight: 300;
-  text-transform: lowercase;
-  font-size: 1.7rem;
+.interactive-project span {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  /* transition effect. not necessary */
-  /* transition: opacity .2s, visibility .2s; */
 }
 
-.interactive-project img {
-  max-width: 70vw;
-  margin-top: 20px;
-}
-
-.interactive-project :hover .interactive-img {
+.interactive-project a:hover img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  
 }
 
-.interactive-project:hover .interactive-title {
-  visibility: visible;
-  opacity: 1;
-  
+.heart-hand img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.heart-hand span {
+  background-color: #000;
+  opacity: 70%;
+}
+
+.Interactive span {
+  font-size: 1.5rem;
+  z-index: 100;
 }
 
 /* screen sizes */
@@ -437,7 +459,7 @@ footer p {
     padding-left: 0;
   }
 
-  h1 {
+  h1, h1 span {
     font-size: 1.7rem;
   }
 
@@ -447,6 +469,14 @@ footer p {
 
   h3 {
     font-size: 1.2rem;
+  }
+
+  .Interactive span {
+    font-size: 1rem;
+  }
+
+  .Interactive .Navbar {
+    z-index: 999;
   }
 }
 
@@ -478,5 +508,13 @@ footer p {
 
   .About .wrapper div {
     margin-bottom: 0;
+  }
+  
+  .Interactive .Navbar {
+    z-index: 999;
+  }
+
+  .Interactive span {
+    font-size: 1.3rem;
   }
 }
