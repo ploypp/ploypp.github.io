@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import Footnote from '../Component/Footnote';
 import {Link } from "react-router-dom";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import NavbarProject from '../Component/NavBarProject';
 
-AOS.init();
 
 export default class ResearchWAParks extends Component {
+  componentDidMount(){
+    document.title = "Exercising in WA Parks | Ploy Pruekcharoen"
+  }
   render() {
     return (
       <div className="Projects">
@@ -43,10 +43,10 @@ export default class ResearchWAParks extends Component {
                 Our team conducted field research and used various user research methods to gain insights from the park users. We worked independently at different parks and combined research findings to analyze together.
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2>Background</h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 While Washington state slowly lifted restrictions regarding COVID situations and distributed vaccines, our team was interested in understanding people’s behavior pertained to the changing CDC guidelines for outdoor settings, understanding if and how people resort to public parks as outlets during the pandemic, a phenomenon that greatly impacts people’s health and well-being
               </p>
@@ -76,16 +76,20 @@ export default class ResearchWAParks extends Component {
                 <li>When do people take their mask off, and when do they put it back on?</li>
               </ul>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2>Site Selection</h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 Each of us selected the nearby urban parks in Washington that contain playgrounds and pathways, as we planned to observe people who exercise at the parks. During observation, we focused on traffic and crowds; COVID-19 guideline adherence such as mask wearing, social distancing, hand washing/sanitizing; and types of exercise.
               </p>
+            </div>
+          </div>
+            <center className="centeredimg">
               <img src="img/waparks/field.jpg" alt="Gas Works Park"/>
               <p className="img-caption">My selected location for field observation study</p>
-            </div>
+            </center>
+          <div className="wrapper">
             <div className="col3-start col7-end">
               <h2>
                 From the field study, we found some common results...
@@ -104,12 +108,12 @@ export default class ResearchWAParks extends Component {
             <div className="col2-start process">
               <span>03. INTERVIEW</span>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Interview Research Questions
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 From the field research, we found that some people follow the COVID guidelines, while some do not, which makes us interested in knowing the reasons “why” they choose or choose not to do that.
               </p>

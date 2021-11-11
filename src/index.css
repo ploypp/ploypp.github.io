@@ -149,6 +149,10 @@ img {
   width: 100%;
 }
 
+.centeredimg img {
+  max-width: 40vw;
+}
+
 /* wrapper */
 
 .wrapper {
@@ -316,6 +320,7 @@ footer .col1-start {
 
 footer .col9-end {
   padding-right: 40px;
+  display: inline-table;
 }
 
 footer p {
@@ -429,6 +434,18 @@ footer p {
   footer .col1-start {
     padding-left: 0;
   }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width:426px) and (max-width: 768px)
@@ -455,5 +472,5 @@ footer p {
 
   .wrapper div {
     margin-bottom: 32px;
-}
+  }
 }

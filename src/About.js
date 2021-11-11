@@ -2,13 +2,11 @@ import React, {Component} from 'react';
 import Navbar from './Component/NavBar';
 import Footnote from './Component/Footnote';
 import {Link } from "react-router-dom";
-import classNames from "classnames";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-AOS.init();
 
 export default class About extends Component {
+  componentDidMount(){
+    document.title = "About | Ploy Pruekcharoen"
+  }
   render() {
     return (
         <div className="About">
@@ -22,7 +20,7 @@ export default class About extends Component {
             </div>
             <div className="col5-start col8-end">
               <div className="aboutme2 paddingtop50">
-                <p>👋 My name is Ploy.</p>
+                <p>👋 My name is Ploy. I use she/her/hers pronouns.</p>
                 <p>
                   🌱 I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> at 
                   the University of Washington.

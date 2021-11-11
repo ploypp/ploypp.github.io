@@ -5,6 +5,9 @@ import {Link } from "react-router-dom";
 import NavbarProject from '../Component/NavBarProject';
 
 export default class ProjectScansIt extends Component {
+  componentDidMount(){
+    document.title = "ScansIt | Ploy Pruekcharoen"
+  }
   render() {
     return (
       <div className="Projects">
@@ -37,20 +40,20 @@ export default class ProjectScansIt extends Component {
                 ScansIt is a transit app for a better experience of riding the Link Light Rail.
               </h2>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Challenge
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 How can the city of Seattle improve local residents’ lives with digital solutions?
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2>Problem</h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 A complex public transportation system requires people to spend more time, which could lead to other problems, especially during rush hours. While many other metropolitan cities already have a digital solution for transit systems that is accessible, reliable, convenient, and safe, Seattle’s transportation system is still far behind.
               </p>
@@ -60,23 +63,23 @@ export default class ProjectScansIt extends Component {
             <div className="col2-start process">
               <span>01. USERS &amp; STAKEHOLDERS</span>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Primary Stakeholders:
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
              <ul>
                <li>The mayor (Jenny Durkan) wants to show that Seattle is an innovative and booming city.</li>
                <li>Sound Transit and its employees.</li>
              </ul>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Primary Users:
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
              <ul>
                <li>Link Light Rail commuters.</li>
                <li>Visitors.</li>
@@ -108,12 +111,12 @@ export default class ProjectScansIt extends Component {
             <div className="col2-start process">
               <span>03. DEFINING</span>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Design Requirements
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <ul>
                 <li>Option for using a digital card to enter the station, with the ability to add payment.</li>
                 <li>Update real-time schedule when the train is departing or arriving at the selected station.</li>
@@ -135,12 +138,12 @@ export default class ProjectScansIt extends Component {
               <img src="img/scansit/scansit-competitive-analysis.png" alt="ScansIt Competitive Analysis"/>
               <br/>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Competitive Analysis Findings
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <ol>
                 <li>More convenient with the digital card option. — ScansIt app (on any device) can scan digitally to access the link.</li>
                 <li>Lower chance of getting lost or scammed. — Physical cards can easily be lost, stolen, and scammed, but on the app, only the user can access the card.</li>
@@ -180,6 +183,57 @@ export default class ProjectScansIt extends Component {
             <div className="col2-start process">
               <span>06. SOLUTION</span>
             </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/scansit/gif/scansit-login.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Home</h3>
+              <p>main focused features on Home: login/sign up, digital card, schedule, setting.</p>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/scansit/gif/scansit-card.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Digital Card</h3>
+              <p>scan to get into the station, able to connect to the user's existing cards, check remaining card value and different available payment methods</p>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/scansit/gif/scansit-schedule.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Schedule</h3>
+              <p>check the train's up-to-date arrival and departing time from each station</p>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/scansit/gif/scansit-setting.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Setting</h3>
+              <p>able to set up profile, notification, accessibility, privacy, and security preferences</p>
+            </div>
+          </div>
+
+          <div className="wrapper">
             <div className="col3-start col7-end">
               <h2 className="headline">
                 Play with the prototype
@@ -187,8 +241,6 @@ export default class ProjectScansIt extends Component {
               <div className="figma">
                 <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkqdCcVRZ4j7XyMqxuEreN8%2FScansIt%3Fnode-id%3D55%253A22%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A7" allowfullscreen/>
               </div>
-              {/* <p>
-              </p> */}
             </div>
           </div>
           <div className="wrapper">

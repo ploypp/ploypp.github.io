@@ -4,6 +4,9 @@ import Footnote from '../Component/Footnote';
 import {Link } from "react-router-dom";
 
 export default class ProjectFamApp extends Component {
+  componentDidMount(){
+    document.title = "Fam App | Ploy Pruekcharoen"
+  }
   render() {
     return (
       <div className="Projects">
@@ -39,10 +42,10 @@ export default class ProjectFamApp extends Component {
                 Our team found that staying at home for extended periods of time during COVID leads to higher levels of stress; therefore, we decided to build an app that creates empathy and makes communication easier among parents and teenage children.
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2>Problem</h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 Middle-aged parents have been affected to a significant degree as a result of COVID-19, which has led to mental and emotional stress because mental problems can further affect relationships within family members as well as a lack of communication between family members.
               </p>
@@ -92,10 +95,10 @@ export default class ProjectFamApp extends Component {
                 We conducted semi-structured interviews with middle-aged parents who have teenage kids living at home with them during COVID and asked questions to better understand their current communication situation.
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h3>Goal</h3>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 To understand how users currently communicate with their children, their experiences, pain points, and whether anything changed during COVID.
               </p>
@@ -103,10 +106,10 @@ export default class ProjectFamApp extends Component {
             <div className="col3-start col7-end">
               <a href="https://drive.google.com/file/d/1zFOk5w3FdFVIGP_ZhwTZbWqn7rKpnsMD/view" target="blank">view full competitive analysis and user research</a>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h3>Interview findings</h3>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <ol>
                 <li>Parents and children see each other more often during COVID, but they have limited time to spend together due to different schedules.</li>
                 <li>Some parents are mostly concerned about their children’s educational goals and learning performance.</li>
@@ -114,10 +117,10 @@ export default class ProjectFamApp extends Component {
                 <li>Parents are at different levels of using technology, such as smartphones and smart devices.</li>
               </ol>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h3>Personas</h3>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 We created provisional personas from collected data and interviews to ​​represent the unique features we found. With both of our polished personas done, we made sure to always keep them in mind throughout the rest of the design process.
               </p>
@@ -132,10 +135,10 @@ export default class ProjectFamApp extends Component {
             <p className="img-caption">My sketch and polished personas</p>
           </center>
           <div className="wrapper">
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h3>User Journey Map</h3>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 We created a user journey map to represent the emotional experience of our persona when trying to communicate with their teenage children.
               </p>
@@ -148,15 +151,17 @@ export default class ProjectFamApp extends Component {
             <div className="col2-start process">
               <span>03. DEFINING</span>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Design Requirements
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 Combination of all user interviews, personas, user journeys and synthesis of this data brought us to the design requirements, which guided to interpreting and evaluating interactions we wanted our user to experience with our product. 
               </p>
+            </div>
+            <div className="col3-start col7-end">
               <ul>
                 <li>Inform family members how the user is currently feeling.</li>
                 <li>Reduce stress levels of not having to guess when the right time comes along to talk about something deep/personal.</li>
@@ -165,12 +170,12 @@ export default class ProjectFamApp extends Component {
                 <li>Track users’ feelings throughout the day or week based on the color or contexts they choose to interact with on the app.</li>
               </ul>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Storyboards
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 With the list of requirements, we drew storyboards to create a bigger picture of possible user experiences. Our storyboards focused on facilitating the initiation of conversation. We came up with different possible solutions that incorporated features that could be the answer for our user’s needs.
               </p>
@@ -207,6 +212,64 @@ export default class ProjectFamApp extends Component {
             <div className="col2-start process">
               <span>05. SOLUTION</span>
             </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/famapp/gif/famapp-home.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Home - Family To-do List</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/famapp/gif/famapp-statusmood.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Status &amp; Mood Update</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/famapp/gif/famapp-calendar.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Family Calendar</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/famapp/gif/famapp-playlist.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Family Mood Playlist</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/famapp/gif/famapp-devices.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Connecting to Devices</h3>
+            </div>
+          </div>
+
+          <div className="wrapper">
             <div className="col3-start col7-end">
               <h2 className="headline">
                 Play with the prototype
@@ -214,9 +277,6 @@ export default class ProjectFamApp extends Component {
               <div className="figma">
                 <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyuGozk181NKerSs642kach%2FFamApp%3Fnode-id%3D2%253A3249%26starting-point-node-id%3D2%253A3249%26scaling%3Dscale-down" allowfullscreen/>
               </div>
-              {/* <p>
-                
-              </p> */}
             </div>
           </div>
           <div className="wrapper">
@@ -231,24 +291,24 @@ export default class ProjectFamApp extends Component {
                 I conducted user testing to observe the usability of our prototype and to highlight the strengths and weaknesses of our design. The user feedback helped the team observe possible improvements that we could make in our future plan and process.
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Evaluation Findings
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <ol>
                 <li>Users are unable to edit on other family members’ pages.</li>
                 <li>Users are not aware of scrollable design.</li>
                 <li>Users tried viewing mood updates on the graph that were more than a week ago.</li>
               </ol>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2 className="headline">
                 Suggestions for refining
               </h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <ol>
                 <li>Give users the option to make edits on other members’ pages and send requests for editing and scheduling for others.</li>
                 <li>Rearrange the add/update button location.</li>

@@ -30,6 +30,47 @@
   max-width: 30%;
 }
 
+.Projects li {
+  overflow-x: visible;
+}
+
+.Projects ol { 
+  list-style-type: decimal-leading-zero;
+}
+
+/* prototype */
+
+.prototype {
+  box-sizing: border-box;
+}
+
+.prototype-left {
+  float: left;
+  width: 40%;
+  padding: 50px;
+}
+
+.prototype-right {
+  float: right;
+  width: 40%;
+  padding: 50px;
+}
+
+.prototype h3 {
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.prototype:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.prototype img {
+  max-width: 300px;
+}
+
 /* navbar */
 
 .NavbarProject {
@@ -196,5 +237,31 @@ iframe {
   .banner {
     position: relative;
     padding-right: 30vw;
+  }
+}
+
+@media (min-width: 1000px)
+{
+  .prototype-left {
+    padding: 50px;
+  }
+
+  .prototype-right {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .prototype-left {
+    padding: 10px 10px 10px 20px;
+  }
+
+  .prototype-right {
+    padding: 10px 20px 10px 10px;
+  }
+
+  .prototype h3 {
+    padding: 10px;
   }
 }

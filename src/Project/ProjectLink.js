@@ -4,6 +4,9 @@ import Footnote from '../Component/Footnote';
 import {Link } from "react-router-dom";
 
 export default class ProjectLink extends Component {
+  componentDidMount(){
+    document.title = "Link | Ploy Pruekcharoen"
+  }
   render() {
     return (
       <div className="Projects">
@@ -39,10 +42,10 @@ export default class ProjectLink extends Component {
                 I designed the Link mobile app as a part of the College + Ring Creative Jam.
               </p>
             </div>
-            <div className="col3-start">
+            <div className="col3-start col5-end">
               <h2>Challenge</h2>
             </div>
-            <div className="col4-start col7-end">
+            <div className="col5-start col8-end">
               <p>
                 The challenge is to provide peace of mind and help people install, operate, or share devices and information to improve their surveillance, communication, temperature, and entertainment around the home and their neighborhood. Design an inclusive third-party mobile app for a specific persona with special needs to help bridge the technology gap.
               </p>
@@ -122,6 +125,87 @@ export default class ProjectLink extends Component {
             <div className="col2-start process">
               <span>05. SOLUTION</span>
             </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/link/gif/link-tutorial.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Tutorial</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/link/gif/link-devices.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Smart Devices</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/link/gif/link-connect.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Adding Devices</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/link/gif/link-electricity.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Electricity</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/link/gif/link-support.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Support</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-right">
+              <center>
+                <img src="img/link/gif/link-accessibility.gif"/>
+              </center>
+            </div>
+            <div class="prototype-left">
+              <h3>Accessibility Setting</h3>
+            </div>
+          </div>
+
+          <div class="prototype">
+            <div class="prototype-left">
+              <center>
+                <img src="img/link/gif/link-profile.gif"/>
+              </center>
+            </div>
+            <div class="prototype-right">
+              <h3>Profile and Group Management</h3>
+            </div>
+          </div>
+
+
+          <div className="wrapper">
             <div className="col3-start col7-end">
               <h2 className="headline">
                 Play with the prototype
