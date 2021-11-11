@@ -30,8 +30,8 @@ export default class About extends Component {
                   a remote area in Thailand, I also am interested in <b>environmental values and cultural diversity</b>. My personal background majorly
                   drives me to work on creative projects and research related to humans and the environment.
                   <ul>
-                  <li><a href="https://medium.com/@ploypp/learn-the-heart-of-hmong-culture-through-hmong-embroidery-9f19df6f608a" target="blank">Ethnographic research on Hmong embroidery</a></li>
-                  <li><a href="https://medium.com/@ploypp/computer-as-a-medium-for-human-environment-interaction-the-color-of-nature-tangible-interactive-16865e213ad1" target="blank">A proposed interactive art that enhances interactions between human, computer, and environment</a></li>
+                  <li><a href="https://medium.com/@ploypp/learn-the-heart-of-hmong-culture-through-hmong-embroidery-9f19df6f608a" target="_blank" rel="noreferrer">Ethnographic research on Hmong embroidery</a></li>
+                  <li><a href="https://medium.com/@ploypp/computer-as-a-medium-for-human-environment-interaction-the-color-of-nature-tangible-interactive-16865e213ad1" target="_blank" rel="noreferrer">A proposed interactive art that enhances interactions between human, computer, and environment</a></li>
                   </ul>
                 </p>
                 <p>
@@ -43,7 +43,7 @@ export default class About extends Component {
           <div className="wrapper">
             <div className="col2-start col7-end">
               <div>
-                <p><b>now listening: </b>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q">spotify playlist</a></p>
+                <p><b>now listening: </b>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a></p>
                 <b>now reading: </b>
                 <ul>
                   {/* <li>Doing Visual Ethnography <i>by Sarah Pink</i></li> */}
@@ -61,7 +61,7 @@ export default class About extends Component {
               </Link>
             </div>
             <div className="next">
-              <a href="https://medium.com/@ploypp" target="_blank">
+              <a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">
                 <p>check out my</p>
                 <h1 className="home-project-title">medium posts &#10230;</h1>
               </a>

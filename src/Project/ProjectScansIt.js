@@ -188,7 +188,7 @@ export default class ProjectScansIt extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/scansit/gif/scansit-login.gif"/>
+                <img src="img/scansit/gif/scansit-login.gif" alt="ScansIt App Homepage"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -200,7 +200,7 @@ export default class ProjectScansIt extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/scansit/gif/scansit-card.gif"/>
+                <img src="img/scansit/gif/scansit-card.gif" alt="Digital Card"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -212,7 +212,7 @@ export default class ProjectScansIt extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/scansit/gif/scansit-schedule.gif"/>
+                <img src="img/scansit/gif/scansit-schedule.gif" alt="Link Light Rail Schedule"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -224,7 +224,7 @@ export default class ProjectScansIt extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/scansit/gif/scansit-setting.gif"/>
+                <img src="img/scansit/gif/scansit-setting.gif" alt="ScansIt App Setting"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -239,7 +239,7 @@ export default class ProjectScansIt extends Component {
                 Play with the prototype
               </h2>
               <div className="figma">
-                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkqdCcVRZ4j7XyMqxuEreN8%2FScansIt%3Fnode-id%3D55%253A22%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A7" allowfullscreen/>
+                <iframe title="ScansIt Prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkqdCcVRZ4j7XyMqxuEreN8%2FScansIt%3Fnode-id%3D55%253A22%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A7" allowfullscreen/>
               </div>
             </div>
           </div>

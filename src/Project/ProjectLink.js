@@ -130,7 +130,7 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/link/gif/link-tutorial.gif"/>
+                <img src="img/link/gif/link-tutorial.gif" alt="Link App Tutorial"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -141,7 +141,7 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/link/gif/link-devices.gif"/>
+                <img src="img/link/gif/link-devices.gif" alt="Smart Devices"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -152,7 +152,7 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/link/gif/link-connect.gif"/>
+                <img src="img/link/gif/link-connect.gif" alt="Adding Devices"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -163,18 +163,18 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/link/gif/link-electricity.gif"/>
+                <img src="img/link/gif/link-electricity.gif" alt="Summary of Electricity"/>
               </center>
             </div>
             <div class="prototype-left">
-              <h3>Electricity</h3>
+              <h3>Summary of Electricity</h3>
             </div>
           </div>
 
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/link/gif/link-support.gif"/>
+                <img src="img/link/gif/link-support.gif" alt="Link App Support"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -185,7 +185,7 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/link/gif/link-accessibility.gif"/>
+                <img src="img/link/gif/link-accessibility.gif" alt="Accessibility Setting"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -196,7 +196,7 @@ export default class ProjectLink extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/link/gif/link-profile.gif"/>
+                <img src="img/link/gif/link-profile.gif" alt="Profile and Group Management"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -213,7 +213,7 @@ export default class ProjectLink extends Component {
             </div>
             <div className="col3-start col7-end">
               <div className="xd">
-                <iframe src="https://xd.adobe.com/embed/d9712a9b-03b4-43a5-b238-2b92897758da-8c22/" frameborder="0" allowfullscreen/>
+                <iframe title="Link Prototype" src="https://xd.adobe.com/embed/d9712a9b-03b4-43a5-b238-2b92897758da-8c22/" frameborder="0" allowfullscreen/>
               </div>
               {/* <p>
                 

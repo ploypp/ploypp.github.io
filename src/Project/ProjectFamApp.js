@@ -61,10 +61,10 @@ export default class ProjectFamApp extends Component {
               </h2>
             </div>
             <div className="col3-start col4-end users">
-              <img src="img/famapp/father.png"/>
+              <img src="img/famapp/father.png" alt="user illustration"/>
             </div>
             <div className="col5-start col6-end users">
-              <img src="img/famapp/mother.png"/>
+              <img src="img/famapp/mother.png" alt="user illustration"/>
             </div>
             <div className="col3-start col7-end">
               <p>
@@ -104,7 +104,7 @@ export default class ProjectFamApp extends Component {
               </p>
             </div>
             <div className="col3-start col7-end">
-              <a href="https://drive.google.com/file/d/1zFOk5w3FdFVIGP_ZhwTZbWqn7rKpnsMD/view" target="blank">view full competitive analysis and user research</a>
+              <a href="https://drive.google.com/file/d/1zFOk5w3FdFVIGP_ZhwTZbWqn7rKpnsMD/view" target="_blank" rel="noreferrer">view full competitive analysis and user research</a>
             </div>
             <div className="col3-start col5-end">
               <h3>Interview findings</h3>
@@ -185,7 +185,7 @@ export default class ProjectFamApp extends Component {
               <img src="img/famapp/storyboard-2.jpg" alt="Fam App Storyboard 2"/>
               <center><p className="img-caption">parts of the storyboards that I created</p></center>
               <br/>
-              <a href="https://drive.google.com/file/d/1A4mHPvDSLPddBtD0__bnYg3J8m2hrp-m/view" target="blank">view full storyboards</a>
+              <a href="https://drive.google.com/file/d/1A4mHPvDSLPddBtD0__bnYg3J8m2hrp-m/view" target="_blank" rel="noreferrer">view full storyboards</a>
             </div>
           </div>
           <div className="wrapper">
@@ -217,18 +217,18 @@ export default class ProjectFamApp extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/famapp/gif/famapp-home.gif"/>
+                <img src="img/famapp/gif/famapp-home.gif" alt="Familiy To-Do List"/>
               </center>
             </div>
             <div class="prototype-right">
-              <h3>Home - Family To-do List</h3>
+              <h3>Home - Family To-Do List</h3>
             </div>
           </div>
 
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/famapp/gif/famapp-statusmood.gif"/>
+                <img src="img/famapp/gif/famapp-statusmood.gif" alt="Status &amp; Mood Update"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -239,7 +239,7 @@ export default class ProjectFamApp extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/famapp/gif/famapp-calendar.gif"/>
+                <img src="img/famapp/gif/famapp-calendar.gif" alt="Family Calendar"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -250,7 +250,7 @@ export default class ProjectFamApp extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-right">
               <center>
-                <img src="img/famapp/gif/famapp-playlist.gif"/>
+                <img src="img/famapp/gif/famapp-playlist.gif" alt="Family Mood Playlist"/>
               </center>
             </div>
             <div class="prototype-left">
@@ -261,7 +261,7 @@ export default class ProjectFamApp extends Component {
           <div class="prototype paddingtop50">
             <div class="prototype-left">
               <center>
-                <img src="img/famapp/gif/famapp-devices.gif"/>
+                <img src="img/famapp/gif/famapp-devices.gif" alt="Connecting to Devices"/>
               </center>
             </div>
             <div class="prototype-right">
@@ -275,7 +275,7 @@ export default class ProjectFamApp extends Component {
                 Play with the prototype
               </h2>
               <div className="figma">
-                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyuGozk181NKerSs642kach%2FFamApp%3Fnode-id%3D2%253A3249%26starting-point-node-id%3D2%253A3249%26scaling%3Dscale-down" allowfullscreen/>
+                <iframe title="Fam App Prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyuGozk181NKerSs642kach%2FFamApp%3Fnode-id%3D2%253A3249%26starting-point-node-id%3D2%253A3249%26scaling%3Dscale-down" allowfullscreen/>
               </div>
             </div>
           </div>

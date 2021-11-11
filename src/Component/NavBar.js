@@ -55,10 +55,10 @@ export default class Navbar extends Component {
           </Link>
         </div>
         <div className="nav-info right">
-          <a href="/#design">design</a>
-          <a href="/interactive">interactive</a>
-          <a href="/about">about</a>
-          <a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank">resume</a>
+          <Link to = "/#design">design</Link>
+          <Link to = "/interactive">interactive</Link>
+          <Link to = "/about">about</Link>
+          <a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
         </div>
         <Popup
           modal
