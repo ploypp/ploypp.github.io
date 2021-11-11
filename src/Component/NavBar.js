@@ -60,15 +60,17 @@ export default class Navbar extends Component {
           <Link to = "/about">about</Link>
           <a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
         </div>
-        <Popup
-          modal
-          overlayStyle={{ background: "rgba(0,0,0,1" }}
-          contentStyle={contentStyle}
-          closeOnDocumentClick={false}
-          trigger={open => <Burger open={open} />}
-        >
-          {close => <Menu close={close} />}
-        </Popup>
+        <div className="right">
+          <Popup
+            modal
+            overlayStyle={{ background: "rgba(0,0,0,1" }}
+            contentStyle={contentStyle}
+            closeOnDocumentClick={false}
+            trigger={open => <Burger open={open} />}
+          >
+            {close => <Menu close={close} />}
+          </Popup>
+        </div>
       </nav>
       );
     }

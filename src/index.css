@@ -268,8 +268,7 @@ img {
   transition: top 0.6s;
 }
 
-.App .Navbar,
-.Interactive .Navbar {
+.Navbar {
   z-index: 0;
 }
 
@@ -441,6 +440,45 @@ footer p {
   z-index: 100;
 }
 
+
+/* Burger */
+
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.burger-menu .bar1,
+.bar2 {
+  width: 30px;
+  height: 1px;
+  background-color: #22223B;
+  margin: 7px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-30deg) translate(-4px, 4px);
+  transform: rotate(-30deg) translate(-2px, 2px);
+  background-color: #000000;
+}
+
+.burger-menu.open .bar2 {
+  -webkit-transform: rotate(30deg) translate(-4px, -4px);
+  transform: rotate(30deg) translate(-4px, -4px);
+  background-color: #000000;
+}
+
+.burger-menu {
+  display: none;
+}
+
+
 /* screen sizes */
 
 @media (max-width: 426px)
@@ -475,8 +513,24 @@ footer p {
     font-size: 1rem;
   }
 
-  .Interactive .Navbar {
+  .Navbar {
     z-index: 999;
+  }
+
+  .left {
+    padding-left: 20px !important;
+  }
+  
+  .right {
+    padding-right: 20px !important;
+  }
+
+  .burger-menu {
+    display: inline-block;
+  }
+
+  .nav-info {
+    display: none;
   }
 }
 
@@ -510,7 +564,7 @@ footer p {
     margin-bottom: 0;
   }
   
-  .Interactive .Navbar {
+  .Navbar {
     z-index: 999;
   }
 
