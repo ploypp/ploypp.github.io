@@ -46,9 +46,7 @@ export default class About extends Component {
                 <p><b>now listening: </b>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a></p>
                 <b>now reading: </b>
                 <ul>
-                  {/* <li>Doing Visual Ethnography <i>by Sarah Pink</i></li> */}
-                  <li>Beartown <i>by Fredrik Backman</i></li>
-                  <li>ขอฝันใฝ่ในฝันอันเหลือเชื่อ <i>by ณัฐพล ใจจริง</i></li>
+                  <li>The Jellyfish Never Freezes <i>by Yuto Ichikawa</i></li>
                 </ul>
               </div>
             </div>

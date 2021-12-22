@@ -39,9 +39,11 @@ export default class Interactive extends Component {
         </div>
 
         <div className="wrapper">
-          <div className="col3-start col7-end interactive-project heart-hand">
-            <span>Sound of Heart and Hand (upcoming)</span>
-            <img className="interactive-img" src="img/heart-hand.png" alt="Sound of Heart and Hand"/>
+          <div className="col3-start col7-end interactive-project">
+            <a href="https://www.youtube.com/watch?v=vi8gXhpl6ig" target="_blank" rel="noreferrer">
+              <span>Sound of Heart and Hand &#10230;</span>
+              <img className="interactive-img" src="img/heart-hand.png" alt="Sound of Heart and Hand"/>
+            </a>
           </div>
         </div>
 
