@@ -18,7 +18,7 @@ export default class App extends Component {
           <div className="wrapper">
             <div className="greeting col3-start col7-end">
               <h1>
-                hi! i'm ploy.<br/>i'm a product designer who creates <span className="experience-text">experience </span>
+                hi! i'm ploypilin.<br/>i'm a product designer who creates <span className="experience-text">experience </span>
                 from <span className="research-text">research </span>and passionate about
                 <span className="interactive-text"> interactive art.</span>
               </h1>
