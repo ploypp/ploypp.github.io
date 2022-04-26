@@ -16,7 +16,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <ScrollToTop/>
       <Switch>
         <Route exact path="/" component={App} />
