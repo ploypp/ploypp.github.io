@@ -8,8 +8,8 @@ import {Link } from "react-router-dom";
 import Cursor from './Cursor';
 
 export default class App extends Component {
-  render() {
 
+  render() {
     return (
       <div className="App">
         <Cursor />
