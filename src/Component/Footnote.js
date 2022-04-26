@@ -5,7 +5,7 @@ export default class Footnote extends Component {
     return(
       <footer className="wrapper">
         <div className="col1-start col6-end">
-          <p>&copy; 2021 made with &#x1F9CB;and react by ploy pruekcharoen</p>
+          <p>&copy; 2022 made with &#x1F9CB;and react by ploy pruekcharoen</p>
         </div>
         <div className="col9-end">
           <a href="mailto:hploypp@gmail.com" target="_blank" rel="noreferrer">email</a>
@@ -14,7 +14,7 @@ export default class Footnote extends Component {
           <span>&nbsp;.&nbsp;</span>
           <a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">blog</a>
           <span>&nbsp;.&nbsp;</span>
-          <a href="https://drive.google.com/file/d/1aRxGnr9faSMWo8gbUeCIKEz71bKxiDa6/view?usp=sharing" target="_blank" rel="noreferrer">resume</a>
+          <a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
         </div>
       </footer>
     );

@@ -12,6 +12,12 @@ export default class Interactive extends Component {
       <div className="Interactive">
         <Navbar />
         <div className="wrapper">
+          <div className="col3-start col7-end">
+            <h1>
+              connecting <i>humans + tech</i>
+              <br/>through interactive arts
+            </h1>
+          </div>
           <div className="col3-start col7-end interactive-project">
             <a href="https://youtu.be/0-Ngf4_q-EA" target="_blank" rel="noreferrer">
               <span>Blooming Flower &#10230;</span>

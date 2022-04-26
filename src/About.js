@@ -46,7 +46,8 @@ export default class About extends Component {
                 <p><b>now listening: </b>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a></p>
                 <b>now reading: </b>
                 <ul>
-                  <li>The Jellyfish Never Freezes <i>by Yuto Ichikawa</i></li>
+                  <li>The VR Book: Human-Centered Design for Virtual Reality <i>by Jason Jerald</i></li>
+                  <li>Wagashi no Anne <i>by Sakaki Tsukasa</i></li>
                 </ul>
               </div>
             </div>
@@ -70,89 +71,3 @@ export default class About extends Component {
     );
   }
 }
-
-// Cursor
-
-// const isMobile = () => {
-//   const ua = navigator.userAgent;
-//   return /Android|Mobi/i.test(ua);
-// };
-
-/////////////
-
-// const Cursor = () => {
-//   // if (typeof navigator !== 'undefined' && isMobile()) return null;
-//   const [position, setPosition] = React.useState({x: 0, y: 0});
-//   const [hidden, setHidden] = React.useState(false);
-//   const [linkHovered, setLinkHovered] = React.useState(false);
-
-//   React.useEffect(() => {
-//     addEventListeners();
-//     handleLinkHoverEvents();
-//     return () => removeEventListeners();
-//   }, []);
-
-//   const [clicked, setClicked] = React.useState(false);
-
-//   const addEventListeners = () => {
-//     document.addEventListener("mousemove", onMouseMove);
-//     document.addEventListener("mouseenter", onMouseEnter);
-//     document.addEventListener("mouseleave", onMouseLeave);
-//     document.addEventListener("mousedown", onMouseDown);
-//     document.addEventListener("mouseup", onMouseUp);
-//   };
-
-//   const removeEventListeners = () => {
-//     document.removeEventListener("mousemove", onMouseMove);
-//     document.removeEventListener("mouseenter", onMouseEnter);
-//     document.removeEventListener("mouseleave", onMouseLeave);
-//     document.removeEventListener("mousedown", onMouseDown);
-//     document.removeEventListener("mouseup", onMouseUp);
-//   };
-
-//   const onMouseDown = () => {
-//     setClicked(true);
-//   };
-
-//   const onMouseUp = () => {
-//     setClicked(false);
-//   };
-
-//   const onMouseLeave = () => {
-//     setHidden(true);
-//   };
-
-//   const onMouseEnter = () => {
-//     setHidden(false);
-//   };
-
-//   const handleLinkHoverEvents = () => {
-//     document.querySelectorAll("a").forEach(el => {
-//       el.addEventListener("mouseover", () => setLinkHovered(true));
-//       el.addEventListener("mouseout", () => setLinkHovered(false));
-//     });
-//   };
-
-//   const cursorClasses = classNames (
-//   'cursor',
-//     {
-//       'cursor--clicked': clicked,
-//       'cursor--hidden': hidden,
-//       'cursor--link-hovered': linkHovered
-//     }
-//   );
-
-//   const onMouseMove = (e) => {
-//     setTimeout(() => setPosition({x: (e.clientX - 20), y: (e.clientY - 20)}), 50);
-//   }
-
-//   return (
-//     <div className={cursorClasses}
-//       style={{
-//       position: 'fixed',
-//       transform: 'translate3d(' + position.x + 'px, ' + position.y + 'px, 0)',
-//       left: 0,
-//       top: 0
-//     }}/>
-//   );
-// }
