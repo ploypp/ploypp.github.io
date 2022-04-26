@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ploypp/ploypp.github.io/static/css/main.8582bfb4.chunk.css",
-    "main.js": "/ploypp/ploypp.github.io/static/js/main.98d5145e.chunk.js",
-    "main.js.map": "/ploypp/ploypp.github.io/static/js/main.98d5145e.chunk.js.map",
-    "runtime-main.js": "/ploypp/ploypp.github.io/static/js/runtime-main.e8d0710c.js",
-    "runtime-main.js.map": "/ploypp/ploypp.github.io/static/js/runtime-main.e8d0710c.js.map",
-    "static/js/2.557a0971.chunk.js": "/ploypp/ploypp.github.io/static/js/2.557a0971.chunk.js",
-    "static/js/2.557a0971.chunk.js.map": "/ploypp/ploypp.github.io/static/js/2.557a0971.chunk.js.map",
-    "index.html": "/ploypp/ploypp.github.io/index.html",
-    "static/css/main.8582bfb4.chunk.css.map": "/ploypp/ploypp.github.io/static/css/main.8582bfb4.chunk.css.map",
-    "static/js/2.557a0971.chunk.js.LICENSE.txt": "/ploypp/ploypp.github.io/static/js/2.557a0971.chunk.js.LICENSE.txt",
-    "static/media/project.css": "/ploypp/ploypp.github.io/static/media/waparks-overview.fdd578bb.jpg",
-    "static/media/index.css": "/ploypp/ploypp.github.io/static/media/helveticaneueit-webfont.d9b786a7.woff"
+    "main.css": "/static/css/main.cf0fadc3.chunk.css",
+    "main.js": "/static/js/main.2607a911.chunk.js",
+    "main.js.map": "/static/js/main.2607a911.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.492e1ca0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.492e1ca0.js.map",
+    "static/js/2.557a0971.chunk.js": "/static/js/2.557a0971.chunk.js",
+    "static/js/2.557a0971.chunk.js.map": "/static/js/2.557a0971.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cf0fadc3.chunk.css.map": "/static/css/main.cf0fadc3.chunk.css.map",
+    "static/js/2.557a0971.chunk.js.LICENSE.txt": "/static/js/2.557a0971.chunk.js.LICENSE.txt",
+    "static/media/project.css": "/static/media/waparks-overview.fdd578bb.jpg",
+    "static/media/index.css": "/static/media/helveticaneueit-webfont.d9b786a7.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8d0710c.js",
+    "static/js/runtime-main.492e1ca0.js",
     "static/js/2.557a0971.chunk.js",
-    "static/css/main.8582bfb4.chunk.css",
-    "static/js/main.98d5145e.chunk.js"
+    "static/css/main.cf0fadc3.chunk.css",
+    "static/js/main.2607a911.chunk.js"
   ]
 }
