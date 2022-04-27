@@ -170,7 +170,7 @@ export default class ProjectWego extends Component {
         </div>
         <div className="previous-next">
           <div className="previous">
-            <Link to = "/#design">
+            <Link to = "/">
               <p>back to</p>
               <h1 className="home-project-title">&#10229; selected projects</h1>
             </Link>
