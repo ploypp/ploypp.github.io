@@ -193,7 +193,7 @@ export default class ProjectScansIt extends Component {
             </div>
             <div class="prototype-right">
               <h3>Home</h3>
-              <p>main focused features on Home: login/sign up, digital card, schedule, setting.</p>
+              <p>Main focused features on Home: login/sign up, digital card, schedule, setting.</p>
             </div>
           </div>
 
@@ -205,7 +205,7 @@ export default class ProjectScansIt extends Component {
             </div>
             <div class="prototype-left">
               <h3>Digital Card</h3>
-              <p>scan to get into the station, able to connect to the user's existing cards, check remaining card value and different available payment methods</p>
+              <p>Scan to get into the station. Users areable to connect to their existing cards, check remaining card value and different available payment methods.</p>
             </div>
           </div>
 
@@ -217,7 +217,7 @@ export default class ProjectScansIt extends Component {
             </div>
             <div class="prototype-right">
               <h3>Schedule</h3>
-              <p>check the train's up-to-date arrival and departing time from each station</p>
+              <p>Check the train's up-to-date arrival and departing time from each station.</p>
             </div>
           </div>
 
@@ -229,7 +229,7 @@ export default class ProjectScansIt extends Component {
             </div>
             <div class="prototype-left">
               <h3>Setting</h3>
-              <p>able to set up profile, notification, accessibility, privacy, and security preferences</p>
+              <p>Users are able to set up profile, notification, accessibility, privacy, and security preferences in Setting.</p>
             </div>
           </div>
 

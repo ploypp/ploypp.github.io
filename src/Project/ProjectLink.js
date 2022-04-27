@@ -135,6 +135,7 @@ export default class ProjectLink extends Component {
             </div>
             <div class="prototype-right">
               <h3>Tutorial</h3>
+              <p>Animated guidance to help users to learn all features in Link app.</p>
             </div>
           </div>
 
@@ -146,6 +147,10 @@ export default class ProjectLink extends Component {
             </div>
             <div class="prototype-left">
               <h3>Smart Devices</h3>
+              <p>
+                Main dashboard with all connected smart home devices. Easy to access and control. 
+                Users have an option to organize the dashboard by types of devices or by rooms.
+              </p>
             </div>
           </div>
 
@@ -157,6 +162,7 @@ export default class ProjectLink extends Component {
             </div>
             <div class="prototype-right">
               <h3>Adding Devices</h3>
+              <p>Connect devices via Bluetooth. Add a device to the room of user's choice.</p>
             </div>
           </div>
 
@@ -167,7 +173,11 @@ export default class ProjectLink extends Component {
               </center>
             </div>
             <div class="prototype-left">
-              <h3>Summary of Electricity</h3>
+              <h3>Electricity Usage</h3>
+              <p>
+                Report the summary electricity usage to help users keep track of their bill with an option to visualize by
+                week, month, or year.
+              </p>
             </div>
           </div>
 
@@ -179,6 +189,9 @@ export default class ProjectLink extends Component {
             </div>
             <div class="prototype-right">
               <h3>Support</h3>
+              <p>
+                LinkBot is there to help solve any problem that users may have. User can also find a device user manual in the search bar. 
+              </p>
             </div>
           </div>
 

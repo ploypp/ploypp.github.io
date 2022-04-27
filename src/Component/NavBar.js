@@ -22,13 +22,12 @@ export default class Navbar extends Component {
           </Link>
         </div>
         <div className="nav-info right">
-          
           <ScrollLink
-              to="design"
-            >
-              <Link to = "/">
+            to="design"
+          >
+            <Link to = "/">
               design
-              </Link>
+            </Link>
           </ScrollLink>
           {/* <Link to="/#design">design</Link> */}
           <Link to = "/interactive">interactive</Link>

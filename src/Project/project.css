@@ -30,6 +30,10 @@
   max-width: 30%;
 }
 
+.stakeholder-img {
+  padding-right: 5rem;
+}
+
 .Projects li,
 .About li {
   overflow-x: visible;
@@ -47,14 +51,14 @@
 
 .prototype-left {
   float: left;
-  width: 40%;
-  padding: 50px;
+  width: 30%;
+  padding: 10rem;
 }
 
 .prototype-right {
   float: right;
-  width: 40%;
-  padding: 50px;
+  width: 30%;
+  padding: 10rem;
 }
 
 .prototype h3 {
@@ -213,6 +217,28 @@ iframe {
   background-attachment: inherit;
 }
 
+/* wego */
+
+.wego-banner {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/wego-overview.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: inherit;
+}
+
 /* screen sizes */
 @media (max-width: 426px)
 {
@@ -244,11 +270,22 @@ iframe {
 @media (min-width: 1000px)
 {
   .prototype-left {
-    padding: 50px;
+    padding: 5rem;
   }
 
   .prototype-right {
-    padding: 50px;
+    padding: 5rem;
+  }
+}
+
+@media (min-width: 1250px)
+{
+  .prototype-left {
+    padding: 8rem;
+  }
+
+  .prototype-right {
+    padding: 8rem;
   }
 }
 
@@ -256,10 +293,12 @@ iframe {
 {
   .prototype-left {
     padding: 10px 10px 10px 20px;
+    width: 40%;
   }
 
   .prototype-right {
     padding: 10px 20px 10px 10px;
+    width: 40%;
   }
 
   .prototype h3 {

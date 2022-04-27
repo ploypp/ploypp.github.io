@@ -36,7 +36,7 @@ export default class ProjectFamApp extends Component {
             </div>
             <div className="col3-start col7-end">
               <h2 className="headline">
-                Fam app is an app to control smart home devices with a goal to enhance communication within the family.
+                Fam app is an app to control smart home assistant devices with a goal to enhance communication within the family.
               </h2>
               <p>
                 Our team found that staying at home for extended periods of time during COVID leads to higher levels of stress; therefore, we decided to build an app that creates empathy and makes communication easier among parents and teenage children.
@@ -61,7 +61,7 @@ export default class ProjectFamApp extends Component {
               </h2>
             </div>
             <div className="col3-start col4-end users">
-              <img src="img/famapp/father.png" alt="user illustration"/>
+              <img src="img/famapp/father.png" alt="user illustration" className="stakeholder-img"/>
             </div>
             <div className="col5-start col6-end users">
               <img src="img/famapp/mother.png" alt="user illustration"/>
@@ -84,7 +84,7 @@ export default class ProjectFamApp extends Component {
                 As part of our research stage, each team member analyzed an existing application or product that addressed a similar area as our problem statement. The analysis consisted of figuring out what worked well for them and determining possible areas of improvement for future opportunities. This helped determine what areas we could focus on for our solution to stand out and improve the user experience with new innovative features.
               </p>
               <br/>
-              <img src="img/famapp/famapp-competitive-analysis.png" alt="Fam App Competitive Analysis"/>              
+              <img src="img/famapp/famapp-competitive-analysis.png" alt="Fam App Competitive Analysis"/>
               <h2 className="headline paddingtop100">
                 Interviews
               </h2>
@@ -222,6 +222,10 @@ export default class ProjectFamApp extends Component {
             </div>
             <div class="prototype-right">
               <h3>Home - Family To-Do List</h3>
+              <p>
+                A shared to-do list for the whole family. All family members can add their own and see others' 
+                to-do list by selecting the profile.
+              </p>
             </div>
           </div>
 
@@ -233,6 +237,11 @@ export default class ProjectFamApp extends Component {
             </div>
             <div class="prototype-left">
               <h3>Status &amp; Mood Update</h3>
+              <p>
+                Visualize emotions and display family members' status. Users can update their status and 
+                mood while also being able to check others in the family. Weekly and monthly overview options are availble 
+                for tracking.
+              </p>
             </div>
           </div>
 
@@ -244,6 +253,10 @@ export default class ProjectFamApp extends Component {
             </div>
             <div class="prototype-right">
               <h3>Family Calendar</h3>
+              <p>
+                Family Calendar allows users to select a date and see the events that have been scheduled by all family members.
+                They can schedule a new individual or family event.
+              </p>
             </div>
           </div>
 
@@ -255,6 +268,10 @@ export default class ProjectFamApp extends Component {
             </div>
             <div class="prototype-left">
               <h3>Family Mood Playlist</h3>
+              <p>
+                A shared playlist for the family to play during gatherings. Users can add and remove a song of their choice to 
+                the playlist.
+              </p>
             </div>
           </div>
 
@@ -266,6 +283,9 @@ export default class ProjectFamApp extends Component {
             </div>
             <div class="prototype-right">
               <h3>Connecting to Devices</h3>
+              <p>
+                All family members can connect to and control smart home assistant devices through Fam App.
+              </p>
             </div>
           </div>
 
@@ -353,7 +373,7 @@ export default class ProjectFamApp extends Component {
         </div>
         <div className="previous-next">
           <div className="previous">
-            <Link to = "/#design">
+            <Link to = "/">
               <p>back to</p>
               <h1 className="home-project-title">&#10229; selected projects</h1>
             </Link>

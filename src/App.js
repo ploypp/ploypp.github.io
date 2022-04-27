@@ -8,7 +8,9 @@ import {Link } from "react-router-dom";
 import Cursor from './Cursor';
 
 export default class App extends Component {
-
+  componentDidMount(){
+    document.title = "Ploy Pruekcharoen"
+  }
   render() {
     return (
       <div className="App">

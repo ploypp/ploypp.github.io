@@ -55,7 +55,7 @@ export default class Interactive extends Component {
 
         <div className="previous-next">
           <div className="previous">
-            <Link to = "/#design">
+            <Link to = "/">
               <p>see more</p>
               <h1 className="home-project-title">&#10229; design projects</h1>
             </Link>
