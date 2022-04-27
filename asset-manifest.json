@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d0dde7e.chunk.css",
-    "main.js": "/static/js/main.322c3647.chunk.js",
-    "main.js.map": "/static/js/main.322c3647.chunk.js.map",
+    "main.css": "/static/css/main.ee1b06b3.chunk.css",
+    "main.js": "/static/js/main.08ba8be6.chunk.js",
+    "main.js.map": "/static/js/main.08ba8be6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.492e1ca0.js",
     "runtime-main.js.map": "/static/js/runtime-main.492e1ca0.js.map",
     "static/js/2.55b3bd33.chunk.js": "/static/js/2.55b3bd33.chunk.js",
     "static/js/2.55b3bd33.chunk.js.map": "/static/js/2.55b3bd33.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7d0dde7e.chunk.css.map": "/static/css/main.7d0dde7e.chunk.css.map",
+    "static/css/main.ee1b06b3.chunk.css.map": "/static/css/main.ee1b06b3.chunk.css.map",
     "static/js/2.55b3bd33.chunk.js.LICENSE.txt": "/static/js/2.55b3bd33.chunk.js.LICENSE.txt",
-    "static/media/project.css": "/static/media/wego-overview.a35db1f4.png",
+    "static/media/project.css": "/static/media/wego-overview.45812a14.png",
     "static/media/index.css": "/static/media/helveticaneueit-webfont.d9b786a7.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.492e1ca0.js",
     "static/js/2.55b3bd33.chunk.js",
-    "static/css/main.7d0dde7e.chunk.css",
-    "static/js/main.322c3647.chunk.js"
+    "static/css/main.ee1b06b3.chunk.css",
+    "static/js/main.08ba8be6.chunk.js"
   ]
 }
