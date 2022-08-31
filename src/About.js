@@ -22,8 +22,8 @@ export default class About extends Component {
               <div className="aboutme2 paddingtop100">
                 <p>👋 My name is Ploy. I use she/her/hers pronouns.</p>
                 <p>
-                  🌱 I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> at 
-                  the University of Washington.
+                  🌱 I'm currently pursuing Master's degree in <b>Integrated Design & Media</b> at NYU Tandon School of Engineering. 
+                  I received a Bachelor's degree in Human Centered Design & Engineering from the University of Washington.
                 </p>
                 <p>
                   👀 I'm passionate about creating meaningful experiences through design and art. Growing up in 
@@ -47,7 +47,6 @@ export default class About extends Component {
                 <b>now reading: </b>
                 <ul>
                   <li>The VR Book: Human-Centered Design for Virtual Reality <i>by Jason Jerald</i></li>
-                  <li>Wagashi no Anne <i>by Sakaki Tsukasa</i></li>
                 </ul>
               </div>
             </div>
