@@ -47,7 +47,6 @@ export default class About extends Component {
                 <b>now reading: </b>
                 <ul>
                   <li>The VR Book: Human-Centered Design for Virtual Reality <i>by Jason Jerald</i></li>
-                  <li>Wagashi no Anne <i>by Sakaki Tsukasa</i></li>
                 </ul>
               </div>
             </div>
