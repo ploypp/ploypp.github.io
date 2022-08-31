@@ -1,0 +1,142 @@
+/* Create two equal columns that floats next to each other */
+.int-column-left {
+  float: left;
+  width: 25%;
+  padding: 25px 40px 25px 25px;
+  height: 100vh;
+}
+
+.int-column-right {
+  float: left;
+  width: 75%;
+  padding: 25px;
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+.int-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Interactive .Navbar a {
+  color: #fff;
+}
+
+.Interactive span,
+.Interactive span a {
+  font-family: 'Overpass Mono', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #d7d8aa;
+}
+
+.int-project-column a,
+.int-project-column p {
+  font-size: 1rem;
+}
+
+.int-project-column ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-position: inside;
+}
+
+.InteractiveNav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #d7d8aa;
+  color: #cdcebf;
+}
+
+/* .Interactive a:hover {
+  text-decoration-style: solid;
+  text-decoration-color: #000000;
+}
+
+.current-page {
+  color: #775ac5;
+}
+
+.current-page:hover {
+  text-decoration-color: #775ac5;
+} */
+
+.Interactive ::selection {
+  background: #efe9ff;
+  color: #000000;
+}
+
+/* img */
+
+.Interactive img {
+  width: 100%;
+}
+
+.int-centeredimg img {
+  max-width: 40vw;
+}
+
+.paddingtop30 {
+  padding-top: 30px;
+}
+
+.int-portrait {
+  max-width: 30vw;
+}
+
+/* iframe */
+
+.int-famiframe {
+  border: 0;
+  width: 300px;
+  height: 530px;
+}
+
+.Interactive a {
+  color: #fff;
+}
+
+.InteractiveNav {
+  position: fixed;
+}
+
+.InteractiveNav p {
+  line-height: normal;
+}
+
+.InteractiveNav p a {
+  line-height: 0em;
+}
+
+.paddingleft40 {
+  padding-left: 40px;
+}
+
+.paddingright40 {
+  padding-right: 40px;
+}
+
+.int-nav-mobile {
+  text-align: right;
+}
+
+.int-nav-mobile {
+  display: none;
+}
+
+/* screens */
+
+@media (min-width: 280px) and (max-width: 895px) {
+
+  .int-nav-info {
+    display: none;
+  }
+
+  .int-nav-mobile {
+    display: block;
+  }
+}

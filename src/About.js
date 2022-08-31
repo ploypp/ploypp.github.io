@@ -35,7 +35,7 @@ export default class About extends Component {
                   </ul>
                 </p>
                 <p>
-                  💞️ I appreciate your time here a lot! <a href="mailto:ploypp@uw.edu">Let's get in touch!</a>
+                  💞️ I appreciate your time here a lot! <a href="mailto:ploypilinpcr@gmail.com">Let's get in touch!</a>
                 </p>
               </div>
             </div>

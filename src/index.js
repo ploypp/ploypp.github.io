@@ -12,6 +12,11 @@ import ProjectFamApp from './Project/ProjectFamApp';
 import ProjectLink from './Project/ProjectLink';
 import ResearchWAParks from './Project/ResearchWAParks';
 import ProjectWego from './Project/ProjectWego';
+import ColorizedCloud from './Project/interactive/colorizedcloud';
+import MakeItBloom from './Project/interactive/makeitbloom';
+import SoundHeartHand from './Project/interactive/soundhearthand';
+import VestMemories from './Project/interactive/vestmemories';
+import WorldfromMyHands from './Project/interactive/worldfrommyhands';
 
 import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -28,6 +33,11 @@ ReactDOM.render(
         <Route path="/famapp" component={ProjectFamApp} />
         <Route path="/link" component={ProjectLink} />
         <Route path="/wego" component={ProjectWego} />
+        <Route path="/colorizedcloud" component={ColorizedCloud} />
+        <Route path="/makeitbloom" component={MakeItBloom} />
+        <Route path="/soundofhearthand" component={SoundHeartHand} />
+        <Route path="/vestmemories" component={VestMemories} />
+        <Route path="/worldfrommyhands" component={WorldfromMyHands} />
       </Switch>
   </Router>
  ,document.getElementById('root'));

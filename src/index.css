@@ -443,10 +443,10 @@ footer p {
   opacity: 70%;
 }
 
-.Interactive span {
+/* .Interactive span {
   font-size: 1.5rem;
   z-index: 100;
-}
+} */
 
 
 /* Burger */
@@ -528,9 +528,9 @@ footer p {
     font-size: 1.2rem;
   }
 
-  .Interactive span {
+  /* .Interactive span {
     font-size: 1rem;
-  }
+  } */
 
   .Navbar {
     z-index: 999;
@@ -587,7 +587,7 @@ footer p {
     z-index: 999;
   }
 
-  .Interactive span {
+  /* .Interactive span {
     font-size: 1.3rem;
-  }
+  } */
 }

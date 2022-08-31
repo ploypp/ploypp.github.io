@@ -18,7 +18,7 @@ export default class Navbar extends Component {
       <nav className="Navbar">
         <div className="Logo left">
           <Link to = "/">
-              ploypil.in
+              ploy pruekcharoen
           </Link>
         </div>
         <div className="nav-info right">
