@@ -22,8 +22,8 @@ export default class About extends Component {
               <div className="aboutme2 paddingtop100">
                 <p>👋 My name is Ploy. I use she/her/hers pronouns.</p>
                 <p>
-                  🌱 I'm currently pursuing a Bachelor degree in <b>Human Centered Design & Engineering</b> at 
-                  the University of Washington.
+                  🌱 I'm currently pursuing a Master's degree in <b>Integrated Design &amp; Media</b> at NYU Tandon School of Engineering. 
+                  In Spring 2022, I received a Bachelor degree in <b>Human Centered Design & Engineering</b> from the University of Washington.
                 </p>
                 <p>
                   👀 I'm passionate about creating meaningful experiences through design and art. Growing up in 
