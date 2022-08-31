@@ -61,7 +61,6 @@
   "bugs": {
     "url": "https://github.com/ploypp/ploypp.github.io/issues"
   },
-  "homepage": "https://ploypil.in/",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
