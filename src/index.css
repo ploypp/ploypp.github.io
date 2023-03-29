@@ -31,12 +31,33 @@
   font-style: italic;
 }
 
+.Home {
+  background-color: #000;
+  color: #fff;
+}
+
+.Home a {
+  color: #eaffc0;
+  text-underline-offset: 16%;
+}
+
+.Home p {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #000;
+}
+
 * {
   font-family: 'helvetica-neue', sans-serif;
   overflow-x: hidden;
-  color: #000000;
   background-color: transparent;
   scroll-behavior: smooth;
+}
+
+.updated-intro {
+  padding: 16rem;
 }
 
 .App {
@@ -502,6 +523,10 @@ footer p {
 
 @media (max-width: 426px)
 {
+  .updated-intro {
+    padding: 15rem 2rem;
+  }
+
   .wrapper {
     position: relative;
     display: inline-block;
@@ -555,6 +580,10 @@ footer p {
 
 @media (min-width:426px) and (max-width: 768px)
 {
+  .updated-intro {
+    padding: 15rem 2rem;
+  }
+
   .wrapper {
     position: relative;
     display: inline-block;

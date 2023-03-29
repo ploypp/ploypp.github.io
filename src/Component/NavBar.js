@@ -17,7 +17,7 @@ export default class Navbar extends Component {
     return (
       <nav className="Navbar">
         <div className="Logo left">
-          <Link to = "/">
+          <Link to = "/old-site">
               ploy pruekcharoen
           </Link>
         </div>
@@ -25,7 +25,7 @@ export default class Navbar extends Component {
           <ScrollLink
             to="design"
           >
-            <Link to = "/">
+            <Link to = "/old-site">
               design
             </Link>
           </ScrollLink>

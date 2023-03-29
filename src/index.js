@@ -3,7 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import ScrollToTop from './ScrollToTop';
-import App from './App';
+import Home from './App';
+import OldSite from './OldSite';
 import About from './About';
 import Interactive from './Interactive';
 
@@ -25,8 +26,9 @@ ReactDOM.render(
   <Router>
     <ScrollToTop/>
       <Switch>
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/old-site" component={OldSite} />
         <Route path="/interactive" component={Interactive} />
         <Route path="/scansit" component={ProjectScansIt} />
         <Route path="/waparks" component={ResearchWAParks} />

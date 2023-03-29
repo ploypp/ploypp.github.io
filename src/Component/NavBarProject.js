@@ -50,8 +50,8 @@ export default class NavbarProject extends Component {
         "Navbar--hidden": !this.state.visible
       })}>
         <div className="Logo left">
-          <Link to = "/">
-              ploypil.in
+          <Link to = "/old-site">
+            ploy pruekcharoen
           </Link>
         </div>
       </nav>
